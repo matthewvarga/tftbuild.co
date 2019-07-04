@@ -14,6 +14,7 @@ class ClassCard extends Component {
                 <p className={"class-card-description"}>
                     {this.props.description}
                 </p>
+                {this.props.children}
             </div>
         );
     }

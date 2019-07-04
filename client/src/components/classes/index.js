@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
-import ClassCard from "./components/class-card/index";
+import NobleClass from "./components/noble-class/index";
+import VoidClass from "./components/void-class/index";
+import ImperialClass from "./components/imperial-class/index";
 import './index.css'
 
 class Classes extends Component {
@@ -13,10 +15,9 @@ class Classes extends Component {
             <div className={"classes"}>
                 <h1 className={"classes-title"}>CLASSES</h1>
                 <div className={"classes-content"}>
-                    <ClassCard title={"NOBLE"} description={"(3x)1 Ally, (6x)All Allies Gains 100 Armor and 35 HP on Hit"}/>
-                    <ClassCard title={"ASSASSIN"} description={"+150%(3), 350%(6) crit damage for Assassins"}/>
-                    <ClassCard title={"BLADEMASTER"} description={"35% chance on hit for Blademasters to attack one(3), two(6) extra times"}/>
-                    <ClassCard title={"BRAWLER"} description={"+300(2), +700(4) health to Brawlers"}/>
+                    <NobleClass/>
+                    <VoidClass/>
+                    <ImperialClass/>
                 </div>
             </div>
         );

@@ -48,6 +48,8 @@ This command (minus the sudo) was also added to `/etc/rc.local` to add the redir
 
 In development, the front-end can be run simultaneously on port `3000` by simply running `npm start` in the `client` directory.
 
+For more information, view [this link](https://stackoverflow.com/questions/16573668/best-practices-when-running-node-js-with-port-80-ubuntu-linode).
+
 # Troubleshooting Issue
 Problem: Crash (ENOMEM) during `npm install`
 

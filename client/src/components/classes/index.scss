@@ -1,0 +1,40 @@
+@import "../../styles/variables";
+@import "../../styles/mixins/mediaQueries";
+
+.classes {
+    .classes-title {
+        margin: 0;
+        text-align: center;
+        color: $base-text-colour;
+        padding: 32px;
+        font-size: 72px;
+        font-weight: 500;
+        font-family: sans-serif;
+    }
+
+    .classes-content {
+        display: flex;
+        flex-direction: column;
+
+
+        // on medium breakpoint, go from having a single column of classes to two
+        @include breakpoint(md) {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            
+            .class-card {
+                width: 48%;
+            }
+        }
+
+        // on extra large breakpoint, go from having two columns of classes, to three
+        @include breakpoint(xl) {
+            .class-card {
+                width: 390px;
+            }
+        }
+    }
+
+    
+}

@@ -1,0 +1,18 @@
+@import "./styles/mixins/mediaQueries";
+
+.App {
+    min-height: 100vh;
+    background: rgb(18, 23, 26);
+
+    @include breakpoint(md) {
+        //background: green;
+    }
+
+    @include breakpoint(lg) {
+        //background: red;
+    }
+
+    @include breakpoint(xl) {
+        //background: yellow;
+    }
+}

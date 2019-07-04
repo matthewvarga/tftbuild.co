@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,KAAK;EACjB,UAAU,EAAE,OAAe;CAa9B",
+    "sources": [
+        "App.scss",
+        "styles/mixins/mediaQueries.scss"
+    ],
+    "names": [],
+    "file": "App.css"
+}

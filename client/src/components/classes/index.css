@@ -1,0 +1,43 @@
+.classes .classes-title {
+  margin: 0;
+  text-align: center;
+  color: #eedab5;
+  padding: 32px;
+  font-size: 72px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.classes .classes-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .classes .classes-content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .classes .classes-content .class-card {
+    width: 48%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .classes .classes-content .class-card {
+    width: 390px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

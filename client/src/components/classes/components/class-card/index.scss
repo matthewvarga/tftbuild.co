@@ -1,0 +1,21 @@
+@import "../../../../styles/variables";
+
+.class-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $base-text-colour;
+    margin: 3px 3px 6px 3px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    .class-card-title {
+        font-size: 48px;
+        font-weight: 300;
+        margin: 15px 0;
+    }
+
+    .class-card-description {
+        margin: 0;
+        padding: 0 10px;
+    }
+}

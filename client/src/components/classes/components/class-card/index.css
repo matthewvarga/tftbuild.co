@@ -1,0 +1,27 @@
+.class-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #eedab5;
+  margin: 3px 3px 6px 3px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.class-card .class-card-title {
+  font-size: 48px;
+  font-weight: 300;
+  margin: 15px 0;
+}
+
+.class-card .class-card-description {
+  margin: 0;
+  padding: 0 10px;
+}
+/*# sourceMappingURL=index.css.map */

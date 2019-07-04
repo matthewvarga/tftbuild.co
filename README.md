@@ -36,6 +36,18 @@ ExecStart=/var/www/tftbuild.co/tftbuild.co
 WantedBy=multi-user.target
 ```
 
+### Ports
+
+The application redirects from port `80` to port `5000` in production. this is due to errors that were preventing the application from running natively on port `80`. 
+
+This redirection is done with the following command:
+
+`sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 5000`
+
+This command (minus the sudo) was also added to `/etc/rc.local` to add the redirect on machine restart.
+
+In development, the front-end can be run simultaneously on port `3000` by simply running `npm start` in the `client` directory.
+
 # Troubleshooting Issue
 Problem: Crash (ENOMEM) during `npm install`
 

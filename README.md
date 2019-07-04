@@ -61,4 +61,8 @@ Solution: [Enable swap space](https://stackoverflow.com/questions/26193654/node-
 4) `sudo swapon /swapfile` Enable the swap
 5) `echo "/swapfile none swap sw 0 0" | sudo tee -a /etc/fstab` Persist swapfile over reboots
 
+# Endpoints
 
+Champions: https://solomid-resources.s3.amazonaws.com/blitz/tft/data/champions.json
+
+Items: https://solomid-resources.s3.amazonaws.com/blitz/tft/data/items.json

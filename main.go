@@ -1,7 +1,10 @@
 package main
 
 import (
+	"fmt"
 	"net/http"
+
+	server "github.com/matthewvarga/tftbuild.co/server"
 
 	"github.com/gin-gonic/contrib/static"
 	"github.com/gin-gonic/gin"
@@ -25,6 +28,11 @@ func main() {
 			})
 		})
 	}
+
+	// load mongo client
+	server.LoadMongoClient()
+
+	fmt.Println("tester")
 
 	// Start and run the server
 	router.Run(":5000")

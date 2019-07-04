@@ -18,12 +18,12 @@ class NinjaClass extends Component {
             <ClassCard title={"NINJA"} description={"(1x) +40% AD for ninjas, (4x) +60% AD for ninjas"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={zedImg}/>
-                        <ChampionIcon img={shenImg}/>
-                        <ChampionIcon img={kennenImg}/>
+                        <ChampionIcon img={zedImg} champion={"zed"}/>
+                        <ChampionIcon img={shenImg} champion={"shen"}/>
+                        <ChampionIcon img={kennenImg} champion={"kennen"}/>
                     </div>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={akaliImg}/>
+                        <ChampionIcon img={akaliImg} champion={"akali"}/>
                     </div>
                 </div>
             </ClassCard>

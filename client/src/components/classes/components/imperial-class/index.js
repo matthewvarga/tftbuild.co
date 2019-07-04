@@ -18,12 +18,12 @@ class ImperialClass extends Component {
             <ClassCard title={"IMPERIAL"} description={"(2x) 1 Imperial deals 2x damage, (4x) all imperials deal 2x damage"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={dariusImg}/>
-                        <ChampionIcon img={katarinaImg}/>
-                        <ChampionIcon img={dravenImg}/>
+                        <ChampionIcon img={dariusImg} champion={"darius"}/>
+                        <ChampionIcon img={katarinaImg} champion={"katarina"}/>
+                        <ChampionIcon img={dravenImg} champion={"draven"}/>
                     </div>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={swainImg}/>
+                        <ChampionIcon img={swainImg} champion={"swain"}/>
                     </div>
                 </div>
             </ClassCard>

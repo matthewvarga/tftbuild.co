@@ -20,14 +20,14 @@ class KnightClass extends Component {
             <ClassCard title={"KNIGHT"} description={"knights block (2x) 20, (4x) 40, (6x) 80 damage from basic attacks"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={garenImg}/>
-                        <ChampionIcon img={dariusImg}/>
-                        <ChampionIcon img={MordekaiserImg}/>
-                        <ChampionIcon img={poppyImg}/>
+                        <ChampionIcon img={garenImg} champion={"garen"}/>
+                        <ChampionIcon img={dariusImg} champion={"darius"}/>
+                        <ChampionIcon img={MordekaiserImg} champion={"mordekaiser"}/>
+                        <ChampionIcon img={poppyImg} champion={"poppy"}/>
                     </div>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={sejuaniImg}/>
-                        <ChampionIcon img={kayleImg}/>
+                        <ChampionIcon img={sejuaniImg} champion={"sejuani"}/>
+                        <ChampionIcon img={kayleImg} champion={"kayle"}/>
                     </div>
                 </div>
             </ClassCard>

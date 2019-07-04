@@ -19,13 +19,13 @@ class WildClass extends Component {
             <ClassCard title={"WILD"} description={"every attack gives 7% attack speed (2x) for wild allies, (4x) for all allies"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={warwickImg}/>
-                        <ChampionIcon img={nidaleeImg}/>
-                        <ChampionIcon img={ahriImg}/>
+                        <ChampionIcon img={warwickImg} champion={"warwick"}/>
+                        <ChampionIcon img={nidaleeImg} champion={"nidalee"}/>
+                        <ChampionIcon img={ahriImg} champion={"ahri"}/>
                     </div>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={rengarImg}/>
-                        <ChampionIcon img={gnarImg}/>
+                        <ChampionIcon img={rengarImg} champion={"rengar"}/>
+                        <ChampionIcon img={gnarImg} champion={"gnar"}/>
                     </div>
                 </div>
             </ClassCard>

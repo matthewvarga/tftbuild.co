@@ -21,15 +21,15 @@ class DemonClass extends Component {
             <ClassCard title={"DEMON"} description={"(2x) 30%, (4x) 50%, (6x) 70% chance to burn targets mana and deal it as true damage"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={varusImg}/>
-                        <ChampionIcon img={eliseImg}/>
-                        <ChampionIcon img={evelynnImg}/>
-                        <ChampionIcon img={morganaImg}/>
+                        <ChampionIcon img={varusImg} champion={"varus"}/>
+                        <ChampionIcon img={eliseImg} champion={"elise"}/>
+                        <ChampionIcon img={evelynnImg} champion={"evelynn"}/>
+                        <ChampionIcon img={morganaImg} champion={"morgana"}/>
                     </div>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={aatroxImg}/>
-                        <ChampionIcon img={brandImg}/>
-                        <ChampionIcon img={swainImg}/>
+                        <ChampionIcon img={aatroxImg} champion={"aatrox"}/>
+                        <ChampionIcon img={brandImg} champion={"brand"}/>
+                        <ChampionIcon img={swainImg} champion={"swain"}/>
                     </div>
                 </div>
             </ClassCard>

@@ -19,13 +19,13 @@ class GunslignerClass extends Component {
             <ClassCard title={"GUNSLINGER"} description={"50% chance each attack to hit (2x) an additional, (4x) all targets in range"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={tristanaImg}/>
-                        <ChampionIcon img={gravesImg}/>
-                        <ChampionIcon img={lucianImg}/>
+                        <ChampionIcon img={tristanaImg} champion={"tristana"}/>
+                        <ChampionIcon img={gravesImg} champion={"graves"}/>
+                        <ChampionIcon img={lucianImg} champion={"lucian"}/>
                     </div>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={gangplankImg}/>
-                        <ChampionIcon img={missfortuneImg}/>
+                        <ChampionIcon img={gangplankImg} champion={"gangplank"}/>
+                        <ChampionIcon img={missfortuneImg} champion={"missfortune"}/>
                     </div>
                 </div>
             </ClassCard>

@@ -18,12 +18,12 @@ class VoidClass extends Component {
             <ClassCard title={"VOID"} description={"(3x) All basic attacks ignore 50% of armor"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={khazixImg}/>
-                        <ChampionIcon img={kassadinImg}/>
-                        <ChampionIcon img={reksaiImg}/>
+                        <ChampionIcon img={khazixImg} champion={"khazix"}/>
+                        <ChampionIcon img={kassadinImg} champion={"kassadin"}/>
+                        <ChampionIcon img={reksaiImg} champion={"reksai"}/>
                     </div>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={chogathImg}/>
+                        <ChampionIcon img={chogathImg} champion={"chogath"}/>
                     </div>
                 </div>
             </ClassCard>

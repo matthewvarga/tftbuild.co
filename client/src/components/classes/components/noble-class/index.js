@@ -21,14 +21,14 @@ class NobleClass extends Component {
             <ClassCard title={"NOBLE"} description={"(3x)1 Ally, (6x)All Allies Gains 100 Armor and 35 HP on Hit"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={vayneImg}/>
-                        <ChampionIcon img={fioraImg}/>
-                        <ChampionIcon img={garenImg}/>
-                        <ChampionIcon img={lucianImg}/>
+                        <ChampionIcon img={vayneImg} champion={"vayne"}/>
+                        <ChampionIcon img={fioraImg} champion={"fiora"}/>
+                        <ChampionIcon img={garenImg} champion={"garen"}/>
+                        <ChampionIcon img={lucianImg} champion={"lucian"}/>
                     </div>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={leonaImg}/>
-                        <ChampionIcon img={kayleImg}/>
+                        <ChampionIcon img={leonaImg} champion={"leona"}/>
+                        <ChampionIcon img={kayleImg} champion={"kayle"}/>
                     </div>
                 </div>
             </ClassCard>

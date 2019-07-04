@@ -20,14 +20,14 @@ class BlademasterClass extends Component {
             <ClassCard title={"BLADEMASTER"} description={"(3x) 35% chance to strike twice, (6x) 35% chance to strike thrice"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={fioraImg}/>
-                        <ChampionIcon img={shenImg}/>
-                        <ChampionIcon img={aatroxImg}/>
-                        <ChampionIcon img={gangplankImg}/>
+                        <ChampionIcon img={fioraImg} champion={"fiora"}/>
+                        <ChampionIcon img={shenImg} champion={"shen"}/>
+                        <ChampionIcon img={aatroxImg} champion={"aatrox"}/>
+                        <ChampionIcon img={gangplankImg} champion={"gangplank"}/>
                     </div>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={dravenImg}/>
-                        <ChampionIcon img={yasuoImg}/>
+                        <ChampionIcon img={dravenImg} champion={"draven"}/>
+                        <ChampionIcon img={yasuoImg} champion={"yasuo"}/>
                     </div>
                 </div>
             </ClassCard>

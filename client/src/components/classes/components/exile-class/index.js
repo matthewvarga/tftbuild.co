@@ -15,7 +15,7 @@ class ExileClass extends Component {
             <ClassCard title={"EXILE"} description={"(1x) exile gains a shield equal to max hp if standing alone"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={yasuoImg}/>
+                        <ChampionIcon img={yasuoImg} champion={"yasuo"}/>
                     </div>
                 </div>
             </ClassCard>

@@ -15,7 +15,7 @@ class RobotClass extends Component {
             <ClassCard title={"ROBOT"} description={"(1x) a robot starts will full mana"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={blitzcrankImg}/>
+                        <ChampionIcon img={blitzcrankImg} champion={"blitzcrank"}/>
                     </div>
                 </div>
             </ClassCard>

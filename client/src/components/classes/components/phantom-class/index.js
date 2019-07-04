@@ -17,11 +17,11 @@ class GlacialClass extends Component {
             <ClassCard title={"PHANTOM"} description={"(2x) set an enemies hp to 100 at round start"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={mordekaiserImg}/>
-                        <ChampionIcon img={kindredImg}/>
+                        <ChampionIcon img={mordekaiserImg} champion={"mordekaiser"}/>
+                        <ChampionIcon img={kindredImg} champion={"kindred"}/>
                     </div>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={karthusImg}/>
+                        <ChampionIcon img={karthusImg} champion={"karthus"}/>
                     </div>
                 </div>
             </ClassCard>

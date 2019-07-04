@@ -21,15 +21,15 @@ class AssassinsClass extends Component {
             <ClassCard title={"ASSASSINS"} description={"(3x) +150% crit strike damage, (6x) + 350% crit strike damage"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={khazixImg}/>
-                        <ChampionIcon img={zedImg}/>
-                        <ChampionIcon img={pykeImg}/>
-                        <ChampionIcon img={katarinaImg}/>
+                        <ChampionIcon img={khazixImg} champion={"khazix"}/>
+                        <ChampionIcon img={zedImg} champion={"zed"}/>
+                        <ChampionIcon img={pykeImg} champion={"pyke"}/>
+                        <ChampionIcon img={katarinaImg} champion={"katarina"}/>
                     </div>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={evelynnImg}/>
-                        <ChampionIcon img={rengarImg}/>
-                        <ChampionIcon img={akaliImg}/>
+                        <ChampionIcon img={evelynnImg} champion={"evelynn"}/>
+                        <ChampionIcon img={rengarImg} champion={"rengar"}/>
+                        <ChampionIcon img={akaliImg} champion={"akali"}/>
                     </div>
                 </div>
             </ClassCard>

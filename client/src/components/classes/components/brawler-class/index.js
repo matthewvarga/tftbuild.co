@@ -19,13 +19,13 @@ class BrawlerClass extends Component {
             <ClassCard title={"BRAWLER"} description={"(2x) 300 bonus health to brawlers, (4x) 700 bonus health to brawlers"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={warwickImg}/>
-                        <ChampionIcon img={reksaiImg}/>
-                        <ChampionIcon img={blitzcrankImg}/>
+                        <ChampionIcon img={warwickImg} champion={"warwick"}/>
+                        <ChampionIcon img={reksaiImg} champion={"reksai"}/>
+                        <ChampionIcon img={blitzcrankImg} champion={"blitzcrank"}/>
                     </div>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={volibearImg}/>
-                        <ChampionIcon img={chogathImg}/>
+                        <ChampionIcon img={volibearImg} champion={"volibear"}/>
+                        <ChampionIcon img={chogathImg} champion={"chogath"}/>
                     </div>
                 </div>
             </ClassCard>

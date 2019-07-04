@@ -20,14 +20,14 @@ class YordleClass extends Component {
             <ClassCard title={"YORDLE"} description={"(3x) 20%, (6x) 50% chance for enemies to miss against yordles"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={tristanaImg}/>
-                        <ChampionIcon img={luluImg}/>
-                        <ChampionIcon img={poppyImg}/>
-                        <ChampionIcon img={veigarImg}/>
+                        <ChampionIcon img={tristanaImg} champion={"tristana"}/>
+                        <ChampionIcon img={luluImg} champion={"lulu"}/>
+                        <ChampionIcon img={poppyImg} champion={"poppy"}/>
+                        <ChampionIcon img={veigarImg} champion={"veigar"}/>
                     </div>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={kennenImg}/>
-                        <ChampionIcon img={gnarImg}/>
+                        <ChampionIcon img={kennenImg} champion={"kennen"}/>
+                        <ChampionIcon img={gnarImg} champion={"gnar"}/>
                     </div>
                 </div>
             </ClassCard>

@@ -18,12 +18,12 @@ class RangerClass extends Component {
             <ClassCard title={"RANGER"} description={"(2x) 25%, (4x) 65% chance every attack to double attack speed for 3 seconds"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={vayneImg}/>
-                        <ChampionIcon img={varusImg}/>
-                        <ChampionIcon img={asheImg}/>
+                        <ChampionIcon img={vayneImg} champion={"vayne"}/>
+                        <ChampionIcon img={varusImg} champion={"varus"}/>
+                        <ChampionIcon img={asheImg} champion={"ashe"}/>
                     </div>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={kindredImg}/>
+                        <ChampionIcon img={kindredImg} champion={"kindred"}/>
                     </div>
                 </div>
             </ClassCard>

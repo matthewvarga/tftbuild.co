@@ -16,10 +16,10 @@ class DragonClass extends Component {
             <ClassCard title={"DRAGON"} description={"(2x) dragons are immune to magic damage"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={shyvanaImg}/>
+                        <ChampionIcon img={shyvanaImg} champion={"shyvana"}/>
                     </div>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={aurelionsolImg}/>
+                        <ChampionIcon img={aurelionsolImg} champion={"aurelionsol"}/>
                     </div>
                 </div>
             </ClassCard>

@@ -19,13 +19,13 @@ class ShapeshifterClass extends Component {
             <ClassCard title={"SHAPESHIFTER"} description={"(3x) gain 100% max hp on transform"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={nidaleeImg}/>
-                        <ChampionIcon img={eliseImg}/>
-                        <ChampionIcon img={shyvanaImg}/>
+                        <ChampionIcon img={nidaleeImg} champion={"nidalee"}/>
+                        <ChampionIcon img={eliseImg} champion={"elise"}/>
+                        <ChampionIcon img={shyvanaImg} champion={"shyvana"}/>
                     </div>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={gnarImg}/>
-                        <ChampionIcon img={swainImg}/>
+                        <ChampionIcon img={gnarImg} champion={"gnar"}/>
+                        <ChampionIcon img={swainImg} champion={"swain"}/>
                     </div>
                 </div>
             </ClassCard>

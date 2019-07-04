@@ -20,14 +20,14 @@ class GlacialClass extends Component {
             <ClassCard title={"GLACIAL"} description={"(2x) 25%, (4x) 35%, (6x) 45% chance to stun for 2 seconds on hit"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={braumImg}/>
-                        <ChampionIcon img={lissandraImg}/>
-                        <ChampionIcon img={asheImg}/>
-                        <ChampionIcon img={volibearImg}/>
+                        <ChampionIcon img={braumImg} champion={"braum"}/>
+                        <ChampionIcon img={lissandraImg} champion={"lissandra"}/>
+                        <ChampionIcon img={asheImg} champion={"ashe"}/>
+                        <ChampionIcon img={volibearImg} champion={"volibear"}/>
                     </div>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={sejuaniImg}/>
-                        <ChampionIcon img={aniviaImg}/>
+                        <ChampionIcon img={sejuaniImg} champion={"sejuani"}/>
+                        <ChampionIcon img={aniviaImg} champion={"anivia"}/>
                     </div>
                 </div>
             </ClassCard>

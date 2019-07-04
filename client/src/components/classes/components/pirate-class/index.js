@@ -18,12 +18,12 @@ class PirateClass extends Component {
             <ClassCard title={"PIRATE"} description={"(3x) earn up to 4 extra gold after each pvp round"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={gravesImg}/>
-                        <ChampionIcon img={pykeImg}/>
-                        <ChampionIcon img={gangplankImg}/>
+                        <ChampionIcon img={gravesImg} champion={"graves"}/>
+                        <ChampionIcon img={pykeImg} champion={"pyke"}/>
+                        <ChampionIcon img={gangplankImg} champion={"gangplank"}/>
                     </div>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={missfortuneImg}/>
+                        <ChampionIcon img={missfortuneImg} champion={"missfortune"}/>
                     </div>
                 </div>
             </ClassCard>

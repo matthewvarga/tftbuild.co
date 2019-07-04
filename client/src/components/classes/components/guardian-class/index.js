@@ -16,10 +16,10 @@ class GuardianClass extends Component {
             <ClassCard title={"GUARDIAN"} description={"(2x) +30 armor to guardians and close allies"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={braumImg}/>
+                        <ChampionIcon img={braumImg} champion={"braum"}/>
                     </div>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={leonaImg}/>
+                        <ChampionIcon img={leonaImg} champion={"leona"}/>
                     </div>
                 </div>
             </ClassCard>

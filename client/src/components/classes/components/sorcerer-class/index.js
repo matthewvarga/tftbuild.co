@@ -21,15 +21,15 @@ class SorcererClass extends Component {
             <ClassCard title={"SORCERER"} description={"allies have (3x) +35%, (6x) +100% spell damage and sorcerers gain double mana from attacking"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={kassadinImg}/>
-                        <ChampionIcon img={ahriImg}/>
-                        <ChampionIcon img={luluImg}/>
-                        <ChampionIcon img={veigarImg}/>
+                        <ChampionIcon img={kassadinImg} champion={"kassadin"}/>
+                        <ChampionIcon img={ahriImg} champion={"ahri"}/>
+                        <ChampionIcon img={luluImg} champion={"lulu"}/>
+                        <ChampionIcon img={veigarImg} champion={"veigar"}/>
                     </div>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={morganaImg}/>
-                        <ChampionIcon img={aurelionsolImg}/>
-                        <ChampionIcon img={karthusImg}/>
+                        <ChampionIcon img={morganaImg} champion={"morgana"}/>
+                        <ChampionIcon img={aurelionsolImg} champion={"aurelionsol"}/>
+                        <ChampionIcon img={karthusImg} champion={"karthus"}/>
                     </div>
                 </div>
             </ClassCard>

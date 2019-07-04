@@ -18,12 +18,12 @@ class ElementalistClass extends Component {
             <ClassCard title={"ELEMENTALIST"} description={"(3x) elementalist gain double mana from attacks and summon a golem"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={lissandraImg}/>
-                        <ChampionIcon img={kennenImg}/>
-                        <ChampionIcon img={brandImg}/>
+                        <ChampionIcon img={lissandraImg} champion={"lissandra"}/>
+                        <ChampionIcon img={kennenImg} champion={"kennen"}/>
+                        <ChampionIcon img={brandImg} champion={"brand"}/>
                     </div>
                     <div className={"champion-row"}>
-                        <ChampionIcon img={aniviaImg}/>
+                        <ChampionIcon img={aniviaImg} champion={"anivia"}/>
                     </div>
                 </div>
             </ClassCard>

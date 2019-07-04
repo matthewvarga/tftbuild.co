@@ -1,8 +1,12 @@
 .champion-icon {
   width: 60px;
   height: 60px;
-  background: #4b4747;
+  background: white;
   margin: 0 3px 6px 3px;
+}
+
+.champion-icon:hover {
+  cursor: pointer;
 }
 
 .champion-icon .champion-icon-img {

@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"net/http"
 
 	"github.com/gin-gonic/contrib/static"
@@ -26,8 +25,6 @@ func main() {
 			})
 		})
 	}
-
-	fmt.Println("tester")
 
 	// Start and run the server
 	router.Run(":5000")

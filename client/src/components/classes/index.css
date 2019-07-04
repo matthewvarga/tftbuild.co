@@ -26,18 +26,18 @@
             flex-direction: row;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .classes .classes-content .class-card {
     width: 48%;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .classes .classes-content .class-card {
-    width: 390px;
+    width: 275px;
   }
 }
 
@@ -50,7 +50,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 0 0 20px 0;
+  padding: 0 0 10px 0;
 }
 
 .classes .class-card-champions .champion-row {
@@ -64,6 +64,5 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 10px;
 }
 /*# sourceMappingURL=index.css.map */

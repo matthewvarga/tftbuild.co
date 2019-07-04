@@ -11,10 +11,12 @@ class ClassCard extends Component {
         return (
             <div className={"class-card"}>
                 <h3 className={"class-card-title"}>{this.props.title}</h3>
+                
+                {this.props.children}
+
                 <p className={"class-card-description"}>
                     {this.props.description}
                 </p>
-                {this.props.children}
             </div>
         );
     }

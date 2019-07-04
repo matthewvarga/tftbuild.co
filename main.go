@@ -25,7 +25,7 @@ func main() {
 				"message": "pong",
 			})
 		})
-	
+	}
 
 	fmt.Println("tester")
 

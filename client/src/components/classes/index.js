@@ -58,8 +58,6 @@ class Classes extends Component {
                     <BlademasterClass/>
                     <AssassinsClass/>
                     <ShapeshifterClass/>
-                    
-                    
                 </div>
             </div>
         );

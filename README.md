@@ -15,6 +15,17 @@ The only `Go` dependency is `Gin`. To install, use the following:
 5) move binary to propery directory: `mv tftbuild.co /var/www/tftbuild.co/tftbuild.co`
 6) bring server up: `sudo systemctl start tftbuild`, `sudo systemctl enable tftbuild`
 
+Unfortunately, the above has stopped working as the static files cannot be found in the binary build for some reason. So the temporary fix is to use the following steps:
+
+1) pull from master: `git pull`
+2) attach to the running tmux session that is hosting the server: `tmux attach`
+3) kill the server: `ctrl + c`
+4) build client-side of project: `npm run-script build` from `client` directory
+5) build server-side of project (binary): `go build -o prod` from root directory
+6) start new tmux session to run the application: `tmux`
+7) start the application: `./prod`
+8) detach from the tmux session: `ctrl + b THEN d` 
+
 ### Systemd application
 
 We are able to run simple scripts to start, enable, stop, and restart our server because of a simple systemd application. 

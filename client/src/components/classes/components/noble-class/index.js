@@ -18,7 +18,7 @@ class NobleClass extends Component {
 
     render() {
         return (
-            <ClassCard title={"NOBLE"} description={"(3x)1 Ally, (6x)All Allies Gains 100 Armor and 35 HP on Hit"}>
+            <ClassCard num={4} title={"NOBLE"} description={"(3x)1 Ally, (6x)All Allies Gains 100 Armor and 35 HP on Hit"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
                         <ChampionIcon img={vayneImg} champion={"vayne"}/>

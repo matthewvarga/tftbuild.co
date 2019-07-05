@@ -15,7 +15,7 @@ class ImperialClass extends Component {
 
     render() {
         return (
-            <ClassCard title={"IMPERIAL"} description={"(2x) 1 Imperial deals 2x damage, (4x) all imperials deal 2x damage"}>
+            <ClassCard num={3} title={"IMPERIAL"} description={"(2x) 1 Imperial deals 2x damage, (4x) all imperials deal 2x damage"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
                         <ChampionIcon img={dariusImg} champion={"darius"}/>

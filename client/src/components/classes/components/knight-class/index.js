@@ -17,7 +17,7 @@ class KnightClass extends Component {
 
     render() {
         return (
-            <ClassCard title={"KNIGHT"} description={"knights block (2x) 20, (4x) 40, (6x) 80 damage from basic attacks"}>
+            <ClassCard num={4} title={"KNIGHT"} description={"knights block (2x) 20, (4x) 40, (6x) 80 damage from basic attacks"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
                         <ChampionIcon img={garenImg} champion={"garen"}/>

@@ -18,7 +18,7 @@ class DemonClass extends Component {
 
     render() {
         return (
-            <ClassCard title={"DEMON"} description={"(2x) 30%, (4x) 50%, (6x) 70% chance to burn targets mana and deal it as true damage"}>
+            <ClassCard num={4} title={"DEMON"} description={"(2x) 30%, (4x) 50%, (6x) 70% chance to burn targets mana and deal it as true damage"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
                         <ChampionIcon img={varusImg} champion={"varus"}/>

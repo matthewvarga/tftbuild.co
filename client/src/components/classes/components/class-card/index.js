@@ -9,7 +9,7 @@ class ClassCard extends Component {
 
     render() {
         return (
-            <div className={"class-card"}>
+            <div className={"class-card " + "num-" + this.props.num}>
                 <h3 className={"class-card-title"}>{this.props.title}</h3>
                 
                 {this.props.children}

@@ -15,7 +15,7 @@ class RangerClass extends Component {
 
     render() {
         return (
-            <ClassCard title={"RANGER"} description={"(2x) 25%, (4x) 65% chance every attack to double attack speed for 3 seconds"}>
+            <ClassCard num={3} title={"RANGER"} description={"(2x) 25%, (4x) 65% chance every attack to double attack speed for 3 seconds"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
                         <ChampionIcon img={vayneImg} champion={"vayne"}/>

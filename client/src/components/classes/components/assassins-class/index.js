@@ -18,7 +18,7 @@ class AssassinsClass extends Component {
 
     render() {
         return (
-            <ClassCard title={"ASSASSINS"} description={"(3x) +150% crit strike damage, (6x) + 350% crit strike damage"}>
+            <ClassCard num={4} title={"ASSASSINS"} description={"(3x) +150% crit strike damage, (6x) + 350% crit strike damage"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
                         <ChampionIcon img={khazixImg} champion={"khazix"}/>

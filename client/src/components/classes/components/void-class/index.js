@@ -15,7 +15,7 @@ class VoidClass extends Component {
 
     render() {
         return (
-            <ClassCard title={"VOID"} description={"(3x) All basic attacks ignore 50% of armor"}>
+            <ClassCard num={3} title={"VOID"} description={"(3x) All basic attacks ignore 50% of armor"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
                         <ChampionIcon img={khazixImg} champion={"khazix"}/>

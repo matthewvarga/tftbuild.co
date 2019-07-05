@@ -15,7 +15,7 @@ class ElementalistClass extends Component {
 
     render() {
         return (
-            <ClassCard title={"ELEMENTALIST"} description={"(3x) elementalist gain double mana from attacks and summon a golem"}>
+            <ClassCard num={3} title={"ELEMENTALIST"} description={"(3x) elementalist gain double mana from attacks and summon a golem"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
                         <ChampionIcon img={lissandraImg} champion={"lissandra"}/>

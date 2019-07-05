@@ -31,7 +31,15 @@
         // on large breakpoint, go from having flexible size to fixed
         @include breakpoint(lg) {
             .class-card {
-                width: 275px;
+                &.num-4 {
+                    width: 270px;
+                }
+                &.num-3 {
+                    width: 205px;
+                }
+                &.num-2, &.num-1 {
+                    width: 140px;
+                }
             }
         }
     }

@@ -17,7 +17,7 @@ class YordleClass extends Component {
 
     render() {
         return (
-            <ClassCard title={"YORDLE"} description={"(3x) 20%, (6x) 50% chance for enemies to miss against yordles"}>
+            <ClassCard num={4} title={"YORDLE"} description={"(3x) 20%, (6x) 50% chance for enemies to miss against yordles"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
                         <ChampionIcon img={tristanaImg} champion={"tristana"}/>

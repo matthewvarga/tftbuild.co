@@ -12,7 +12,7 @@ class ExileClass extends Component {
 
     render() {
         return (
-            <ClassCard title={"EXILE"} description={"(1x) exile gains a shield equal to max hp if standing alone"}>
+            <ClassCard num={1} title={"EXILE"} description={"(1x) exile gains a shield equal to max hp if standing alone"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
                         <ChampionIcon img={yasuoImg} champion={"yasuo"}/>

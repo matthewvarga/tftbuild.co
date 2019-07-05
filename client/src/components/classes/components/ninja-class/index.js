@@ -15,7 +15,7 @@ class NinjaClass extends Component {
 
     render() {
         return (
-            <ClassCard title={"NINJA"} description={"(1x) +40% AD for ninjas, (4x) +60% AD for ninjas"}>
+            <ClassCard num={3} title={"NINJA"} description={"(1x) +40% AD for ninjas, (4x) +60% AD for ninjas"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
                         <ChampionIcon img={zedImg} champion={"zed"}/>

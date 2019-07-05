@@ -16,7 +16,7 @@ class WildClass extends Component {
 
     render() {
         return (
-            <ClassCard title={"WILD"} description={"every attack gives 7% attack speed (2x) for wild allies, (4x) for all allies"}>
+            <ClassCard num={3} title={"WILD"} description={"every attack gives 7% attack speed (2x) for wild allies, (4x) for all allies"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
                         <ChampionIcon img={warwickImg} champion={"warwick"}/>

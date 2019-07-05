@@ -17,7 +17,7 @@ class GlacialClass extends Component {
 
     render() {
         return (
-            <ClassCard title={"GLACIAL"} description={"(2x) 25%, (4x) 35%, (6x) 45% chance to stun for 2 seconds on hit"}>
+            <ClassCard num={4} title={"GLACIAL"} description={"(2x) 25%, (4x) 35%, (6x) 45% chance to stun for 2 seconds on hit"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
                         <ChampionIcon img={braumImg} champion={"braum"}/>

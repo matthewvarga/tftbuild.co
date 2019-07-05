@@ -12,7 +12,7 @@ class RobotClass extends Component {
 
     render() {
         return (
-            <ClassCard title={"ROBOT"} description={"(1x) a robot starts will full mana"}>
+            <ClassCard num={1} title={"ROBOT"} description={"(1x) a robot starts will full mana"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
                         <ChampionIcon img={blitzcrankImg} champion={"blitzcrank"}/>

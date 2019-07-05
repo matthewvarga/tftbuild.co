@@ -17,7 +17,7 @@ class BlademasterClass extends Component {
 
     render() {
         return (
-            <ClassCard title={"BLADEMASTER"} description={"(3x) 35% chance to strike twice, (6x) 35% chance to strike thrice"}>
+            <ClassCard num={4} title={"BLADEMASTER"} description={"(3x) 35% chance to strike twice, (6x) 35% chance to strike thrice"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
                         <ChampionIcon img={fioraImg} champion={"fiora"}/>

@@ -15,7 +15,7 @@ class PirateClass extends Component {
 
     render() {
         return (
-            <ClassCard title={"PIRATE"} description={"(3x) earn up to 4 extra gold after each pvp round"}>
+            <ClassCard num={3} title={"PIRATE"} description={"(3x) earn up to 4 extra gold after each pvp round"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
                         <ChampionIcon img={gravesImg} champion={"graves"}/>

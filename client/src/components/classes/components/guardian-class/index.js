@@ -13,12 +13,10 @@ class GuardianClass extends Component {
 
     render() {
         return (
-            <ClassCard title={"GUARDIAN"} description={"(2x) +30 armor to guardians and close allies"}>
+            <ClassCard num={2} title={"GUARDIAN"} description={"(2x) +30 armor to guardians and close allies"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
                         <ChampionIcon img={braumImg} champion={"braum"}/>
-                    </div>
-                    <div className={"champion-row"}>
                         <ChampionIcon img={leonaImg} champion={"leona"}/>
                     </div>
                 </div>

@@ -16,7 +16,7 @@ class GunslignerClass extends Component {
 
     render() {
         return (
-            <ClassCard title={"GUNSLINGER"} description={"50% chance each attack to hit (2x) an additional, (4x) all targets in range"}>
+            <ClassCard num={3} title={"GUNSLINGER"} description={"50% chance each attack to hit (2x) an additional, (4x) all targets in range"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
                         <ChampionIcon img={tristanaImg} champion={"tristana"}/>

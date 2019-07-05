@@ -14,7 +14,7 @@ class GlacialClass extends Component {
 
     render() {
         return (
-            <ClassCard title={"PHANTOM"} description={"(2x) set an enemies hp to 100 at round start"}>
+            <ClassCard num={2} title={"PHANTOM"} description={"(2x) set an enemies hp to 100 at round start"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
                         <ChampionIcon img={mordekaiserImg} champion={"mordekaiser"}/>

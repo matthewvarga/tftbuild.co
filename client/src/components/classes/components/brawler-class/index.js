@@ -16,7 +16,7 @@ class BrawlerClass extends Component {
 
     render() {
         return (
-            <ClassCard title={"BRAWLER"} description={"(2x) 300 bonus health to brawlers, (4x) 700 bonus health to brawlers"}>
+            <ClassCard num={3} title={"BRAWLER"} description={"(2x) 300 bonus health to brawlers, (4x) 700 bonus health to brawlers"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
                         <ChampionIcon img={warwickImg} champion={"warwick"}/>

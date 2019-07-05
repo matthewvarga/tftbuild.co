@@ -16,7 +16,7 @@ class ShapeshifterClass extends Component {
 
     render() {
         return (
-            <ClassCard title={"SHAPESHIFTER"} description={"(3x) gain 100% max hp on transform"}>
+            <ClassCard num={3} title={"SHAPESHIFTER"} description={"(3x) gain 100% max hp on transform"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
                         <ChampionIcon img={nidaleeImg} champion={"nidalee"}/>

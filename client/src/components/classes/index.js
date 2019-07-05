@@ -52,12 +52,14 @@ class Classes extends Component {
                     <GunslignerClass/>
                     <RangerClass/>
                     <ElementalistClass/>
+                    <RobotClass/>
+                    <ExileClass/>
                     <SorcererClass/>
                     <BlademasterClass/>
                     <AssassinsClass/>
                     <ShapeshifterClass/>
-                    <ExileClass/>
-                    <RobotClass/>
+                    
+                    
                 </div>
             </div>
         );

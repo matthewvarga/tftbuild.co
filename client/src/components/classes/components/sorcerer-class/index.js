@@ -18,7 +18,7 @@ class SorcererClass extends Component {
 
     render() {
         return (
-            <ClassCard title={"SORCERER"} description={"allies have (3x) +35%, (6x) +100% spell damage and sorcerers gain double mana from attacking"}>
+            <ClassCard num={4} title={"SORCERER"} description={"allies have (3x) +35%, (6x) +100% spell damage and sorcerers gain double mana from attacking"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
                         <ChampionIcon img={kassadinImg} champion={"kassadin"}/>

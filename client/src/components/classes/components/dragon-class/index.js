@@ -13,12 +13,10 @@ class DragonClass extends Component {
 
     render() {
         return (
-            <ClassCard title={"DRAGON"} description={"(2x) dragons are immune to magic damage"}>
+            <ClassCard num={2} title={"DRAGON"} description={"(2x) dragons are immune to magic damage"}>
                 <div className={"class-card-champions"}>
                     <div className={"champion-row"}>
                         <ChampionIcon img={shyvanaImg} champion={"shyvana"}/>
-                    </div>
-                    <div className={"champion-row"}>
                         <ChampionIcon img={aurelionsolImg} champion={"aurelionsol"}/>
                     </div>
                 </div>

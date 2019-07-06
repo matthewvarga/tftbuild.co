@@ -31,7 +31,7 @@
                 "desc": "+200 HP"
             },
             {
-                "icon": "B._F._Sword_item.png", 
+                "icon": "GoldenSpatula.png", 
                 "desc": "???"
             }
         ],
@@ -42,35 +42,35 @@
             },
             {
                 "icon": "Infinity_Edge_item.png", 
-                "desc": "desc"
+                "desc": "crit strikes deal +100% damage"
             },
             {
                 "icon": "Hextech_Gunblade_item.png", 
-                "desc": "desc"
+                "desc": "heal for 25% of all damage dealt"
             },
             {
                 "icon": "Sword_of_the_Divine_item.png", 
-                "desc": "desc"
+                "desc": "each second: 5% chance to only crit strike"
             },
             {
                 "icon": "Spear_of_Shojin_item.png", 
-                "desc": "desc"
+                "desc": "after spell cast: attacks give 15% of max mana"
             },
             {
                 "icon": "Guardian_Angel_item.png", 
-                "desc": "desc"
+                "desc": "wearer gets revived with 500 HP (once)"
             },
             {
                 "icon": "The_Bloodthirster_item.png", 
-                "desc": "desc"
+                "desc": "attacks heal for 50% of damage"
             },
             {
                 "icon": "Zeke's_Herald.png", 
-                "desc": "desc"
+                "desc": "adjacent allies gain +10% AS"
             },
             {
                 "icon": "Youmuu's_Ghostblade_item.png", 
-                "desc": "desc"
+                "desc": "wearer is also assassin"
             }
         ],
         [
@@ -80,35 +80,35 @@
             },
             {
                 "icon": "Hextech_Gunblade_item.png", 
-                "desc": "desc"
+                "desc": "heal for 25% of all damage dealt"
             },
             {
                 "icon": "Rabadon's_Deathcap_item.png", 
-                "desc": "desc"
+                "desc": "+50% AP"
             },
             {
                 "icon": "Guinsoo's_Rageblade_item.png", 
-                "desc": "desc"
+                "desc": "attacks fgrant 3% AS (stacks infinitely)"
             },
             {
                 "icon": "Luden's_Echo_item.png", 
-                "desc": "desc"
+                "desc": "spells deal 200 splash damage on hit"
             },
             {
                 "icon": "Locket_of_the_Iron_Solari_item.png", 
-                "desc": "desc"
+                "desc": "adjacent allies gain a shield of 200 HP"
             },
             {
                 "icon": "Ionic_Spark.png", 
-                "desc": "desc"
+                "desc": "enemies take 200 dmg after casting a spell"
             },
             {
                 "icon": "Morellonomicon_item.png", 
-                "desc": "desc"
+                "desc": "spells apply burn: 5% of enemies max HP/s"
             },
             {
-                "icon": "B._F._Sword_item.png", 
-                "desc": "desc"
+                "icon": "Yummi.png", 
+                "desc": "wearer is also sorcerer"
             }
         ],
         [
@@ -118,35 +118,35 @@
             },
             {
                 "icon": "Sword_of_the_Divine_item.png", 
-                "desc": "desc"
+                "desc": "each second: 5% chance to only crit strike"
             },
             {
                 "icon": "Guinsoo's_Rageblade_item.png", 
-                "desc": "desc"
+                "desc": "attacks grant 3% AS (staks infinitely)"
             },
             {
                 "icon": "Rapid_Firecannon_item.png", 
-                "desc": "desc"
+                "desc": "attacks cant be dodged. 2x range"
             },
             {
                 "icon": "Statikk_Shiv_item.png", 
-                "desc": "desc"
+                "desc": "every 3rd attack deals 100 splash damage"
             },
             {
                 "icon": "Phantom_Dancer_item.png", 
-                "desc": "desc"
+                "desc": "wearer dodges all crit strikes"
             },
             {
                 "icon": "Dervish_Blade.png", 
-                "desc": "desc"
+                "desc": "attacks have small chance to shrink (-1*)"
             },
             {
                 "icon": "Titanic_Hydra_item.png", 
-                "desc": "desc"
+                "desc": "attacks deal 10% of wearers max HP as splash dmg"
             },
             {
                 "icon": "Blade_of_the_Ruined_King_item.png", 
-                "desc": "desc"
+                "desc": "wearer is also blademaster"
             }
         ],
         [
@@ -156,35 +156,35 @@
             },
             {
                 "icon": "Spear_of_Shojin_item.png", 
-                "desc": "desc"
+                "desc": "after spell cast: attacks gain 15% of max mana"
             },
             {
                 "icon": "Luden's_Echo_item.png", 
-                "desc": "desc"
+                "desc": "spells deal 200 splash damage on hit"
             },
             {
                 "icon": "Statikk_Shiv_item.png", 
-                "desc": "desc"
+                "desc": "every 3rd attack deals 100 splash damage"
             },
             {
                 "icon": "Seraph's_Embrace_item.png", 
-                "desc": "desc"
+                "desc": "gain 20 mana each time a spell is cast"
             },
             {
                 "icon": "Frozen_Heart_item.png", 
-                "desc": "desc"
+                "desc": "adjacent enemies lose 20% AS"
             },
             {
                 "icon": "Hush_item.png", 
-                "desc": "desc"
+                "desc": "attacks have a high chance to silence"
             },
             {
                 "icon": "Redemption_item.png", 
-                "desc": "desc"
+                "desc": "on death: heal all nearby allies for 1000 HP"
             },
             {
-                "icon": "B._F._Sword_item.png", 
-                "desc": "desc"
+                "icon": "Demon.png", 
+                "desc": "wearer is also demon"
             }
         ],
         [
@@ -194,35 +194,35 @@
             },
             {
                 "icon": "Guardian_Angel_item.png", 
-                "desc": "desc"
+                "desc": "wearer gets revived with 500 HP (once)"
             },
             {
                 "icon": "Locket_of_the_Iron_Solari_item.png", 
-                "desc": "desc"
+                "desc": "adjacent allies gain a shield of 200 HP"
             },
             {
                 "icon": "Phantom_Dancer_item.png", 
-                "desc": "desc"
+                "desc": "wearer dodges all crit strikes"
             },
             {
                 "icon": "Frozen_Heart_item.png", 
-                "desc": "desc"
+                "desc": "adjacent enemies lose 20% AS"
             },
             {
                 "icon": "Thornmail_item.png", 
-                "desc": "desc"
+                "desc": "reflect 35% of damage from attacks"
             },
             {
                 "icon": "Sword_Breaker_item.png", 
-                "desc": "desc"
+                "desc": "attacks have a chance to disarm"
             },
             {
-                "icon": "B._F._Sword_item.png", 
-                "desc": "desc"
+                "icon": "Burn.png", 
+                "desc": "attacks deal 2.5% burn damage"
             },
             {
                 "icon": "Knight's_Vow_item.png", 
-                "desc": "desc"
+                "desc": "wearer is also knight"
             }
         ],
         [
@@ -232,35 +232,35 @@
             },
             {
                 "icon": "The_Bloodthirster_item.png", 
-                "desc": "desc"
+                "desc": "attacks heal for 50% of damage"
             },
             {
                 "icon": "Ionic_Spark.png", 
-                "desc": "desc"
+                "desc": "enemies take 200 dmg after casting a spell"
             },
             {
                 "icon": "Dervish_Blade.png", 
-                "desc": "desc"
+                "desc": "attacks have a small chance to shrink (-1*)"
             },
             {
                 "icon": "Hush_item.png", 
-                "desc": "desc"
+                "desc": "attacks have a high chance to silence"
             },
             {
                 "icon": "Sword_Breaker_item.png", 
-                "desc": "desc"
+                "desc": "attacks have a chance to disarm"
             },
             {
                 "icon": "Dragon's_Claw_item.png", 
-                "desc": "desc"
+                "desc": "gain 83% resistance to magic damage"
             },
             {
                 "icon": "Zephyr.png", 
-                "desc": "desc"
+                "desc": "on start of combat: banish an enemy for 5s"
             },
             {
                 "icon": "Runaan's_Hurricane_item.png", 
-                "desc": "desc"
+                "desc": "attacks 2 extra targets with 50% of damage"
             }
         ],
         [
@@ -270,73 +270,73 @@
             },
             {
                 "icon": "Zeke's_Herald.png", 
-                "desc": "desc"
+                "desc": "adjacent allies gain +10% AS"
             },
             {
                 "icon": "Morellonomicon_item.png", 
-                "desc": "desc"
+                "desc": "spells apply burn: 5% of enemies max HP/s"
             },
             {
                 "icon": "Titanic_Hydra_item.png", 
-                "desc": "desc"
+                "desc": "attacks deal 10% of wearers max HP as splash dmg"
             },
             {
                 "icon": "Redemption_item.png", 
-                "desc": "desc"
+                "desc": "on death: heal all nearby allies for 1000 HP"
             },
             {
-                "icon": "B._F._Sword_item.png", 
-                "desc": "desc"
+                "icon": "Burn.png", 
+                "desc": "attacks deal 2.5% burn damage"
             },
             {
                 "icon": "Zephyr.png", 
-                "desc": "desc"
+                "desc": "on start of combat: banish an enemy for 5s"
             },
             {
                 "icon": "Warmog's_Armor_item.png", 
-                "desc": "desc"
+                "desc": "regenerate 3% of max HP/s"
             },
             {
                 "icon": "Frozen_Mallet_item.png", 
-                "desc": "desc"
+                "desc": "wearer is also glacial"
             }
         ],
         [
             {
-                "icon": "B._F._Sword_item.png", 
+                "icon": "GoldenSpatula.png", 
                 "desc": "???"
             },
             {
                 "icon": "Youmuu's_Ghostblade_item.png", 
-                "desc": "desc"
+                "desc": "wearer is also assassin"
             },
             {
-                "icon": "B._F._Sword_item.png", 
-                "desc": "desc"
+                "icon": "Yummi.png", 
+                "desc": "wearer is also sorcerer"
             },
             {
                 "icon": "Blade_of_the_Ruined_King_item.png", 
-                "desc": "desc"
+                "desc": "wearer is also blademaster"
             },
             {
-                "icon": "B._F._Sword_item.png", 
-                "desc": "desc"
+                "icon": "Demon.png", 
+                "desc": "wearer is also demon"
             },
             {
                 "icon": "Knight's_Vow_item.png", 
-                "desc": "desc"
+                "desc": "wearer is also knight"
             },
             {
                 "icon": "Runaan's_Hurricane_item.png", 
-                "desc": "desc"
+                "desc": "attacks 2 extra targets with 50% of damage"
             },
             {
                 "icon": "Frozen_Mallet_item.png", 
-                "desc": "desc"
+                "desc": "wearer is also glacial"
             },
             {
                 "icon": "Force_of_Nature.png", 
-                "desc": "desc"
+                "desc": "gain +1 team size"
             }
         ]
     ]

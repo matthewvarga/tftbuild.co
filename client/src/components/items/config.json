@@ -4,41 +4,41 @@
             null,
             {
                 "icon": "B._F._Sword_item.png", 
-                "desc": "desc"
+                "desc": "+20 AD"
             },
             {
                 "icon": "Needlessly_Large_Rod_item.png", 
-                "desc": "desc"
+                "desc": "+20% spell damage"
             },
             {
                 "icon": "Recurve_Bow_item.png", 
-                "desc": "desc"
+                "desc": "+15% attack speed"
             },
             {
                 "icon": "Tear_of_the_Goddess_item.png", 
-                "desc": "desc"
+                "desc": "+20 mana"
             },
             {
                 "icon": "Chain_Vest_item.png", 
-                "desc": "desc"
+                "desc": "+20 armor"
             },
             {
                 "icon": "Negatron_Cloak_item.png", 
-                "desc": "desc"
+                "desc": "+20 MR"
             },
             {
                 "icon": "Giant's_Belt_item.png", 
-                "desc": "desc"
+                "desc": "+200 HP"
             },
             {
                 "icon": "B._F._Sword_item.png", 
-                "desc": "desc"
+                "desc": "???"
             }
         ],
         [
             {
                 "icon": "B._F._Sword_item.png", 
-                "desc": "desc"
+                "desc": "+20 AD"
             },
             {
                 "icon": "Infinity_Edge_item.png", 
@@ -76,7 +76,7 @@
         [
             {
                 "icon": "Needlessly_Large_Rod_item.png", 
-                "desc": "desc"
+                "desc": "+20% spell damage"
             },
             {
                 "icon": "Hextech_Gunblade_item.png", 
@@ -114,7 +114,7 @@
         [
             {
                 "icon": "Recurve_Bow_item.png", 
-                "desc": "desc"
+                "desc": "+15% attack speed"
             },
             {
                 "icon": "Sword_of_the_Divine_item.png", 
@@ -152,7 +152,7 @@
         [
             {
                 "icon": "Tear_of_the_Goddess_item.png", 
-                "desc": "desc"
+                "desc": "+20 mana"
             },
             {
                 "icon": "Spear_of_Shojin_item.png", 
@@ -190,7 +190,7 @@
         [
             {
                 "icon": "Chain_Vest_item.png", 
-                "desc": "desc"
+                "desc": "+20 armor"
             },
             {
                 "icon": "Guardian_Angel_item.png", 
@@ -228,7 +228,7 @@
         [
             {
                 "icon": "Negatron_Cloak_item.png", 
-                "desc": "desc"
+                "desc": "+20 MR"
             },
             {
                 "icon": "The_Bloodthirster_item.png", 
@@ -266,7 +266,7 @@
         [
             {
                 "icon": "Giant's_Belt_item.png", 
-                "desc": "desc"
+                "desc": "+200 HP"
             },
             {
                 "icon": "Zeke's_Herald.png", 
@@ -304,7 +304,7 @@
         [
             {
                 "icon": "B._F._Sword_item.png", 
-                "desc": "desc"
+                "desc": "???"
             },
             {
                 "icon": "Youmuu's_Ghostblade_item.png", 

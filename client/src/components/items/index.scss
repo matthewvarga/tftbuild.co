@@ -97,6 +97,7 @@
             display: none;
             color: $base-text-colour;
             padding: 3px 5px;
+            font-size: 11px;
 
             // make item desc visible on xl bp
             @include breakpoint(xl) {

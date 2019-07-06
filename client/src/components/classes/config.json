@@ -1,0 +1,850 @@
+{
+    "classes": [
+        {
+            "name": "NOBLE",
+            "desc": "(3x)1 Ally, (6x)All Allies Gains 100 Armor and 35 HP on Hit",
+            "champions": [
+                [
+                    {
+                        "name": "vayne",
+                        "icon": "VayneSquare.png",
+                        "tier": 1,
+                        "cost": 1
+                    },
+                    {
+                        "name": "fiora",
+                        "icon": "FioraSquare.png",
+                        "tier": 1,
+                        "cost": 1
+                    },
+                    {
+                        "name": "garen",
+                        "icon": "GarenSquare.png",
+                        "tier": 1,
+                        "cost": 1
+                    },
+                    {
+                        "name": "lucian",
+                        "icon": "LucianSquare.png",
+                        "tier": 2,
+                        "cost": 2
+                    }
+                ],
+                [
+                    {
+                        "name": "leona",
+                        "icon": "LeonaSquare.png",
+                        "tier": 4,
+                        "cost": 4
+                    },
+                    {
+                        "name": "kayle",
+                        "icon": "KayleSquare.png",
+                        "tier": 5,
+                        "cost": 5
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "VOID",
+            "desc": "(3x) All basic attacks ignore 50% of armor",
+            "champions": [
+                [
+                    {
+                        "name": "khazix",
+                        "icon": "KhazixSquare.png",
+                        "tier": 1,
+                        "cost": 1
+                    },
+                    {
+                        "name": "kassadin",
+                        "icon": "KassadinSquare.png",
+                        "tier": 1,
+                        "cost": 1
+                    },
+                    {
+                        "name": "reksai",
+                        "icon": "ReksaiSquare.png",
+                        "tier": 2,
+                        "cost": 2
+                    }
+                ],
+                [
+                    {
+                        "name": "chogath",
+                        "icon": "ChogathSquare.png",
+                        "tier": 4,
+                        "cost": 4
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "IMPERIAL",
+            "desc": "(2x) 1 Imperial deals 2x damage, (4x) all imperials deal 2x damage",
+            "champions": [
+                [
+                    {
+                        "name": "darius",
+                        "icon": "DariusSquare.png",
+                        "tier": 1,
+                        "cost": 1
+                    },
+                    {
+                        "name": "katarina",
+                        "icon": "KatarinaSquare.png",
+                        "tier": 3,
+                        "cost": 3
+                    },
+                    {
+                        "name": "draven",
+                        "icon": "Draven_GladiatorSquare.png",
+                        "tier": 4,
+                        "cost": 4
+                    }
+                ],
+                [
+                    {
+                        "name": "swain",
+                        "icon": "SwainSquare.png",
+                        "tier": 5,
+                        "cost": 5
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "GLACIAL",
+            "desc": "(2x) 25%, (4x) 35%, (6x) 45% chance to stun for 2 seconds on hit",
+            "champions": [
+                [
+                    {
+                        "name": "braum",
+                        "icon": "BraumSquare.png",
+                        "tier": 2,
+                        "cost": 2
+                    },
+                    {
+                        "name": "lissandra",
+                        "icon": "LissandraSquare.png",
+                        "tier": 2,
+                        "cost": 2
+                    },
+                    {
+                        "name": "ashe",
+                        "icon": "AsheSquare.png",
+                        "tier": 3,
+                        "cost": 3
+                    },
+                    {
+                        "name": "volibear",
+                        "icon": "VolibearSquare.png",
+                        "tier": 3,
+                        "cost": 3
+                    }
+                ],
+                [
+                    {
+                        "name": "sejuani",
+                        "icon": "SejuaniSquare.png",
+                        "tier": 4,
+                        "cost": 4
+                    },
+                    {
+                        "name": "anivia",
+                        "icon": "AniviaSquare.png",
+                        "tier": 5,
+                        "cost": 5
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "PHANTOM",
+            "desc": "(2x) set an enemies hp to 100 at round start",
+            "champions": [
+                [
+                    {
+                        "name": "mordekaiser",
+                        "icon": "MordekaiserSquare.png",
+                        "tier": 1,
+                        "cost": 1
+                    },
+                    {
+                        "name": "kindred",
+                        "icon": "KindredSquare.png",
+                        "tier": 4,
+                        "cost": 4
+                    }
+                ],
+                [
+                    {
+                        "name": "karthus",
+                        "icon": "KarthusSquare.png",
+                        "tier": 5,
+                        "cost": 5
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "NINJA",
+            "desc": "(1x) +40% AD for ninjas, (4x) +60% AD for ninjas",
+            "champions": [
+                [
+                    {
+                        "name": "zed",
+                        "icon": "ZedSquare.png",
+                        "tier": 2,
+                        "cost": 2
+                    },
+                    {
+                        "name": "shen",
+                        "icon": "ShenSquare.png",
+                        "tier": 2,
+                        "cost": 2
+                    },
+                    {
+                        "name": "kennen",
+                        "icon": "KennenSquare.png",
+                        "tier": 3,
+                        "cost": 3
+                    }
+                ],
+                [
+                    {
+                        "name": "akali",
+                        "icon": "AkaliSquare.png",
+                        "tier": 4,
+                        "cost": 4
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "DEMON",
+            "desc": "(2x) 30%, (4x) 50%, (6x) 70% chance to burn targets mana and deal it as true damage",
+            "champions": [
+                [
+                    {
+                        "name": "varus",
+                        "icon": "VarusSquare.png",
+                        "tier": 2,
+                        "cost": 2
+                    },
+                    {
+                        "name": "elise",
+                        "icon": "EliseSquare.png",
+                        "tier": 2,
+                        "cost": 2
+                    },
+                    {
+                        "name": "evelynn",
+                        "icon": "EvelynnSquare.png",
+                        "tier": 3,
+                        "cost": 3
+                    },
+                    {
+                        "name": "morgana",
+                        "icon": "MorganaSquare.png",
+                        "tier": 3,
+                        "cost": 3
+                    }
+                ],
+                [
+                    {
+                        "name": "aatrox",
+                        "icon": "AatroxSquare.png",
+                        "tier": 3,
+                        "cost": 3
+                    },
+                    {
+                        "name": "brand",
+                        "icon": "BrandSquare.png",
+                        "tier": 4,
+                        "cost": 4
+                    },
+                    {
+                        "name": "swain",
+                        "icon": "SwainSquare.png",
+                        "tier": 5,
+                        "cost": 5
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "PIRATE",
+            "desc": "(3x) earn up to 4 extra gold after each pvp round",
+            "champions": [
+                [
+                    {
+                        "name": "graves",
+                        "icon": "GravesSquare.png",
+                        "tier": 1,
+                        "cost": 1
+                    },
+                    {
+                        "name": "pyke",
+                        "icon": "PykeSquare.png",
+                        "tier": 2,
+                        "cost": 2
+                    },
+                    {
+                        "name": "gangplank",
+                        "icon": "GangplankSquare.png",
+                        "tier": 3,
+                        "cost": 3
+                    }
+                ],
+                [
+                    {
+                        "name": "missfortune",
+                        "icon": "MissfortuneSquare.png",
+                        "tier": 5,
+                        "cost": 5
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "YORDLE",
+            "desc": "(3x) 20%, (6x) 50% chance for enemies to miss against yordles",
+            "champions": [
+                [
+                    {
+                        "name": "tristana",
+                        "icon": "TristanaSquare.png",
+                        "tier": 1,
+                        "cost": 1
+                    },
+                    {
+                        "name": "lulu",
+                        "icon": "LuluSquare.png",
+                        "tier": 2,
+                        "cost": 2
+                    },
+                    {
+                        "name": "poppy",
+                        "icon": "PoppySquare.png",
+                        "tier": 3,
+                        "cost": 3
+                    },
+                    {
+                        "name": "veigar",
+                        "icon": "VeigarSquare.png",
+                        "tier": 3,
+                        "cost": 3
+                    }
+                ],
+                [
+                    {
+                        "name": "kennen",
+                        "icon": "KennenSquare.png",
+                        "tier": 3,
+                        "cost": 3
+                    },
+                    {
+                        "name": "gnar",
+                        "icon": "GnarSquare.png",
+                        "tier": 4,
+                        "cost": 4
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "WILD",
+            "desc": "every attack gives 7% attack speed (2x) for wild allies, (4x) for all allies",
+            "champions": [
+                [
+                    {
+                        "name": "warwick",
+                        "icon": "WarwickSquare.png",
+                        "tier": 1,
+                        "cost": 1
+                    },
+                    {
+                        "name": "nidalee",
+                        "icon": "NidaleeSquare.png",
+                        "tier": 1,
+                        "cost": 1
+                    },
+                    {
+                        "name": "ahri",
+                        "icon": "AhriSquare.png",
+                        "tier": 2,
+                        "cost": 2
+                    }
+                ],
+                [
+                    {
+                        "name": "rengar",
+                        "icon": "RengarSquare.png",
+                        "tier": 3,
+                        "cost": 3
+                    },
+                    {
+                        "name": "gnar",
+                        "icon": "GnarSquare.png",
+                        "tier": 4,
+                        "cost": 4
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "KNIGHT",
+            "desc": "knights block (2x) 20, (4x) 40, (6x) 80 damage from basic attacks",
+            "champions": [
+                [
+                    {
+                        "name": "garen",
+                        "icon": "GarenSquare.png",
+                        "tier": 1,
+                        "cost": 1
+                    },
+                    {
+                        "name": "darius",
+                        "icon": "DariusSquare.png",
+                        "tier": 1,
+                        "cost": 1
+                    },
+                    {
+                        "name": "mordekaiser",
+                        "icon": "MordekaiserSquare.png",
+                        "tier": 1,
+                        "cost": 1
+                    },
+                    {
+                        "name": "poppy",
+                        "icon": "PoppySquare.png",
+                        "tier": 3,
+                        "cost": 3
+                    }
+                ],
+                [
+                    {
+                        "name": "sejuani",
+                        "icon": "SejuaniSquare.png",
+                        "tier": 4,
+                        "cost": 4
+                    },
+                    {
+                        "name": "kayle",
+                        "icon": "KayleSquare.png",
+                        "tier": 5,
+                        "cost": 5
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "DRAGON",
+            "desc": "(2x) dragons are immune to magic damage",
+            "champions": [
+                [
+                    {
+                        "name": "shyvana",
+                        "icon": "ShyvanaSquare.png",
+                        "tier": 3,
+                        "cost": 3
+                    },
+                    {
+                        "name": "aurelionsol",
+                        "icon": "AurelionsolSquare.png",
+                        "tier": 4,
+                        "cost": 4
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "BRAWLER",
+            "desc": "(2x) 300 bonus health to brawlers, (4x) 700 bonus health to brawlers",
+            "champions": [
+                [
+                    {
+                        "name": "warwick",
+                        "icon": "WarwickSquare.png",
+                        "tier": 1,
+                        "cost": 1
+                    },
+                    {
+                        "name": "reksai",
+                        "icon": "ReksaiSquare.png",
+                        "tier": 2,
+                        "cost": 2
+                    },
+                    {
+                        "name": "blitzcrank",
+                        "icon": "BlitzcrankSquare.png",
+                        "tier": 2,
+                        "cost": 2
+                    }
+                ],
+                [
+                    {
+                        "name": "volibear",
+                        "icon": "VolibearSquare.png",
+                        "tier": 3,
+                        "cost": 3
+                    },
+                    {
+                        "name": "chogath",
+                        "icon": "ChogathSquare.png",
+                        "tier": 4,
+                        "cost": 4
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "GUARDIAN",
+            "desc": "(2x) +30 armor to guardians and close allies",
+            "champions": [
+                [
+                    {
+                        "name": "braum",
+                        "icon": "BraumSquare.png",
+                        "tier": 2,
+                        "cost": 2
+                    },
+                    {
+                        "name": "leona",
+                        "icon": "LeonaSquare.png",
+                        "tier": 4,
+                        "cost": 4
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "GUNSLINGER",
+            "desc": "50% chance each attack to hit (2x) an additional, (4x) all targets in range",
+            "champions": [
+                [
+                    {
+                        "name": "tristana",
+                        "icon": "TristanaSquare.png",
+                        "tier": 1,
+                        "cost": 1
+                    },
+                    {
+                        "name": "graves",
+                        "icon": "GravesSquare.png",
+                        "tier": 1,
+                        "cost": 1
+                    },
+                    {
+                        "name": "lucian",
+                        "icon": "LucianSquare.png",
+                        "tier": 2,
+                        "cost": 2
+                    }
+                ],
+                [
+                    {
+                        "name": "gangplank",
+                        "icon": "GangplankSquare.png",
+                        "tier": 3,
+                        "cost": 3
+                    },
+                    {
+                        "name": "missfortune",
+                        "icon": "MissfortuneSquare.png",
+                        "tier": 5,
+                        "cost": 5
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "RANGER",
+            "desc": "(2x) 25%, (4x) 65% chance every attack to double attack speed for 3 seconds",
+            "champions": [
+                [
+                    {
+                        "name": "vayne",
+                        "icon": "VayneSquare.png",
+                        "tier": 1,
+                        "cost": 1
+                    },
+                    {
+                        "name": "varus",
+                        "icon": "VarusSquare.png",
+                        "tier": 2,
+                        "cost": 2
+                    },
+                    {
+                        "name": "ashe",
+                        "icon": "AsheSquare.png",
+                        "tier": 3,
+                        "cost": 3
+                    }
+                ],
+                [
+                    {
+                        "name": "kindred",
+                        "icon": "KindredSquare.png",
+                        "tier": 4,
+                        "cost": 4
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "ELEMENTALIST",
+            "desc": "(3x) elementalist gain double mana from attacks and summon a golem",
+            "champions": [
+                [
+                    {
+                        "name": "lissandra",
+                        "icon": "LissandraSquare.png",
+                        "tier": 2,
+                        "cost": 2
+                    },
+                    {
+                        "name": "kennen",
+                        "icon": "KennenSquare.png",
+                        "tier": 3,
+                        "cost": 3
+                    },
+                    {
+                        "name": "brand",
+                        "icon": "BrandSquare.png",
+                        "tier": 4,
+                        "cost": 4
+                    }
+                ],
+                [
+                    {
+                        "name": "anivia",
+                        "icon": "AniviaSquare.png",
+                        "tier": 5,
+                        "cost": 5
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "ROBOT",
+            "desc": "(1x) a robot starts will full mana",
+            "champions": [
+                [
+                    {
+                        "name": "blitzcrank",
+                        "icon": "BlitzcrankSquare.png",
+                        "tier": 2,
+                        "cost": 2
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "EXILE",
+            "desc": "(1x) exile gains a shield equal to max hp if standing alone",
+            "champions": [
+                [
+                    {
+                        "name": "yasuo",
+                        "icon": "YasuoSquare.png",
+                        "tier": 5,
+                        "cost": 5
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "SORCERER",
+            "desc": "allies have (3x) +35%, (6x) +100% spell damage and sorcerers gain double mana from attacking",
+            "champions": [
+                [
+                    {
+                        "name": "kassadin",
+                        "icon": "KassadinSquare.png",
+                        "tier": 1,
+                        "cost": 1
+                    },
+                    {
+                        "name": "ahri",
+                        "icon": "AhriSquare.png",
+                        "tier": 2,
+                        "cost": 2
+                    },
+                    {
+                        "name": "lulu",
+                        "icon": "LuluSquare.png",
+                        "tier": 2,
+                        "cost": 2
+                    },
+                    {
+                        "name": "veigar",
+                        "icon": "VeigarSquare.png",
+                        "tier": 3,
+                        "cost": 3
+                    }
+                ],
+                [
+                    {
+                        "name": "morgana",
+                        "icon": "MorganaSquare.png",
+                        "tier": 3,
+                        "cost": 3
+                    },
+                    {
+                        "name": "aurelionsol",
+                        "icon": "AurelionsolSquare.png",
+                        "tier": 4,
+                        "cost": 4
+                    },
+                    {
+                        "name": "karthus",
+                        "icon": "KarthusSquare.png",
+                        "tier": 5,
+                        "cost": 5
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "BLADEMASTER",
+            "desc": "(3x) 35% chance to strike twice, (6x) 35% chance to strike thrice",
+            "champions": [
+                [
+                    {
+                        "name": "fiora",
+                        "icon": "FioraSquare.png",
+                        "tier": 1,
+                        "cost": 1
+                    },
+                    {
+                        "name": "shen",
+                        "icon": "ShenSquare.png",
+                        "tier": 2,
+                        "cost": 2
+                    },
+                    {
+                        "name": "aatrox",
+                        "icon": "AatroxSquare.png",
+                        "tier": 3,
+                        "cost": 3
+                    },
+                    {
+                        "name": "gangplank",
+                        "icon": "GangplankSquare.png",
+                        "tier": 3,
+                        "cost": 3
+                    }
+                ],
+                [
+                    {
+                        "name": "draven",
+                        "icon": "Draven_GladiatorSquare.png",
+                        "tier": 4,
+                        "cost": 4
+                    },
+                    {
+                        "name": "yasuo",
+                        "icon": "YasuoSquare.png",
+                        "tier": 5,
+                        "cost": 5
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "ASSASSINS",
+            "desc": "(3x) +150% crit strike damage, (6x) + 350% crit strike damage",
+            "champions": [
+                [
+                    {
+                        "name": "khazix",
+                        "icon": "KhazixSquare.png",
+                        "tier": 1,
+                        "cost": 1
+                    },
+                    {
+                        "name": "zed",
+                        "icon": "ZedSquare.png",
+                        "tier": 2,
+                        "cost": 2
+                    },
+                    {
+                        "name": "pyke",
+                        "icon": "PykeSquare.png",
+                        "tier": 2,
+                        "cost": 2
+                    },
+                    {
+                        "name": "katarina",
+                        "icon": "KatarinaSquare.png",
+                        "tier": 3,
+                        "cost": 3
+                    }
+                ],
+                [
+                    {
+                        "name": "evelynn",
+                        "icon": "EvelynnSquare.png",
+                        "tier": 3,
+                        "cost": 3
+                    },
+                    {
+                        "name": "rengar",
+                        "icon": "RengarSquare.png",
+                        "tier": 3,
+                        "cost": 3
+                    },
+                    {
+                        "name": "akali",
+                        "icon": "AkaliSquare.png",
+                        "tier": 4,
+                        "cost": 4
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "SHAPESHIFTER",
+            "desc": "(3x) gain 100% max hp on transform",
+            "champions": [
+                [
+                    {
+                        "name": "nidalee",
+                        "icon": "KhazixSquare.png",
+                        "tier": 1,
+                        "cost": 1
+                    },
+                    {
+                        "name": "elise",
+                        "icon": "ZedSquare.png",
+                        "tier": 2,
+                        "cost": 2
+                    },
+                    {
+                        "name": "shyvana",
+                        "icon": "PykeSquare.png",
+                        "tier": 3,
+                        "cost": 3
+                    }
+                ],
+                [
+                    {
+                        "name": "gnar",
+                        "icon": "EvelynnSquare.png",
+                        "tier": 4,
+                        "cost": 4
+                    },
+                    {
+                        "name": "swain",
+                        "icon": "RengarSquare.png",
+                        "tier": 5,
+                        "cost": 5
+                    }
+                ]
+            ]
+        }
+    ]
+}

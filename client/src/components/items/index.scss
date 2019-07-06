@@ -96,7 +96,8 @@
         .item-desc {
             display: none;
             color: $base-text-colour;
-            padding: 3px 5px;
+            padding: 0px 5px;
+            margin: 0;
             font-size: 11px;
 
             // make item desc visible on xl bp

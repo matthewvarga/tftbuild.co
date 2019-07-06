@@ -24,7 +24,7 @@ class Classes extends Component {
             let imgPath = imageBasePath + champion.icon;
 
             result.push(
-                <ChampionIcon img={imgPath} champion={champion.name}/>
+                <ChampionIcon img={imgPath} champion={champion.name} tier={champion.tier} cost={champion.cost}/>
             )
         }
 

@@ -30,6 +30,7 @@ class ChampionIcon extends Component {
     render() {
         return (
             <div className={"champion-icon"} onClick={() => this.handleClick()}>
+                <div className={"champion-icon-tier " + "tier-"+this.props.tier}>{this.props.tier}</div>
                 <img src={this.props.img} className={"champion-icon-img"} data-champion={this.props.champion}/>
             </div>
         );

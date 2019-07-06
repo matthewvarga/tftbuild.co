@@ -13,4 +13,41 @@
   width: 100%;
   height: 100%;
 }
+
+.champion-icon .champion-icon-tier {
+  position: absolute;
+  font-size: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 60px;
+  height: 60px;
+  margin: 10px 0 0 6px;
+  font-weight: 500;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.champion-icon .champion-icon-tier.tier-2 {
+  color: #e99747;
+}
+
+.champion-icon .champion-icon-tier.tier-3 {
+  color: #a0f393;
+}
+
+.champion-icon .champion-icon-tier.tier-4 {
+  color: #63c5f3;
+}
+
+.champion-icon .champion-icon-tier.tier-5 {
+  color: #ff4949;
+}
 /*# sourceMappingURL=index.css.map */

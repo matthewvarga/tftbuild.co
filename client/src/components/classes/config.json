@@ -813,19 +813,19 @@
                 [
                     {
                         "name": "nidalee",
-                        "icon": "KhazixSquare.png",
+                        "icon": "NidaleeSquare.png",
                         "tier": 1,
                         "cost": 1
                     },
                     {
                         "name": "elise",
-                        "icon": "ZedSquare.png",
+                        "icon": "EliseSquare.png",
                         "tier": 2,
                         "cost": 2
                     },
                     {
                         "name": "shyvana",
-                        "icon": "PykeSquare.png",
+                        "icon": "ShyvanaSquare.png",
                         "tier": 3,
                         "cost": 3
                     }
@@ -833,13 +833,13 @@
                 [
                     {
                         "name": "gnar",
-                        "icon": "EvelynnSquare.png",
+                        "icon": "GnarSquare.png",
                         "tier": 4,
                         "cost": 4
                     },
                     {
                         "name": "swain",
-                        "icon": "RengarSquare.png",
+                        "icon": "SwainSquare.png",
                         "tier": 5,
                         "cost": 5
                     }

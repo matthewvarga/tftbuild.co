@@ -31,7 +31,13 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  margin: 16px;
+  margin: 0 16px 16px 16px;
+}
+
+.items-chart .items-chart-title {
+  color: #eedab5;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 .items-chart .items-chart-card-base-img {

@@ -77,6 +77,7 @@ class ItemsChart extends Component {
     render() {
         return (
             <div className={"items-chart " + (this.props.className ? this.props.className: "")}>
+                <span className={"items-chart-title"}>Select items below to see what they build into!</span>
                 <div className={"items-chart-base-items"}>
                         <img className={"items-chart-card-base-img " + (this.state.selectedItems.includes("bf") ? "items-chart-card-img-highlight":"")} src={"/resources/icons/items/B._F._Sword_item.png"} onClick={() => this.selectItem("bf")}/>
                         <img className={"items-chart-card-base-img " + (this.state.selectedItems.includes("nlr") ? "items-chart-card-img-highlight":"")} src={"/resources/icons/items/Needlessly_Large_Rod_item.png"} onClick={() => this.selectItem("nlr")}/>

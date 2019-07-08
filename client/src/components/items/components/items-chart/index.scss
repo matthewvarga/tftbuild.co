@@ -14,7 +14,13 @@
         align-items: center;
         flex-wrap: wrap;
         border: $main-border-style;
-        margin: 16px;
+        margin: 0 16px 16px 16px;
+    }
+
+    .items-chart-title {
+        color: $base-text-colour;
+        font-size: 16px;
+        font-weight: 300;
     }
 
     .items-chart-card-base-img {

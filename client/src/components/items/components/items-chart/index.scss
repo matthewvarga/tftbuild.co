@@ -73,10 +73,6 @@
         border: 2px solid black;
     }
 
-    .items-chart-card-img-highlight {
-        border: 3px solid white;
-    }
-
     .items-chart-builds-from {
         font-size: 10px; 
     }
@@ -85,6 +81,11 @@
         width: 30px;
         height: 30px;
         margin: 3px 10px;
+        border: 1px solid black;
+    }
+
+    .items-chart-card-secondary-img-highlight {
+        border: 1px solid white;
     }
 
     .items-chart-card-desc {

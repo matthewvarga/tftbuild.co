@@ -31,7 +31,9 @@ class ItemsChart extends Component {
 
             // true if both base items are selected
             let highlightItem = this.state.selectedItems.includes(item.buildsFrom[0].val) && this.state.selectedItems.includes(item.buildsFrom[1].val);
-            console.log("highlightItem: " + highlightItem);
+            
+
+
             result.push(
                     <div className={"items-chart-card " + (highlightItem ? "items-chart-card-highlight":"")}>
                         <span className={"items-chart-card-title"}>{item.name}</span>
@@ -39,8 +41,8 @@ class ItemsChart extends Component {
                             <img className={"items-chart-card-main-img"} src={baseImgPath + item.icon}/>
                             <span className={"items-chart-builds-from"}>builds from</span>
                             <div className={"items-chart-card-secondary-items-row"}>
-                                <img className={"items-chart-card-secondary-img"} src={baseImgPath + item.buildsFrom[0].icon}/>
-                                <img className={"items-chart-card-secondary-img"} src={baseImgPath + item.buildsFrom[1].icon}/>
+                                <img className={"items-chart-card-secondary-img " + (this.state.selectedItems.includes(item.buildsFrom[0].val) ? "items-chart-card-secondary-img-highlight":"")} src={baseImgPath + item.buildsFrom[0].icon}/>
+                                <img className={"items-chart-card-secondary-img " + (this.state.selectedItems.includes(item.buildsFrom[1].val) ? "items-chart-card-secondary-img-highlight":"")} src={baseImgPath + item.buildsFrom[1].icon}/>
                             </div>
                             <p className={"items-chart-card-desc"}>
                                 {item.desc}

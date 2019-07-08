@@ -50,6 +50,10 @@
   cursor: pointer;
 }
 
+.items-chart .items-chart-card-base-img.items-chart-card-img-highlight {
+  border: 3px solid white;
+}
+
 .items-chart .items-chart-content {
   display: -webkit-box;
   display: -ms-flexbox;

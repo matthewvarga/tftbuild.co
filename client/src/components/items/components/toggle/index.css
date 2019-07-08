@@ -15,12 +15,12 @@
 }
 
 .toggle .toggle-label {
-  color: #eedab5;
+  color: #7e7d7c;
   margin: 0 10px;
 }
 
 .toggle .toggle-label.toggle-active-text {
-  color: red;
+  color: #eedab5;
 }
 
 .toggle .switch {

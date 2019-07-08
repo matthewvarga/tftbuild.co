@@ -6,10 +6,12 @@
             "desc": "crit strikes deal +100% damage",
             "buildsFrom": [
                 {
-                    "icon": "B._F._Sword_item.png"
+                    "icon": "B._F._Sword_item.png",
+                    "val": "bf"
                 },
                 {
-                    "icon": "B._F._Sword_item.png"
+                    "icon": "B._F._Sword_item.png",
+                    "val": "bf"
                 }
             ]
         },
@@ -19,10 +21,12 @@
             "desc": "heal for 25% of all damage dealt",
             "buildsFrom": [
                 {
-                    "icon": "B._F._Sword_item.png"
+                    "icon": "B._F._Sword_item.png",
+                    "val": "bf"
                 },
                 {
-                    "icon": "Needlessly_Large_Rod_item.png"
+                    "icon": "Needlessly_Large_Rod_item.png",
+                    "val": "nlr"
                 }
             ]
         },
@@ -32,10 +36,12 @@
             "desc": "each second: 5% chance to only crit strike",
             "buildsFrom": [
                 {
-                    "icon": "B._F._Sword_item.png"
+                    "icon": "B._F._Sword_item.png",
+                    "val": "bf"
                 },
                 {
-                    "icon": "Recurve_Bow_item.png"
+                    "icon": "Recurve_Bow_item.png",
+                    "val": "rb"
                 }
             ]
         },
@@ -45,10 +51,12 @@
             "desc": "after spell cast: attacks give 15% of max mana",
             "buildsFrom": [
                 {
-                    "icon": "B._F._Sword_item.png"
+                    "icon": "B._F._Sword_item.png",
+                    "val": "bf"
                 },
                 {
-                    "icon": "Tear_of_the_Goddess_item.png"
+                    "icon": "Tear_of_the_Goddess_item.png",
+                    "val": "tog"
                 }
             ]
         },
@@ -58,10 +66,12 @@
             "desc": "wearer gets revived with 500 HP (once)",
             "buildsFrom": [
                 {
-                    "icon": "B._F._Sword_item.png"
+                    "icon": "B._F._Sword_item.png",
+                    "val": "bf"
                 },
                 {
-                    "icon": "Chain_Vest_item.png"
+                    "icon": "Chain_Vest_item.png",
+                    "val": "cv"
                 }
             ]
         },
@@ -71,10 +81,12 @@
             "desc": "attacks heal for 50% of damage",
             "buildsFrom": [
                 {
-                    "icon": "B._F._Sword_item.png"
+                    "icon": "B._F._Sword_item.png",
+                    "val": "bf"
                 },
                 {
-                    "icon": "Negatron_Cloak_item.png"
+                    "icon": "Negatron_Cloak_item.png",
+                    "val": "nc"
                 }
             ]
         },
@@ -84,10 +96,12 @@
             "desc": "djacent allies gain +10% AS",
             "buildsFrom": [
                 {
-                    "icon": "B._F._Sword_item.png"
+                    "icon": "B._F._Sword_item.png",
+                    "val": "bf"
                 },
                 {
-                    "icon": "Giant's_Belt_item.png"
+                    "icon": "Giant's_Belt_item.png",
+                    "val": "gb"
                 }
             ]
         },
@@ -97,10 +111,12 @@
             "desc": "wearer is also assassin",
             "buildsFrom": [
                 {
-                    "icon": "B._F._Sword_item.png"
+                    "icon": "B._F._Sword_item.png",
+                    "val": "bf"
                 },
                 {
-                    "icon": "GoldenSpatula.png"
+                    "icon": "GoldenSpatula.png",
+                    "val": "gs"
                 }
             ]
         },
@@ -110,10 +126,12 @@
             "desc": "+50% AP",
             "buildsFrom": [
                 {
-                    "icon": "Needlessly_Large_Rod_item.png"
+                    "icon": "Needlessly_Large_Rod_item.png",
+                    "val": "nlr"
                 },
                 {
-                    "icon": "Needlessly_Large_Rod_item.png"
+                    "icon": "Needlessly_Large_Rod_item.png",
+                    "val": "nlr"
                 }
             ]
         },
@@ -123,10 +141,12 @@
             "desc": "attacks grant 3% AS (stacks infinitely)",
             "buildsFrom": [
                 {
-                    "icon": "Needlessly_Large_Rod_item.png"
+                    "icon": "Needlessly_Large_Rod_item.png",
+                    "val": "nlr"
                 },
                 {
-                    "icon": "Recurve_Bow_item.png"
+                    "icon": "Recurve_Bow_item.png",
+                    "val": "rb"
                 }
             ]
         },
@@ -136,10 +156,12 @@
             "desc": "spells deal 200 splash damage on hit",
             "buildsFrom": [
                 {
-                    "icon": "Needlessly_Large_Rod_item.png"
+                    "icon": "Needlessly_Large_Rod_item.png",
+                    "val": "nlr"
                 },
                 {
-                    "icon": "Tear_of_the_Goddess_item.png"
+                    "icon": "Tear_of_the_Goddess_item.png",
+                    "val": "tog"
                 }
             ]
         },
@@ -149,10 +171,12 @@
             "desc": "adjacent allies gain a shield of 200 HP",
             "buildsFrom": [
                 {
-                    "icon": "Needlessly_Large_Rod_item.png"
+                    "icon": "Needlessly_Large_Rod_item.png",
+                    "val": "nlr"
                 },
                 {
-                    "icon": "Chain_Vest_item.png"
+                    "icon": "Chain_Vest_item.png",
+                    "val": "cv"
                 }
             ]
         },
@@ -162,10 +186,12 @@
             "desc": "enemies take 200 dmg after casting a spell",
             "buildsFrom": [
                 {
-                    "icon": "Needlessly_Large_Rod_item.png"
+                    "icon": "Needlessly_Large_Rod_item.png",
+                    "val": "nlr"
                 },
                 {
-                    "icon": "Negatron_Cloak_item.png"
+                    "icon": "Negatron_Cloak_item.png",
+                    "val": "nc"
                 }
             ]
         },
@@ -175,10 +201,12 @@
             "desc": "spells apply burn: 5% of enemies max HP/s",
             "buildsFrom": [
                 {
-                    "icon": "Needlessly_Large_Rod_item.png"
+                    "icon": "Needlessly_Large_Rod_item.png",
+                    "val": "nlr"
                 },
                 {
-                    "icon": "Giant's_Belt_item.png"
+                    "icon": "Giant's_Belt_item.png",
+                    "val": "gb"
                 }
             ]
         },
@@ -188,10 +216,12 @@
             "desc": "wearer is also sorcerer",
             "buildsFrom": [
                 {
-                    "icon": "Needlessly_Large_Rod_item.png"
+                    "icon": "Needlessly_Large_Rod_item.png",
+                    "val": "nlr"
                 },
                 {
-                    "icon": "GoldenSpatula.png"
+                    "icon": "GoldenSpatula.png",
+                    "val": "gs"
                 }
             ]
         },
@@ -201,10 +231,12 @@
             "desc": "attacks cant be dodged. 2x range",
             "buildsFrom": [
                 {
-                    "icon": "Recurve_Bow_item.png"
+                    "icon": "Recurve_Bow_item.png",
+                    "val": "rb"
                 },
                 {
-                    "icon": "Recurve_Bow_item.png"
+                    "icon": "Recurve_Bow_item.png",
+                    "val": "rb"
                 }
             ]
         },
@@ -214,10 +246,12 @@
             "desc": "every 3rd attack deals 100 splash damage",
             "buildsFrom": [
                 {
-                    "icon": "Recurve_Bow_item.png"
+                    "icon": "Recurve_Bow_item.png",
+                    "val": "rb"
                 },
                 {
-                    "icon": "Tear_of_the_Goddess_item.png"
+                    "icon": "Tear_of_the_Goddess_item.png",
+                    "val": "tog"
                 }
             ]
         },
@@ -227,10 +261,12 @@
             "desc": "wearer dodges all crit strikes",
             "buildsFrom": [
                 {
-                    "icon": "Recurve_Bow_item.png"
+                    "icon": "Recurve_Bow_item.png",
+                    "val": "rb"
                 },
                 {
-                    "icon": "Chain_Vest_item.png"
+                    "icon": "Chain_Vest_item.png",
+                    "val": "cv"
                 }
             ]
         },
@@ -240,10 +276,12 @@
             "desc": "attacks have small chance to shrink (-1*)",
             "buildsFrom": [
                 {
-                    "icon": "Recurve_Bow_item.png"
+                    "icon": "Recurve_Bow_item.png",
+                    "val": "rb"
                 },
                 {
-                    "icon": "Negatron_Cloak_item.png"
+                    "icon": "Negatron_Cloak_item.png",
+                    "val": "nc"
                 }
             ]
         },
@@ -253,10 +291,12 @@
             "desc": "attacks deal 10% of wearers max HP as splash dmg",
             "buildsFrom": [
                 {
-                    "icon": "Recurve_Bow_item.png"
+                    "icon": "Recurve_Bow_item.png",
+                    "val": "rb"
                 },
                 {
-                    "icon": "Giant's_Belt_item.png"
+                    "icon": "Giant's_Belt_item.png",
+                    "val": "gb"
                 }
             ]
         },
@@ -266,10 +306,12 @@
             "desc": "wearer is also blademaster",
             "buildsFrom": [
                 {
-                    "icon": "Recurve_Bow_item.png"
+                    "icon": "Recurve_Bow_item.png",
+                    "val": "rb"
                 },
                 {
-                    "icon": "GoldenSpatula.png"
+                    "icon": "GoldenSpatula.png",
+                    "val": "gs"
                 }
             ]
         },
@@ -279,10 +321,12 @@
             "desc": "gain 20 mana each time a spell is cast",
             "buildsFrom": [
                 {
-                    "icon": "Tear_of_the_Goddess_item.png"
+                    "icon": "Tear_of_the_Goddess_item.png",
+                    "val": "tog"
                 },
                 {
-                    "icon": "Tear_of_the_Goddess_item.png"
+                    "icon": "Tear_of_the_Goddess_item.png",
+                    "val": "tog"
                 }
             ]
         },
@@ -292,10 +336,12 @@
             "desc": "adjacent enemies lose 20% AS",
             "buildsFrom": [
                 {
-                    "icon": "Tear_of_the_Goddess_item.png"
+                    "icon": "Tear_of_the_Goddess_item.png",
+                    "val": "tog"
                 },
                 {
-                    "icon": "Chain_Vest_item.png"
+                    "icon": "Chain_Vest_item.png",
+                    "val": "cv"
                 }
             ]
         },
@@ -305,10 +351,12 @@
             "desc": "attacks have a high chance to silence",
             "buildsFrom": [
                 {
-                    "icon": "Tear_of_the_Goddess_item.png"
+                    "icon": "Tear_of_the_Goddess_item.png",
+                    "val": "tog"
                 },
                 {
-                    "icon": "Negatron_Cloak_item.png"
+                    "icon": "Negatron_Cloak_item.png",
+                    "val": "nc"
                 }
             ]
         },
@@ -318,10 +366,12 @@
             "desc": "on death: heal all nearby allies for 1000 HP",
             "buildsFrom": [
                 {
-                    "icon": "Tear_of_the_Goddess_item.png"
+                    "icon": "Tear_of_the_Goddess_item.png",
+                    "val": "tog"
                 },
                 {
-                    "icon": "Giant's_Belt_item.png"
+                    "icon": "Giant's_Belt_item.png",
+                    "val": "gb"
                 }
             ]
         },
@@ -331,10 +381,12 @@
             "desc": "wearer is also demon",
             "buildsFrom": [
                 {
-                    "icon": "Tear_of_the_Goddess_item.png"
+                    "icon": "Tear_of_the_Goddess_item.png",
+                    "val": "tog"
                 },
                 {
-                    "icon": "GoldenSpatula.png"
+                    "icon": "GoldenSpatula.png",
+                    "val": "gs"
                 }
             ]
         },
@@ -344,10 +396,12 @@
             "desc": "reflect 35% of damage from attacks",
             "buildsFrom": [
                 {
-                    "icon": "Chain_Vest_item.png"
+                    "icon": "Chain_Vest_item.png",
+                    "val": "cv"
                 },
                 {
-                    "icon": "Chain_Vest_item.png"
+                    "icon": "Chain_Vest_item.png",
+                    "val": "cv"
                 }
             ]
         },
@@ -357,10 +411,12 @@
             "desc": "attacks have a chance to disarm",
             "buildsFrom": [
                 {
-                    "icon": "Chain_Vest_item.png"
+                    "icon": "Chain_Vest_item.png",
+                    "val": "cv"
                 },
                 {
-                    "icon": "Negatron_Cloak_item.png"
+                    "icon": "Negatron_Cloak_item.png",
+                    "val": "nc"
                 }
             ]
         },
@@ -370,10 +426,12 @@
             "desc": "attacks deal 2.5% burn damage",
             "buildsFrom": [
                 {
-                    "icon": "Chain_Vest_item.png"
+                    "icon": "Chain_Vest_item.png",
+                    "val": "cv"
                 },
                 {
-                    "icon": "Giant's_Belt_item.png"
+                    "icon": "Giant's_Belt_item.png",
+                    "val": "gb"
                 }
             ]
         },
@@ -383,10 +441,12 @@
             "desc": "wearer is also knight",
             "buildsFrom": [
                 {
-                    "icon": "Chain_Vest_item.png"
+                    "icon": "Chain_Vest_item.png",
+                    "val": "cv"
                 },
                 {
-                    "icon": "GoldenSpatula.png"
+                    "icon": "GoldenSpatula.png",
+                    "val": "gs"
                 }
             ]
         },
@@ -396,10 +456,12 @@
             "desc": "gain 83% resistance to magic damage",
             "buildsFrom": [
                 {
-                    "icon": "Negatron_Cloak_item.png"
+                    "icon": "Negatron_Cloak_item.png",
+                    "val": "nc"
                 },
                 {
-                    "icon": "Negatron_Cloak_item.png"
+                    "icon": "Negatron_Cloak_item.png",
+                    "val": "nc"
                 }
             ]
         },
@@ -409,10 +471,12 @@
             "desc": "on start of combat: banish an enemy for 5s",
             "buildsFrom": [
                 {
-                    "icon": "Negatron_Cloak_item.png"
+                    "icon": "Negatron_Cloak_item.png",
+                    "val": "nc"
                 },
                 {
-                    "icon": "Giant's_Belt_item.png"
+                    "icon": "Giant's_Belt_item.png",
+                    "val": "gb"
                 }
             ]
         },
@@ -422,10 +486,12 @@
             "desc": "attacks 2 extra targets with 50% of damage",
             "buildsFrom": [
                 {
-                    "icon": "Negatron_Cloak_item.png"
+                    "icon": "Negatron_Cloak_item.png",
+                    "val": "nc"
                 },
                 {
-                    "icon": "GoldenSpatula.png"
+                    "icon": "GoldenSpatula.png",
+                    "val": "gs"
                 }
             ]
         },
@@ -435,10 +501,12 @@
             "desc": "regenerate 3% of max HP/s",
             "buildsFrom": [
                 {
-                    "icon": "Giant's_Belt_item.png"
+                    "icon": "Giant's_Belt_item.png",
+                    "val": "gb"
                 },
                 {
-                    "icon": "Giant's_Belt_item.png"
+                    "icon": "Giant's_Belt_item.png",
+                    "val": "gb"
                 }
             ]
         },
@@ -448,10 +516,12 @@
             "desc": "wearer is also glacial",
             "buildsFrom": [
                 {
-                    "icon": "Giant's_Belt_item.png"
+                    "icon": "Giant's_Belt_item.png",
+                    "val": "gb"
                 },
                 {
-                    "icon": "GoldenSpatula.png"
+                    "icon": "GoldenSpatula.png",
+                    "val": "gs"
                 }
             ]
         },
@@ -461,10 +531,12 @@
             "desc": "gain +1 team size",
             "buildsFrom": [
                 {
-                    "icon": "GoldenSpatula.png"
+                    "icon": "GoldenSpatula.png",
+                    "val": "gs"
                 },
                 {
-                    "icon": "GoldenSpatula.png"
+                    "icon": "GoldenSpatula.png",
+                    "val": "gs"
                 }
             ]
         }

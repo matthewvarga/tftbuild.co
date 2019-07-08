@@ -7,11 +7,11 @@
     align-items: center;
 
     .toggle-label {
-        color: $base-text-colour;
+        color: #7e7d7c;
         margin: 0 10px;
 
         &.toggle-active-text {
-            color: red;
+            color: $base-text-colour;
         }
     }
     

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import itemData from "./config.json";
+import ItemsTable from "./components/items-table/index";
+import ItemsChart from "./components/items-chart/index";
 import Toggle from "./components/toggle/index";
 import './index.css'
 
@@ -9,102 +10,28 @@ class Items extends Component {
         super(props);
 
         this.state = {
-            selectedCol: null,
-            selectedRow: null
+            interactiveItemViewIsActive: true
         }
     }
 
-    handleTileClick(row, col) {
-        // if we select an item from header row, we want to highlight only that column,
-        // so se the selected row to be larger than max number of rows.
-        //
-        // similarily for columns.
-        row = (row === 0) ? 9:row;
-        col = (col === 0) ? 9:col;
+    toggleItemView() {
 
-        // if we are deselecting item
-        if(row === this.state.selectedRow && col === this.state.selectedCol) {
-            row = null;
-            col = null;
-        }
+        let toggle = this.refs["items-toggle"];
+        let toggleVal = !toggle.getActiveVal();
 
-        // update
         this.setState({
-            selectedCol: col,
-            selectedRow: row,
+            interactiveItemViewIsActive: toggleVal
         });
-
-    }
-
-    getRowData(row) {
-        let items = itemData.items;
-        let result = [];
-
-        let imageBasePath = "/resources/icons/items/";
-
-        for(let col = 0, len = items[row].length; col < len; col++) {
-            if(items[row][col] != null) {
-                let item = items[row][col];
-                let imgPath = imageBasePath + item.icon;
-
-                result.push(
-                    <div className={"item-tile " + 
-                        (
-                            (
-                                (this.state.selectedCol === null && this.state.selectedRow === null) ? "" :
-                                (
-                                    (
-                                        (row === this.state.selectedRow && col <= this.state.selectedCol) || 
-                                        (col === this.state.selectedCol && row <= this.state.selectedRow)
-                                    ) ? "item-tile-highlight":"item-tile-darken"
-                                )
-
-                            )
-                        )}
-                        data-item data-item-tile-row={row} 
-                        data-item-tile-col={col} 
-                        onClick={() => this.handleTileClick(row, col)}>
-                        
-                        <img className={"item-img"} src={imgPath}/>
-                        <p className={"item-desc"}> {item.desc} </p>
-                    </div>
-                    
-                )
-            }
-            else {
-                result.push(
-                    <div className={"item-tile"}>
-                    </div>
-                )
-            }
-        }
-
-        return result;
-    }
-
-    generateTable() {
-        let items = itemData.items;
-
-        let result = [];
-
-        for(let i=0, len=items.length; i < len; i++) { 
-            result.push(
-                <div className={"item-row"}>
-                    {this.getRowData(i)}
-                </div>
-            )
-        }
-
-        return result;
     }
 
     render() {
         return (
             <div className={"items"}>
                 <h1 className={"items-title"}>ITEMS</h1>
-                <Toggle labelOne={"Interactive Chart"} labelTwo={"Simple Grid"}/>
+                <Toggle ref={"items-toggle"} labelOne={"Interactive Chart"} labelTwo={"Simple Grid"} onToggle={() => (this.toggleItemView())}/>
                 <div className={"items-content"}>
-                    {this.generateTable()}
+                    <ItemsChart className={(this.state.interactiveItemViewIsActive ? "items-content-visible": "")}/>
+                    <ItemsTable className={(!this.state.interactiveItemViewIsActive ? "items-content-visible": "")}/>
                 </div>
             </div>
         );

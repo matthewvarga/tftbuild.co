@@ -1,3 +1,5 @@
+@import "../../../../styles/variables";
+
 $icon-width: 60px;
 $icon-height: 60px;
 
@@ -30,18 +32,20 @@ $icon-height: 60px;
         z-index: 1;
         pointer-events: none;
 
+        color: $tier-one-colour;
+
         &.tier-2 {
-            color: #e99747;
+            color: $tier-two-colour;
         }
 
         &.tier-3 {
-            color: #a0f393
+            color: $tier-three-colour
         }
         &.tier-4 {
-            color: #63c5f3;
+            color: $tier-four-colour;
         }
         &.tier-5 {
-            color: #ff4949
+            color: $tier-five-colour
         }
     }
 }

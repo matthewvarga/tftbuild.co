@@ -1,0 +1,114 @@
+@import "../../../../styles/variables";
+
+
+$level-box: linear-gradient(110deg,#383802 0%,#f9ba27 78%,#f9ba27 100%);
+$level-arrow-colour: #f9ba27;
+
+.drop-rates-table {
+    color: $base-text-colour;
+    display: flex;
+    flex-direction: row;
+
+    // table column positioning styles
+    .drop-rate-table-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    // table row positioning styles
+    .drop-rate-table-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 5px;
+
+        // have heading row grow, for empty top left cell
+        &:first-child {
+            flex-grow: 1;
+            padding: 8px;
+        }
+        &:not(:first-child) {
+            height: 40px;
+        }
+
+        // add stripe background to every other row
+        &:nth-child(odd) {
+            background: #2a2f31;
+        }
+    }
+
+    // make level row, so arrow is beside div
+    .drop-rate-table-level-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    // styles for level text
+    .drop-rate-table-body-level-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: baseline;
+        background: $level-box;
+        color: black;
+        height: 30px;
+        width: 50px;
+
+
+        .drop-rate-body-level {
+            font-size: 14px;
+        }
+
+        .drop-rate-body-level-num {
+            font-size: 25px;
+        }
+    }
+
+    // styles for right arrow
+    .drop-rate-table-right-arrow {
+        width: 0; 
+        height: 0; 
+        border-top:15px solid transparent;
+        border-bottom: 15px solid transparent;
+        
+        border-left: 10px solid $level-arrow-colour;
+    }
+
+
+    // header row 1 style
+    .drop-rate-table-header-tier {
+        font-size: 16px;
+    }
+
+    // header row 2 style
+    .drop-rate-table-header-num{
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    // header row 3 style
+    .drop-rate-table-header-desc {
+        font-size: 12px;
+        padding: 0 5px;
+    }
+
+    // table text styles
+    .drop-rate-table-body-text {
+        font-size: 20px;
+    }
+
+    #drop-rate-table-header-tier-2 {
+        color: $tier-two-colour;
+    }
+    #drop-rate-table-header-tier-3 {
+        color: $tier-three-colour;
+    }
+    #drop-rate-table-header-tier-4 {
+        color: $tier-four-colour;
+    }
+    #drop-rate-table-header-tier-5 {
+        color: $tier-five-colour;
+    }
+}

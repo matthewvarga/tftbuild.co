@@ -1,0 +1,29 @@
+@import "../../styles/variables";
+@import "../../styles/mixins/mediaQueries";
+
+.champions {
+    .champions-title {
+        margin: 0;
+        text-align: center;
+        color: $base-text-colour;
+        padding: 32px;
+        font-size: 72px;
+        font-weight: 500;
+        font-family: sans-serif;
+    }
+
+    .champion-drop-rate-table {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .champion-drop-rate-table-title {
+        color: $base-text-colour;
+        font-size: 20px;
+        font-weight: 300;
+        padding: 0;
+        margin: 8px;
+    }
+}

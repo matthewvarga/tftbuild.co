@@ -11,13 +11,9 @@ class Items extends Component {
             selectedCol: null,
             selectedRow: null
         }
-
-        console.log(itemData);
     }
 
     handleTileClick(row, col) {
-        console.log(row, col);
-
         // if we select an item from header row, we want to highlight only that column,
         // so se the selected row to be larger than max number of rows.
         //
@@ -30,8 +26,6 @@ class Items extends Component {
             row = null;
             col = null;
         }
-
-        
 
         // update
         this.setState({

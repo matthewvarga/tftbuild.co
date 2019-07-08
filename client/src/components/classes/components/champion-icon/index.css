@@ -33,6 +33,7 @@
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   z-index: 1;
   pointer-events: none;
+  color: #eedab5;
 }
 
 .champion-icon .champion-icon-tier.tier-2 {

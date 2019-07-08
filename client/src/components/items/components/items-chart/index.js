@@ -66,9 +66,7 @@ class ItemsChart extends Component {
         let itemIndex = selectedItems.indexOf(item);
         
         (itemIndex === -1) ? selectedItems.push(item) : selectedItems.splice(itemIndex, 1);
-
-        console.log(selectedItems);
-
+        
         this.setState({
             selectedItems: selectedItems
         });

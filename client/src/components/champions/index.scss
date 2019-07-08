@@ -7,9 +7,13 @@
         text-align: center;
         color: $base-text-colour;
         padding: 32px;
-        font-size: 72px;
+        font-size: 52px;
         font-weight: 500;
         font-family: sans-serif;
+
+        @include breakpoint(md) { 
+            font-size: 72px;
+        }
     }
 
     .champion-drop-rate-table {

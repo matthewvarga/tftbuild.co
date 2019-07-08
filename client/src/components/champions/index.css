@@ -3,9 +3,15 @@
   text-align: center;
   color: #eedab5;
   padding: 32px;
-  font-size: 72px;
+  font-size: 52px;
   font-weight: 500;
   font-family: sans-serif;
+}
+
+@media (min-width: 768px) {
+  .champions .champions-title {
+    font-size: 72px;
+  }
 }
 
 .champions .champion-drop-rate-table {

@@ -1,4 +1,5 @@
 @import "../../../../styles/variables";
+@import "../../../../styles/mixins/mediaQueries";
 
 
 $level-box: linear-gradient(110deg,#383802 0%,#f9ba27 78%,#f9ba27 100%);
@@ -52,13 +53,19 @@ $level-arrow-colour: #f9ba27;
         justify-content: center;
         align-items: baseline;
         background: $level-box;
+        border-radius: 5px 0 0 5px;
         color: black;
         height: 30px;
         width: 50px;
+        font-size: 12px;
+
+        @include breakpoint(md) { 
+            font-size: 20px;
+        }
 
 
         .drop-rate-body-level {
-            font-size: 14px;
+            font-size: 12px;
         }
 
         .drop-rate-body-level-num {
@@ -90,13 +97,12 @@ $level-arrow-colour: #f9ba27;
 
     // header row 3 style
     .drop-rate-table-header-desc {
-        font-size: 12px;
+        font-size: 5px;
         padding: 0 5px;
-    }
 
-    // table text styles
-    .drop-rate-table-body-text {
-        font-size: 20px;
+        @include breakpoint(md) { 
+            font-size: 12px;
+        }
     }
 
     #drop-rate-table-header-tier-2 {

@@ -1,8 +1,9 @@
 @import "./styles/mixins/mediaQueries";
+@import "./styles/variables";
 
 .App {
     min-height: 100vh;
-    background: rgb(18, 23, 26);
+    background: $base-bg-colour;
 
     @include breakpoint(md) {
         //background: green;

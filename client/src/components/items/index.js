@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import itemData from "./config.json";
+import Toggle from "./components/toggle/index";
 import './index.css'
 
 class Items extends Component {
@@ -101,6 +102,7 @@ class Items extends Component {
         return (
             <div className={"items"}>
                 <h1 className={"items-title"}>ITEMS</h1>
+                <Toggle labelOne={"Interactive Chart"} labelTwo={"Simple Grid"}/>
                 <div className={"items-content"}>
                     {this.generateTable()}
                 </div>

@@ -79,13 +79,21 @@
       -ms-flex-align: baseline;
           align-items: baseline;
   background: linear-gradient(110deg, #383802 0%, #f9ba27 78%, #f9ba27 100%);
+  border-radius: 5px 0 0 5px;
   color: black;
   height: 30px;
   width: 50px;
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  .drop-rates-table .drop-rate-table-body-level-text {
+    font-size: 20px;
+  }
 }
 
 .drop-rates-table .drop-rate-table-body-level-text .drop-rate-body-level {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .drop-rates-table .drop-rate-table-body-level-text .drop-rate-body-level-num {
@@ -110,12 +118,14 @@
 }
 
 .drop-rates-table .drop-rate-table-header-desc {
-  font-size: 12px;
+  font-size: 5px;
   padding: 0 5px;
 }
 
-.drop-rates-table .drop-rate-table-body-text {
-  font-size: 20px;
+@media (min-width: 768px) {
+  .drop-rates-table .drop-rate-table-header-desc {
+    font-size: 12px;
+  }
 }
 
 .drop-rates-table #drop-rate-table-header-tier-2 {

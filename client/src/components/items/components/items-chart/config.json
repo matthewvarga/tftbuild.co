@@ -1,7 +1,7 @@
 {
     "items": [
         {
-            "name": "item name",
+            "name": "Infinity Edge",
             "icon": "Infinity_Edge_item.png",
             "desc": "crit strikes deal +100% damage",
             "buildsFrom": [
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Hextech Gunblade",
             "icon": "Hextech_Gunblade_item.png",
             "desc": "heal for 25% of all damage dealt",
             "buildsFrom": [
@@ -31,7 +31,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Sword of the Divine",
             "icon": "Sword_of_the_Divine_item.png",
             "desc": "each second: 5% chance to only crit strike",
             "buildsFrom": [
@@ -46,7 +46,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Spear of Shojin",
             "icon": "Spear_of_Shojin_item.png",
             "desc": "after spell cast: attacks give 15% of max mana",
             "buildsFrom": [
@@ -61,7 +61,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Guardian Angel",
             "icon": "Guardian_Angel_item.png",
             "desc": "wearer gets revived with 500 HP (once)",
             "buildsFrom": [
@@ -76,7 +76,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Bloodthirster",
             "icon": "The_Bloodthirster_item.png",
             "desc": "attacks heal for 50% of damage",
             "buildsFrom": [
@@ -91,7 +91,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Zekes Herald",
             "icon": "Zeke's_Herald.png",
             "desc": "djacent allies gain +10% AS",
             "buildsFrom": [
@@ -106,7 +106,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Youmuu's Ghostblade",
             "icon": "Youmuu's_Ghostblade_item.png",
             "desc": "wearer is also assassin",
             "buildsFrom": [
@@ -121,7 +121,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Rabadon's Deathcap",
             "icon": "Rabadon's_Deathcap_item.png",
             "desc": "+50% AP",
             "buildsFrom": [
@@ -136,7 +136,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Gunisoo's Rageblade",
             "icon": "Guinsoo's_Rageblade_item.png",
             "desc": "attacks grant 3% AS (stacks infinitely)",
             "buildsFrom": [
@@ -151,7 +151,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Luden's Echo",
             "icon": "Luden's_Echo_item.png",
             "desc": "spells deal 200 splash damage on hit",
             "buildsFrom": [
@@ -166,7 +166,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Locket of the Iron Solari",
             "icon": "Locket_of_the_Iron_Solari_item.png",
             "desc": "adjacent allies gain a shield of 200 HP",
             "buildsFrom": [
@@ -181,7 +181,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Ionic Spark",
             "icon": "Ionic_Spark.png",
             "desc": "enemies take 200 dmg after casting a spell",
             "buildsFrom": [
@@ -196,7 +196,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Morellonomicon",
             "icon": "Morellonomicon_item.png",
             "desc": "spells apply burn: 5% of enemies max HP/s",
             "buildsFrom": [
@@ -211,7 +211,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Yummi",
             "icon": "Yummi.png",
             "desc": "wearer is also sorcerer",
             "buildsFrom": [
@@ -226,7 +226,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Rapid Fire Cannon",
             "icon": "Rapid_Firecannon_item.png",
             "desc": "attacks cant be dodged. 2x range",
             "buildsFrom": [
@@ -241,7 +241,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Statikk Shiv",
             "icon": "Statikk_Shiv_item.png",
             "desc": "every 3rd attack deals 100 splash damage",
             "buildsFrom": [
@@ -256,7 +256,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Phantom Dancer",
             "icon": "Phantom_Dancer_item.png",
             "desc": "wearer dodges all crit strikes",
             "buildsFrom": [
@@ -271,7 +271,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Dervish Blade",
             "icon": "Dervish_Blade.png",
             "desc": "attacks have small chance to shrink (-1*)",
             "buildsFrom": [
@@ -286,7 +286,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Titanic Hydra",
             "icon": "Titanic_Hydra_item.png",
             "desc": "attacks deal 10% of wearers max HP as splash dmg",
             "buildsFrom": [
@@ -301,7 +301,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Blade of the Ruined King",
             "icon": "Blade_of_the_Ruined_King_item.png",
             "desc": "wearer is also blademaster",
             "buildsFrom": [
@@ -316,7 +316,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Seraph's Embrace",
             "icon": "Seraph's_Embrace_item.png",
             "desc": "gain 20 mana each time a spell is cast",
             "buildsFrom": [
@@ -331,7 +331,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Frozen Heart",
             "icon": "Frozen_Heart_item.png",
             "desc": "adjacent enemies lose 20% AS",
             "buildsFrom": [
@@ -346,7 +346,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Hush",
             "icon": "Hush_item.png",
             "desc": "attacks have a high chance to silence",
             "buildsFrom": [
@@ -361,7 +361,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Redemption",
             "icon": "Redemption_item.png",
             "desc": "on death: heal all nearby allies for 1000 HP",
             "buildsFrom": [
@@ -376,7 +376,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Demon",
             "icon": "Demon.png",
             "desc": "wearer is also demon",
             "buildsFrom": [
@@ -391,7 +391,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Thornmail",
             "icon": "Thornmail_item.png",
             "desc": "reflect 35% of damage from attacks",
             "buildsFrom": [
@@ -406,7 +406,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Sword Breaker",
             "icon": "Sword_Breaker_item.png",
             "desc": "attacks have a chance to disarm",
             "buildsFrom": [
@@ -421,7 +421,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Red Buff",
             "icon": "Burn.png",
             "desc": "attacks deal 2.5% burn damage",
             "buildsFrom": [
@@ -436,7 +436,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Knight's Vow",
             "icon": "Knight's_Vow_item.png",
             "desc": "wearer is also knight",
             "buildsFrom": [
@@ -451,7 +451,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Dragon's Claw",
             "icon": "Dragon's_Claw_item.png",
             "desc": "gain 83% resistance to magic damage",
             "buildsFrom": [
@@ -466,7 +466,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Zephyr",
             "icon": "Zephyr.png",
             "desc": "on start of combat: banish an enemy for 5s",
             "buildsFrom": [
@@ -481,7 +481,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Runaan's Hurricane",
             "icon": "Runaan's_Hurricane_item.png",
             "desc": "attacks 2 extra targets with 50% of damage",
             "buildsFrom": [
@@ -496,7 +496,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Warmog's Armor",
             "icon": "Warmog's_Armor_item.png",
             "desc": "regenerate 3% of max HP/s",
             "buildsFrom": [
@@ -511,7 +511,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Frozen Mallet",
             "icon": "Frozen_Mallet_item.png",
             "desc": "wearer is also glacial",
             "buildsFrom": [
@@ -526,7 +526,7 @@
             ]
         },
         {
-            "name": "item name",
+            "name": "Force of Nature",
             "icon": "Force_of_Nature.png",
             "desc": "gain +1 team size",
             "buildsFrom": [

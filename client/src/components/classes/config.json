@@ -224,18 +224,18 @@
         },
         {
             "name": "DEMON",
-            "desc": "(2x) 30%, (4x) 50%, (6x) 70% chance to burn targets mana and deal it as true damage",
+            "desc": "(2x) 40%, (4x) 60%, (6x) 80% chance to burn targets mana and deal 100%, 200%, 400% of it as true damage",
             "champions": [
                 [
                     {
-                        "name": "varus",
-                        "icon": "VarusSquare.png",
-                        "tier": 2,
-                        "cost": 2
-                    },
-                    {
                         "name": "elise",
                         "icon": "EliseSquare.png",
+                        "tier": 1,
+                        "cost": 1
+                    },
+                    {
+                        "name": "varus",
+                        "icon": "VarusSquare.png",
                         "tier": 2,
                         "cost": 2
                     },
@@ -292,6 +292,12 @@
                         "cost": 2
                     },
                     {
+                        "name": "twistedfate",
+                        "icon": "TwistedFateSquare.png",
+                        "tier": 2,
+                        "cost": 2
+                    },
+                    {
                         "name": "gangplank",
                         "icon": "GangplankSquare.png",
                         "tier": 3,
@@ -310,7 +316,7 @@
         },
         {
             "name": "YORDLE",
-            "desc": "(3x) 20%, (6x) 50% chance for enemies to miss against yordles",
+            "desc": "(3x) 25%, (6x) 60% chance for enemies to miss against yordles",
             "champions": [
                 [
                     {
@@ -356,7 +362,7 @@
         },
         {
             "name": "WILD",
-            "desc": "every attack gives 7% attack speed (2x) for wild allies, (4x) for all allies",
+            "desc": "every attack gives 8% attack speed (2x) for wild allies, (4x) for all allies",
             "champions": [
                 [
                     {
@@ -670,6 +676,12 @@
                     {
                         "name": "ahri",
                         "icon": "AhriSquare.png",
+                        "tier": 2,
+                        "cost": 2
+                    },
+                    {
+                        "name": "twistedfate",
+                        "icon": "TwistedFateSquare.png",
                         "tier": 2,
                         "cost": 2
                     },

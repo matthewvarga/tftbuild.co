@@ -36,6 +36,9 @@
 }
 
 @media (min-width: 992px) {
+  .classes .classes-content .class-card.num-5 {
+    width: 335px;
+  }
   .classes .classes-content .class-card.num-4 {
     width: 270px;
   }

@@ -296,15 +296,15 @@
                         "icon": "TwistedFateSquare.png",
                         "tier": 2,
                         "cost": 2
-                    },
+                    }
+                ],
+                [
                     {
                         "name": "gangplank",
                         "icon": "GangplankSquare.png",
                         "tier": 3,
                         "cost": 3
-                    }
-                ],
-                [
+                    },
                     {
                         "name": "missfortune",
                         "icon": "MissfortuneSquare.png",

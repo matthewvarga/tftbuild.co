@@ -230,8 +230,8 @@
                     {
                         "name": "elise",
                         "icon": "EliseSquare.png",
-                        "tier": 1,
-                        "cost": 1
+                        "tier": 2,
+                        "cost": 2
                     },
                     {
                         "name": "varus",

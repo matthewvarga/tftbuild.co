@@ -14,6 +14,12 @@
 
     .toggle {
         margin-bottom: 32px;
+        display: none;
+
+        // show toggle for md + (since table only visible for md+)
+        @include breakpoint(md) {
+            display: flex;
+        }
     }
 
     // toggle items table and chart
@@ -21,6 +27,15 @@
         display: none;
         
         &.items-content-visible {
+            display: flex;
+        }
+    }
+    // when on smaller than md screen, force item chart
+    @media (max-width: 768px) {
+        .items-table {
+            display: none;
+        }
+        .items-chart {
             display: flex;
         }
     }

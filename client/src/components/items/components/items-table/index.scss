@@ -3,26 +3,16 @@
 
 .items-table {
     display: flex;
-        flex-direction: column;
-        align-items: center;
+    flex-direction: column;
+    align-items: center;
 
-        
-        // hidden on sm, only visible on md +
         .item-row {
-            display: none;
-        }
+            display: flex;
+            flex-direction: row;
 
-        // make item rows visible on md +
-        @include breakpoint(md) {
-            .item-row {
-                display: flex;
-                flex-direction: row;
-    
-                // header row 
-                &:first-child {
-                    background: rgb(42, 47, 49);
-                }
-        
+            // header row 
+            &:first-child {
+                background: rgb(42, 47, 49);
             }
         }
 
@@ -38,17 +28,6 @@
             // change width for xl + since we show description on larger bps
             @include breakpoint(xl) {
                 width: 120px;
-            }
-            
-            .item-row {
-            display: flex;
-            flex-direction: row;
-
-                // header row 
-                &:first-child {
-                    background: rgb(42, 47, 49);
-                }
-    
             }
 
             // left most column

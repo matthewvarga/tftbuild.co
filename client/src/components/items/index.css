@@ -10,6 +10,15 @@
 
 .items .toggle {
   margin-bottom: 32px;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .items .toggle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .items .items-table, .items .items-chart {
@@ -20,5 +29,16 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media (max-width: 768px) {
+  .items .items-table {
+    display: none;
+  }
+  .items .items-chart {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 /*# sourceMappingURL=index.css.map */

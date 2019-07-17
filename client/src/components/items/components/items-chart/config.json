@@ -63,7 +63,7 @@
         {
             "name": "Guardian Angel",
             "icon": "Guardian_Angel_item.png",
-            "desc": "wearer gets revived with 500 HP (once)",
+            "desc": "wearer gets revived with 1000 HP (once)",
             "buildsFrom": [
                 {
                     "icon": "B._F._Sword_item.png",
@@ -93,7 +93,7 @@
         {
             "name": "Zekes Herald",
             "icon": "Zeke's_Herald.png",
-            "desc": "djacent allies gain +10% AS",
+            "desc": "djacent allies gain +15% AS",
             "buildsFrom": [
                 {
                     "icon": "B._F._Sword_item.png",
@@ -138,7 +138,7 @@
         {
             "name": "Gunisoo's Rageblade",
             "icon": "Guinsoo's_Rageblade_item.png",
-            "desc": "attacks grant 3% AS (stacks infinitely)",
+            "desc": "attacks grant 4% AS (stacks infinitely)",
             "buildsFrom": [
                 {
                     "icon": "Needlessly_Large_Rod_item.png",
@@ -168,7 +168,7 @@
         {
             "name": "Locket of the Iron Solari",
             "icon": "Locket_of_the_Iron_Solari_item.png",
-            "desc": "adjacent allies gain a shield of 200 HP",
+            "desc": "adjacent allies and wearer gain a shield of 300 HP",
             "buildsFrom": [
                 {
                     "icon": "Needlessly_Large_Rod_item.png",
@@ -183,7 +183,7 @@
         {
             "name": "Ionic Spark",
             "icon": "Ionic_Spark.png",
-            "desc": "enemies take 200 dmg after casting a spell",
+            "desc": "enemies take 200 true damage after casting a spell",
             "buildsFrom": [
                 {
                     "icon": "Needlessly_Large_Rod_item.png",
@@ -198,7 +198,7 @@
         {
             "name": "Morellonomicon",
             "icon": "Morellonomicon_item.png",
-            "desc": "spells apply burn: 5% of enemies max HP/s",
+            "desc": "spells apply burn: 3% of enemies max HP/s",
             "buildsFrom": [
                 {
                     "icon": "Needlessly_Large_Rod_item.png",
@@ -363,7 +363,7 @@
         {
             "name": "Redemption",
             "icon": "Redemption_item.png",
-            "desc": "on death: heal all nearby allies for 1000 HP",
+            "desc": "at 25% HP, heal all nearby allies for 1000 HP",
             "buildsFrom": [
                 {
                     "icon": "Tear_of_the_Goddess_item.png",
@@ -393,7 +393,7 @@
         {
             "name": "Thornmail",
             "icon": "Thornmail_item.png",
-            "desc": "reflect 35% of damage from attacks",
+            "desc": "reflect 100% of physical damage mitigated as true damage",
             "buildsFrom": [
                 {
                     "icon": "Chain_Vest_item.png",
@@ -483,7 +483,7 @@
         {
             "name": "Runaan's Hurricane",
             "icon": "Runaan's_Hurricane_item.png",
-            "desc": "attacks 2 extra targets with 50% of damage",
+            "desc": "attacks 1 extra targets with 25% of damage and applies on-hit effects",
             "buildsFrom": [
                 {
                     "icon": "Negatron_Cloak_item.png",
@@ -498,7 +498,7 @@
         {
             "name": "Warmog's Armor",
             "icon": "Warmog's_Armor_item.png",
-            "desc": "regenerate 3% of max HP/s",
+            "desc": "regenerate 6% of max HP/s",
             "buildsFrom": [
                 {
                     "icon": "Giant's_Belt_item.png",

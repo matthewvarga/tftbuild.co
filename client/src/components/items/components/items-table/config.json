@@ -12,7 +12,7 @@
             },
             {
                 "icon": "Recurve_Bow_item.png", 
-                "desc": "+15% attack speed"
+                "desc": "+20% attack speed"
             },
             {
                 "icon": "Tear_of_the_Goddess_item.png", 
@@ -58,7 +58,7 @@
             },
             {
                 "icon": "Guardian_Angel_item.png", 
-                "desc": "wearer gets revived with 500 HP (once)"
+                "desc": "wearer gets revived with 1000 HP (once)"
             },
             {
                 "icon": "The_Bloodthirster_item.png", 
@@ -66,7 +66,7 @@
             },
             {
                 "icon": "Zeke's_Herald.png", 
-                "desc": "adjacent allies gain +10% AS"
+                "desc": "adjacent allies gain +15% AS"
             },
             {
                 "icon": "Youmuu's_Ghostblade_item.png", 
@@ -88,7 +88,7 @@
             },
             {
                 "icon": "Guinsoo's_Rageblade_item.png", 
-                "desc": "attacks grant 3% AS (stacks infinitely)"
+                "desc": "attacks grant 4% AS (stacks infinitely)"
             },
             {
                 "icon": "Luden's_Echo_item.png", 
@@ -96,15 +96,15 @@
             },
             {
                 "icon": "Locket_of_the_Iron_Solari_item.png", 
-                "desc": "adjacent allies gain a shield of 200 HP"
+                "desc": "wearer and adjacent allies gain a shield of 300 HP"
             },
             {
                 "icon": "Ionic_Spark.png", 
-                "desc": "enemies take 200 dmg after casting a spell"
+                "desc": "enemies take 200 true dmg after casting a spell"
             },
             {
                 "icon": "Morellonomicon_item.png", 
-                "desc": "spells apply burn: 5% of enemies max HP/s"
+                "desc": "spells apply burn: 3% of enemies max HP/s"
             },
             {
                 "icon": "Yummi.png", 
@@ -122,7 +122,7 @@
             },
             {
                 "icon": "Guinsoo's_Rageblade_item.png", 
-                "desc": "attacks grant 3% AS (staks infinitely)"
+                "desc": "attacks grant 4% AS (staks infinitely)"
             },
             {
                 "icon": "Rapid_Firecannon_item.png", 
@@ -180,7 +180,7 @@
             },
             {
                 "icon": "Redemption_item.png", 
-                "desc": "on death: heal all nearby allies for 1000 HP"
+                "desc": "at 25% HP, heal all nearby allies for 1000 HP"
             },
             {
                 "icon": "Demon.png", 
@@ -194,11 +194,11 @@
             },
             {
                 "icon": "Guardian_Angel_item.png", 
-                "desc": "wearer gets revived with 500 HP (once)"
+                "desc": "wearer gets revived with 1000 HP (once)"
             },
             {
                 "icon": "Locket_of_the_Iron_Solari_item.png", 
-                "desc": "adjacent allies gain a shield of 200 HP"
+                "desc": "wearer and adjacent allies gain a shield of 300 HP"
             },
             {
                 "icon": "Phantom_Dancer_item.png", 
@@ -210,7 +210,7 @@
             },
             {
                 "icon": "Thornmail_item.png", 
-                "desc": "reflect 35% of damage from attacks"
+                "desc": "reflect 100% of damage mitigated as true damage"
             },
             {
                 "icon": "Sword_Breaker_item.png", 
@@ -236,7 +236,7 @@
             },
             {
                 "icon": "Ionic_Spark.png", 
-                "desc": "enemies take 200 dmg after casting a spell"
+                "desc": "enemies take 200 true dmg after casting a spell"
             },
             {
                 "icon": "Dervish_Blade.png", 
@@ -260,7 +260,7 @@
             },
             {
                 "icon": "Runaan's_Hurricane_item.png", 
-                "desc": "attacks 2 extra targets with 50% of damage"
+                "desc": "attacks 1 extra targets with 25% of damage. Applies on-hit effects"
             }
         ],
         [
@@ -270,11 +270,11 @@
             },
             {
                 "icon": "Zeke's_Herald.png", 
-                "desc": "adjacent allies gain +10% AS"
+                "desc": "adjacent allies gain +15% AS"
             },
             {
                 "icon": "Morellonomicon_item.png", 
-                "desc": "spells apply burn: 5% of enemies max HP/s"
+                "desc": "spells apply burn: 3% of enemies max HP/s"
             },
             {
                 "icon": "Titanic_Hydra_item.png", 
@@ -282,7 +282,7 @@
             },
             {
                 "icon": "Redemption_item.png", 
-                "desc": "on death: heal all nearby allies for 1000 HP"
+                "desc": "at 25% HP, heal all nearby allies for 1000 HP"
             },
             {
                 "icon": "Burn.png", 
@@ -294,7 +294,7 @@
             },
             {
                 "icon": "Warmog's_Armor_item.png", 
-                "desc": "regenerate 3% of max HP/s"
+                "desc": "regenerate 6% of max HP/s"
             },
             {
                 "icon": "Frozen_Mallet_item.png", 
@@ -328,7 +328,7 @@
             },
             {
                 "icon": "Runaan's_Hurricane_item.png", 
-                "desc": "attacks 2 extra targets with 50% of damage"
+                "desc": "attacks 1 extra targets with 50% of damage. Applies on-hit effects"
             },
             {
                 "icon": "Frozen_Mallet_item.png", 

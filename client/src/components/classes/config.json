@@ -224,14 +224,14 @@
         },
         {
             "name": "DEMON",
-            "desc": "(2x) 40%, (4x) 60%, (6x) 80% chance to burn targets mana and deal 100%, 200%, 400% of it as true damage",
+            "desc": "(2x) 25%, (4x) 50%, (6x) 85% chance to burn targets mana and deal 100%, 200%, 400% of it as true damage",
             "champions": [
                 [
                     {
                         "name": "elise",
                         "icon": "EliseSquare.png",
-                        "tier": 2,
-                        "cost": 2
+                        "tier": 1,
+                        "cost": 1
                     },
                     {
                         "name": "varus",
@@ -528,7 +528,7 @@
         },
         {
             "name": "GUNSLINGER",
-            "desc": "50% chance each attack to hit (2x) an additional, (4x) all targets in range",
+            "desc": "50% chance each attack to hit (2x) 1, (4x) 2 extra targets",
             "champions": [
                 [
                     {
@@ -602,7 +602,7 @@
         },
         {
             "name": "ELEMENTALIST",
-            "desc": "(3x) elementalist gain double mana from attacks and summon a golem",
+            "desc": "(3x) elementalist gain double mana from attacks and summon a golem with 2500 health and 100 damage",
             "champions": [
                 [
                     {
@@ -820,7 +820,7 @@
         },
         {
             "name": "SHAPESHIFTER",
-            "desc": "(3x) gain 100% max hp on transform",
+            "desc": "(3x) gain 60% max hp on transform",
             "champions": [
                 [
                     {
@@ -832,8 +832,8 @@
                     {
                         "name": "elise",
                         "icon": "EliseSquare.png",
-                        "tier": 2,
-                        "cost": 2
+                        "tier": 1,
+                        "cost": 1
                     },
                     {
                         "name": "shyvana",

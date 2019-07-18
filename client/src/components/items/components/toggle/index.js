@@ -12,7 +12,6 @@ class Toggle extends Component {
     }
 
     toggleSwitch() {
-        console.log("toggle");
         this.props.onToggle();
         this.setState((prevState, props) => ({
             active: !prevState.active
@@ -24,7 +23,6 @@ class Toggle extends Component {
     }
 
     render() {
-        console.log("active: " + this.state.active);
         return (
             <div className={"toggle"}>
                 <span className={"toggle-label " + (this.state.active ? "toggle-active-text":"")}>{this.props.labelOne}</span>

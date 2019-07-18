@@ -6,6 +6,20 @@ The only `Go` dependency is `Gin`. To install, use the following:
 1) `go get -u github.com/gin-gonic/gin`
 2) `go get -u github.com/gin-gonic/contrib/static`
 
+# Development
+
+To build the application for development, you will need to have Go installed for backend work, and npm/node.js installed for front-end.
+
+The only go dependencies are listed above under the server dependencies.
+
+## Font-End
+
+To begin development on the front-end, cd into the client directory, and run `npm install` to install any required dependencies. Next simply run `npm start` to have the application up and running on localhost:3000. Note: if you require communication with the server, first follow the steps under back-end development to get the server running, but still work on port 3000.
+
+## Back-End
+
+To begin development on the back-end, simply use `go run main.go` and navigate to localhost:5000 to have the application up and running.
+
 # Deployment
 
 1) stop server for update: `sudo systemctl stop tftbuild`

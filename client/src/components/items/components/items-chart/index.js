@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import itemData from "./config.json";
+import ItemCard from "./components/item-card/index";
 import './index.css'
 
 class ItemsChart extends Component {
@@ -24,36 +25,38 @@ class ItemsChart extends Component {
     generateItemCards() {
         let items = itemData.items;
         let baseImgPath = "/resources/icons/items/";
-        let result = [];
+        let fullItems = []; // items with both prereqs selected
+        let partialItems = []; // items with 1 prereq selected
+        let emptyItems = []; // items with no prereqs selected
 
         for(let i = 0, len = items.length; i < len; i++) {
             let item = items[i];
 
             // true if both base items are selected
-            let highlightItem = this.state.selectedItems.includes(item.buildsFrom[0].val) && this.state.selectedItems.includes(item.buildsFrom[1].val);
-            
+            let numPreReqs = (this.state.selectedItems.includes(item.buildsFrom[0].val) ? 1: 0) + (this.state.selectedItems.includes(item.buildsFrom[1].val) ? 1: 0)
 
-            let itemEl = (
-                <div className={"items-chart-card " + (highlightItem ? "items-chart-card-highlight":"")}>
-                    <span className={"items-chart-card-title"}>{item.name}</span>
-                    <div className={"items-chart-card-content"}>
-                        <img className={"items-chart-card-main-img"} src={baseImgPath + item.icon}/>
-                        <span className={"items-chart-builds-from"}>builds from</span>
-                        <div className={"items-chart-card-secondary-items-row"}>
-                            <img className={"items-chart-card-secondary-img " + (this.state.selectedItems.includes(item.buildsFrom[0].val) ? "items-chart-card-secondary-img-highlight":"")} src={baseImgPath + item.buildsFrom[0].icon}/>
-                            <img className={"items-chart-card-secondary-img " + (this.state.selectedItems.includes(item.buildsFrom[1].val) ? "items-chart-card-secondary-img-highlight":"")} src={baseImgPath + item.buildsFrom[1].icon}/>
-                        </div>
-                        <p className={"items-chart-card-desc"}>
-                            {item.desc}
-                        </p>
-                    </div>
-                </div>
-            );
+            let itemEl = <ItemCard highlighted={numPreReqs===2} 
+                          title={item.name} 
+                          mainImg={baseImgPath + item.icon}
+                          secondaryLeftImg={baseImgPath + item.buildsFrom[0].icon}
+                          secondaryLeftImgHighlighted={this.state.selectedItems.includes(item.buildsFrom[0].val)}
+                          secondaryRightImg={baseImgPath + item.buildsFrom[1].icon}
+                          secondaryRightImgHighlighted={this.state.selectedItems.includes(item.buildsFrom[1].val)}
+                          description={item.desc}/>;
 
             // move highlighted items to the front of list
-            highlightItem ? result.unshift(itemEl) : result.push(itemEl);   
+            if(numPreReqs === 2) {
+                fullItems.push(itemEl);
+            }
+            else if(numPreReqs === 1) {
+                partialItems.push(itemEl);
+            }
+            else {
+                emptyItems.push(itemEl);
+            } 
         }
-
+        let result = fullItems.concat(partialItems);
+        result = result.concat(emptyItems);
         return result;
     }
 

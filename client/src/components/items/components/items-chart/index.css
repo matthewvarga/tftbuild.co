@@ -34,12 +34,6 @@
   margin: 0 16px 16px 16px;
 }
 
-.items-chart .items-chart-title {
-  color: #eedab5;
-  font-size: 16px;
-  font-weight: 300;
-}
-
 .items-chart .items-chart-card-base-img {
   width: 64px;
   height: 64px;
@@ -54,6 +48,12 @@
   border: 3px solid white;
 }
 
+.items-chart .items-chart-title {
+  color: #eedab5;
+  font-size: 16px;
+  font-weight: 300;
+}
+
 .items-chart .items-chart-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -66,83 +66,7 @@
   color: #eedab5;
 }
 
-.items-chart .items-chart-card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 10px 5px;
-  width: 45%;
-}
-
-@media (min-width: 480px) {
-  .items-chart .items-chart-card {
-    width: 145px;
-  }
-}
-
-.items-chart .items-chart-card.items-chart-card-highlight {
-  background: #2a2f31;
-}
-
-.items-chart .items-chart-card-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.items-chart .items-chart-card-secondary-items-row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.items-chart .items-chart-card-main-img {
-  width: 50px;
-  height: 50px;
-  margin: 5px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 2px solid black;
-}
-
 .items-chart .items-chart-builds-from {
   font-size: 10px;
-}
-
-.items-chart .items-chart-card-secondary-img {
-  width: 30px;
-  height: 30px;
-  margin: 3px 10px;
-  border: 1px solid black;
-}
-
-.items-chart .items-chart-card-secondary-img-highlight {
-  border: 1px solid white;
-}
-
-.items-chart .items-chart-card-desc {
-  text-align: center;
-  font-size: 12px;
-  padding: 0;
-  margin: 0;
 }
 /*# sourceMappingURL=index.css.map */

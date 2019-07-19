@@ -1,0 +1,27 @@
+.navbar {
+    background:#aeaeaeed;
+    display: flex;
+    flex-direction: column;
+    min-width: 230px;
+    width: 230px;
+    margin-left: -170px;
+    transition: .25s ease-in-out;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+    &.open {
+        margin-left: 0;
+    }
+
+    .navbar-header-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 5px;
+    }
+
+    .navbar-header-title {
+        margin: 0;
+        padding: 0;
+    }
+}

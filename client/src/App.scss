@@ -16,4 +16,7 @@
     @include breakpoint(xl) {
         //background: yellow;
     }
+
+    display: flex;
+    flex-direction: row;
 }

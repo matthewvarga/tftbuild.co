@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAGA,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,KAAK;EACjB,UAAU,EELG,OAAe;CFkB/B",
+    "mappings": "AAGA,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,KAAK;EACjB,UAAU,EELG,OAAe;EFmB5B,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;CACtB",
     "sources": [
         "App.scss",
         "styles/mixins/mediaQueries.scss",

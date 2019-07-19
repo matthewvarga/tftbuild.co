@@ -8,9 +8,13 @@
         color: $primary-font-colour;
         text-shadow: $primary-text-shadow;
         padding: 32px 32px 0 32px;
-        font-size: 72px;
+        font-size: 48px;
         font-weight: 500;
         font-family: sans-serif;
+
+        @include breakpoint(md) { 
+            font-size: 72px;
+        }
     }
 
     .toggle {
@@ -34,7 +38,7 @@
     // when on smaller than md screen, force item chart
     @media (max-width: 768px) {
         .items-table {
-            display: none;
+            display: none !important; // TODO clean up so doesn't need important
         }
         .items-chart {
             display: flex;

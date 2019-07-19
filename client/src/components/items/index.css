@@ -4,9 +4,15 @@
   color: #eedab5;
   text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
   padding: 32px 32px 0 32px;
-  font-size: 72px;
+  font-size: 48px;
   font-weight: 500;
   font-family: sans-serif;
+}
+
+@media (min-width: 768px) {
+  .items .items-title {
+    font-size: 72px;
+  }
 }
 
 .items .toggle {
@@ -34,7 +40,7 @@
 
 @media (max-width: 768px) {
   .items .items-table {
-    display: none;
+    display: none !important;
   }
   .items .items-chart {
     display: -webkit-box;

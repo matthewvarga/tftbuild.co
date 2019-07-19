@@ -7,10 +7,15 @@
     align-items: center;
     border: $main-border-style;
     padding: 10px 5px;
-    width: 45%;
+    width: 100%;
     background: $secondary-light-grey;
     margin: 1px;
     color: $secondary-font-colour;
+
+    // one-off size
+    @media (min-width: 334px) {
+        width: 45%;
+    }
 
     // change item card size from dynamic to fixed
     @include breakpoint(sm) {

@@ -8,9 +8,13 @@
         color: $primary-font-colour;
         text-shadow: $primary-text-shadow;
         padding: 32px;
-        font-size: 72px;
+        font-size: 48px;
         font-weight: 500;
         font-family: sans-serif;
+
+        @include breakpoint(md) { 
+            font-size: 72px;
+        }
     }
 
     .classes-content {

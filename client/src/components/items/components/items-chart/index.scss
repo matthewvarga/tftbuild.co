@@ -14,8 +14,12 @@
         align-items: center;
         flex-wrap: wrap;
         border: $main-border-style;
-        margin: 0 16px 16px 16px;
+        margin: 0 6px 9px 6px;
         background: $secondary-light-grey;
+
+        @include breakpoint(md) {
+            margin: 0 16px 16px 16px;
+        }
     }
 
     .items-chart-card-base-img {
@@ -40,8 +44,14 @@
 
     .items-chart-title {
         color: $secondary-font-colour;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 300;
+        text-align: center;
+
+        // one-off size
+        @include breakpoint(md) {
+            font-size: 16px;
+        }
     }
 
     .items-chart-content {

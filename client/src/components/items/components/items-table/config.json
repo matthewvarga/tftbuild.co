@@ -218,7 +218,7 @@
             },
             {
                 "icon": "Burn.png", 
-                "desc": "attacks deal 2.5% burn damage"
+                "desc": "attacks deal 13% of enemies max HP as burn damage"
             },
             {
                 "icon": "Knight's_Vow_item.png", 
@@ -286,7 +286,7 @@
             },
             {
                 "icon": "Burn.png", 
-                "desc": "attacks deal 2.5% burn damage"
+                "desc": "attacks deal 13% of enemies max HP as burn damage"
             },
             {
                 "icon": "Zephyr.png", 

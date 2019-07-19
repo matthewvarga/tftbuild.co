@@ -18,7 +18,7 @@
         {
             "name": "Hextech Gunblade",
             "icon": "Hextech_Gunblade_item.png",
-            "desc": "heal for 25% of all damage dealt",
+            "desc": "heal for 33% of all damage dealt",
             "buildsFrom": [
                 {
                     "icon": "B._F._Sword_item.png",
@@ -423,7 +423,7 @@
         {
             "name": "Red Buff",
             "icon": "Burn.png",
-            "desc": "attacks deal 2.5% burn damage",
+            "desc": "attacks deal 13% of enemies max HP as burn damage",
             "buildsFrom": [
                 {
                     "icon": "Chain_Vest_item.png",

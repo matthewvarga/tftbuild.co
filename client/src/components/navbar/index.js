@@ -37,6 +37,7 @@ class NavBar extends Component {
     }
 
     selectTab(tabIndex) {
+        console.log("selecting the tab: " + tabIndex);
         this.props.onSelectTab(tabIndex);
         this.setState({
             activeTab: tabIndex

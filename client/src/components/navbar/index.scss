@@ -19,7 +19,12 @@
     .navbar-content {
         position: fixed;
         display: flex;
+        flex-direction: column;
         width: 230px;
+    }
+
+    .navbar-items {
+        margin-top: 30px;
     }
 
     .navbar-header-row {
@@ -40,5 +45,29 @@
         flex-direction: row;
         justify-content: center;
         flex-grow: 1;
+    }
+
+    .navbar-item-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 8px;
+        cursor: pointer;
+
+        &:hover {
+            background: $secondary-light-grey;
+        }
+    }
+
+    .navbar-item-row-title {
+        margin: 0;
+        padding: 0;
+        color: $primary-font-colour;
+        font-weight: 300;
+    }
+
+    .navbar-item-row-icon {
+        width: 40px;
     }
 }

@@ -17,8 +17,6 @@ class App extends Component {
 
 	// scroll the page to the selected tabs content
 	showTabContent(tabIndex) {
-
-		console.log("showing tab content for tab: " + tabIndex);
 		let scrollToEl;
 
 		switch(tabIndex) {
@@ -36,10 +34,7 @@ class App extends Component {
 		}
 
 		let boundingBox = scrollToEl.getBoundingClientRect();
-		console.log("scroll to el");
-		console.log(scrollToEl);
-		console.log(boundingBox);
-		window.scrollTo(0, boundingBox.y);
+		window.scrollTo(0, window.scrollY + boundingBox.y);
 	}
 
 	// returns how visible an elemnt is horizontally as a percentage.
@@ -53,15 +48,26 @@ class App extends Component {
 
 		// if the el is completely below what is visible, or completely above
 		// then 0% of it is visible.
-		if((clientRect.y > screenHeight) || (clientRect.bottom <= 0)) {
+		if((clientRect.bottom < 0) || (clientRect.y > screenHeight)) {
 			visiblePercentage = 0;
 		}
+		// div takes up entire screen view
+		else if(clientRect.y <= 0 && clientRect.bottom > screenHeight) {
+			visiblePercentage = 1;
+		}
 		// otherwise, it is partially visible.
+		// TODO clean this up
 		else {
-			let visibleHeight = screenHeight - Math.abs(clientRect.y);
+			let visibleHeight;
+			if(clientRect.y <= 0) {
+				visibleHeight = clientRect.height - Math.abs(clientRect.y);
+			}
+			else {
+				visibleHeight = screenHeight - clientRect.y;
+			}
+
 			visiblePercentage = visibleHeight / screenHeight;
 		}
-
 		return visiblePercentage;
 	}
 
@@ -69,7 +75,6 @@ class App extends Component {
 	// checks which section (items, classes, champions) is most in view (percentage)
 	// and sets it as the active section on navbar
 	handleScroll() {
-		console.log("handling scroll");
 		let items = document.getElementById("items");
 		let classes = document.getElementById("classes");
 		let champions = document.getElementById("champions");

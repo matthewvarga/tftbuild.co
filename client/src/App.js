@@ -32,8 +32,6 @@ class App extends Component {
 			default:
 				scrollToEl = document.getElementById("items");
 		}
-
-		console.log(scrollToEl);
 		scrollToEl.scrollIntoView({behavior: "smooth", block:"start"});// currently not supported in IE, and safari
 	}
 
@@ -61,6 +59,8 @@ class App extends Component {
 	}
 
 
+	// checks which section (items, classes, champions) is most in view (percentage)
+	// and sets it as the active section on navbar
 	handleScroll() {
 		let items = document.getElementById("items");
 		let classes = document.getElementById("classes");
@@ -78,9 +78,6 @@ class App extends Component {
 			}
 		}
 
-		console.log("handled scroll");
-		console.log("most visible tab is: " + maxVisiblePercentageTabIndex);
-
 		if(maxVisiblePercentageTabIndex != this.state.activeTab) {
 			this.setState({
 				activeTab: maxVisiblePercentageTabIndex
@@ -90,7 +87,6 @@ class App extends Component {
 	}
 
 	render() {
-		console.log("rendering");
 		return (
 		<div className="App">
 			<NavBar activeTab={this.state.activeTab} onSelectTab={(tabIndex) => this.showTabContent(tabIndex)} onScroll={() => this.handleScroll()}/>

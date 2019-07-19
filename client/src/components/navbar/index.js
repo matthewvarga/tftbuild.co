@@ -44,8 +44,6 @@ class NavBar extends Component {
     }
 
     render() {
-        console.log("navabar activeTab");
-        console.log(this.state.activeTab);
         return (
             <div className={"navbar " + (this.state.open ? "open": "")}>
                 <div className={"navbar-content"}>

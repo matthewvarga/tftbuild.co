@@ -32,16 +32,25 @@
       flex-wrap: wrap;
   border: 1px solid rgba(255, 255, 255, 0.2);
   margin: 0 16px 16px 16px;
+  background: #555555;
 }
 
 .items-chart .items-chart-card-base-img {
   width: 64px;
   height: 64px;
-  margin: 15px;
+  margin: 10px 5px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 2px solid black;
   cursor: pointer;
+}
+
+.items-chart .items-chart-card-base-img:first-child {
+  margin-left: 10px;
+}
+
+.items-chart .items-chart-card-base-img:last-child {
+  margin-right: 10px;
 }
 
 .items-chart .items-chart-card-base-img.items-chart-card-img-highlight {
@@ -49,7 +58,7 @@
 }
 
 .items-chart .items-chart-title {
-  color: #eedab5;
+  color: #fffacd;
   font-size: 16px;
   font-weight: 300;
 }

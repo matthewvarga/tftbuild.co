@@ -15,15 +15,23 @@
         flex-wrap: wrap;
         border: $main-border-style;
         margin: 0 16px 16px 16px;
+        background: $secondary-light-grey;
     }
 
     .items-chart-card-base-img {
         width: 64px;
         height: 64px;
-        margin: 15px;
+        margin: 10px 5px;
         box-sizing: border-box;
         border: 2px solid black;
         cursor: pointer;
+
+        &:first-child {
+            margin-left: 10px;
+        }
+        &:last-child {
+            margin-right: 10px;
+        }
 
         &.items-chart-card-img-highlight {
             border: 3px solid white;
@@ -31,7 +39,7 @@
     }
 
     .items-chart-title {
-        color: $base-text-colour;
+        color: $secondary-font-colour;
         font-size: 16px;
         font-weight: 300;
     }
@@ -40,7 +48,7 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        color: $base-text-colour;
+        color: $primary-font-colour;
     }
 
     .items-chart-builds-from {

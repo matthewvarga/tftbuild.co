@@ -5,7 +5,8 @@
     .champions-title {
         margin: 0;
         text-align: center;
-        color: $base-text-colour;
+        color: $primary-font-colour;
+        text-shadow: $primary-text-shadow;
         padding: 32px;
         font-size: 52px;
         font-weight: 500;
@@ -24,7 +25,7 @@
     }
 
     .champion-drop-rate-table-title {
-        color: $base-text-colour;
+        color: $secondary-font-colour;
         font-size: 20px;
         font-weight: 300;
         padding: 0;

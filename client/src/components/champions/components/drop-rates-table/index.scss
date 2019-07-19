@@ -6,7 +6,7 @@ $level-box: linear-gradient(110deg,#383802 0%,#f9ba27 78%,#f9ba27 100%);
 $level-arrow-colour: #f9ba27;
 
 .drop-rates-table {
-    color: $base-text-colour;
+    color: $secondary-font-colour;
     display: flex;
     flex-direction: row;
 
@@ -24,6 +24,7 @@ $level-arrow-colour: #f9ba27;
         justify-content: center;
         align-items: center;
         padding: 0 5px;
+        background: $secondary-light-grey;
 
         // have heading row grow, for empty top left cell
         &:first-child {
@@ -36,7 +37,7 @@ $level-arrow-colour: #f9ba27;
 
         // add stripe background to every other row
         &:nth-child(odd) {
-            background: #2a2f31;
+            background: $tertiary-light-grey;
         }
     }
 

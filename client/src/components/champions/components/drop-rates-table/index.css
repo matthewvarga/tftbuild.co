@@ -1,5 +1,5 @@
 .drop-rates-table {
-  color: #eedab5;
+  color: #fffacd;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -37,6 +37,7 @@
       -ms-flex-align: center;
           align-items: center;
   padding: 0 5px;
+  background: #555555;
 }
 
 .drop-rates-table .drop-rate-table-row:first-child {

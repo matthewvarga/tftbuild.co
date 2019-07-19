@@ -5,9 +5,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    color: $base-text-colour;
+    color: $primary-font-colour;
     margin: 3px;
     border: $main-border-style;
+    background: $secondary-light-grey;
 
     .class-card-title {
         font-size: 20px;

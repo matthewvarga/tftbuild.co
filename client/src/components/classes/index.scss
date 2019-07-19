@@ -5,7 +5,8 @@
     .classes-title {
         margin: 0;
         text-align: center;
-        color: $base-text-colour;
+        color: $primary-font-colour;
+        text-shadow: $primary-text-shadow;
         padding: 32px;
         font-size: 72px;
         font-weight: 500;

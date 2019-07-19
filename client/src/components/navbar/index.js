@@ -21,9 +21,11 @@ class NavBar extends Component {
     render() {
         return (
             <div className={"navbar " + (this.state.open ? "open": "")}>
-                <div className={"navbar-header-row" }>
-                    <h1 className={"navbar-header-title"}>tftbuild</h1>
-                    <Hamburger onToggle={() => this.toggle()}/>
+                <div className={"navbar-content"}>
+                    <div className={"navbar-header-row" }>
+                        <h1 className={"navbar-header-title"}>tftbuild</h1>
+                        <Hamburger onToggle={() => this.toggle()}/>
+                    </div>
                 </div>
             </div>
         );

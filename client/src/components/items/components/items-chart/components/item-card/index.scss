@@ -7,20 +7,29 @@
     align-items: center;
     border: $main-border-style;
     padding: 10px 5px;
-    width: 45%; 
+    width: 45%;
+    background: $secondary-light-grey;
+    margin: 1px;
+    color: $secondary-font-colour;
+
     // change item card size from dynamic to fixed
     @include breakpoint(sm) {
         width: 145px;
     }
 
+    .items-chart-card-title {
+        text-align: center;
+    }
+
     &.items-chart-card-highlight {
-        background: #2a2f31;
+        background: $tertiary-light-grey;
     }
 
     .items-chart-card-content {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-around;
     }
 
     .items-chart-card-main-img {

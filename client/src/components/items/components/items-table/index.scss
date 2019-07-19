@@ -12,7 +12,14 @@
 
             // header row 
             &:first-child {
-                background: rgb(42, 47, 49);
+                .item-tile {
+                    background: $tertiary-light-grey;
+
+                    &.item-tile-darken {
+                        background: $tertiary-light-grey-fade;
+                    }
+                }
+                
             }
         }
 
@@ -21,9 +28,10 @@
             flex-direction: row;
             align-items: center;
             width: 66px;
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            border: $main-border-style;
             margin: 3px;
             padding: 3px;
+            background: $secondary-light-grey;
 
             // change width for xl + since we show description on larger bps
             @include breakpoint(xl) {
@@ -32,26 +40,27 @@
 
             // left most column
             &:first-child {
-                background: rgb(42, 47, 49);
+                background: $tertiary-light-grey;
             }
 
             &.item-tile-highlight {
-                background: rgb(42, 47, 49);
+                background: $tertiary-light-grey;
             }
 
             &.item-tile-darken {
-                background: rgb(15, 17, 17);
+                background: $secondary-light-grey-fade;
+
+                &:first-child {
+                    background: $tertiary-light-grey-fade;
+                }
 
                 .item-img {
                     opacity: 0.5;
                 }
             }
 
-            
-
             &:hover {
                 cursor: pointer;
-                //background: rgb(42, 47, 49);
             }
         }
 
@@ -63,7 +72,7 @@
 
         .item-desc {
             display: none;
-            color: $base-text-colour;
+            color: $secondary-font-colour;
             padding: 0px 5px;
             margin: 0;
             font-size: 11px;

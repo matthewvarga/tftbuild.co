@@ -3,7 +3,7 @@
 
 .App {
     min-height: 100vh;
-    background: $base-bg-colour;
+    background: $primary-light-grey;
 
     @include breakpoint(md) {
         //background: green;

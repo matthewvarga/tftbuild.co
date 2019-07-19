@@ -7,11 +7,11 @@
     align-items: center;
 
     .toggle-label {
-        color: #7e7d7c;
+        color: $primary-font-colour-negative;
         margin: 0 10px;
 
         &.toggle-active-text {
-            color: $base-text-colour;
+            color: $primary-font-colour;
         }
     }
     
@@ -39,7 +39,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: #ccc;
+        background-color: $secondary-light-grey;
         -webkit-transition: .4s;
         transition: .4s;
     }
@@ -51,7 +51,7 @@
         width: 22px;
         left: 3px;
         bottom: 3px;
-        background-color: $base-bg-colour;
+        background-color: $primary-light-grey;
         -webkit-transition: .4s;
         transition: .4s;
     }

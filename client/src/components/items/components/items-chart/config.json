@@ -91,9 +91,9 @@
             ]
         },
         {
-            "name": "Zekes Herald",
+            "name": "Zeke's Herald",
             "icon": "Zeke's_Herald.png",
-            "desc": "djacent allies gain +15% AS",
+            "desc": "adjacent allies gain +15% AS",
             "buildsFrom": [
                 {
                     "icon": "B._F._Sword_item.png",

@@ -26,8 +26,7 @@ class ItemsChart extends Component {
         let items = itemData.items;
         let baseImgPath = "/resources/icons/items/";
         let fullItems = []; // items with both prereqs selected
-        let partialItems = []; // items with 1 prereq selected
-        let emptyItems = []; // items with no prereqs selected
+        let partialItems = []; // items with 1 or 0 prereq selected
 
         for(let i = 0, len = items.length; i < len; i++) {
             let item = items[i];
@@ -49,14 +48,13 @@ class ItemsChart extends Component {
                 fullItems.push(itemEl);
             }
             else if(numPreReqs === 1) {
-                partialItems.push(itemEl);
+                partialItems.unshift(itemEl);
             }
             else {
-                emptyItems.push(itemEl);
-            } 
+                partialItems.push(itemEl);
+            }
         }
         let result = fullItems.concat(partialItems);
-        result = result.concat(emptyItems);
         return result;
     }
 

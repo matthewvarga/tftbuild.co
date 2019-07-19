@@ -10,7 +10,7 @@
     margin-left: -176px;
     transition: .25s ease-in-out;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    z-index: 1;
+    z-index: 2;
 
     &.open {
         margin-left: 0;
@@ -21,7 +21,9 @@
         position: fixed;
         display: flex;
         flex-direction: column;
+        height: 100%;
         width: 230px;
+        background:$primary-dark-grey;
     }
 
     .navbar-items {
@@ -33,7 +35,6 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        flex-grow: 1;
         padding: 5px 8px;
     }
 

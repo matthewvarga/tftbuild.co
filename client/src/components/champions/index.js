@@ -10,7 +10,7 @@ class Champions extends Component {
 
     render() {
         return (
-            <div className={"champions"}>
+            <div id={this.props.id} className={"champions"}>
                 <h1 className={"champions-title"}>CHAMPIONS</h1>
                 <div className={"champions-content"}>
                     <div className={"champion-drop-rate-table"}>

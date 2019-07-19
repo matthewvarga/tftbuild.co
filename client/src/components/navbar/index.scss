@@ -55,8 +55,12 @@
         padding: 20px 8px;
         cursor: pointer;
 
-        &:hover {
+        &.navbar-active-item-row {
             background: $secondary-light-grey;
+        }
+
+        &:hover {
+            background: $primary-light-grey;
         }
     }
 

@@ -94,8 +94,12 @@
   cursor: pointer;
 }
 
-.navbar .navbar-item-row:hover {
+.navbar .navbar-item-row.navbar-active-item-row {
   background: #555555;
+}
+
+.navbar .navbar-item-row:hover {
+  background: #828282;
 }
 
 .navbar .navbar-item-row-title {

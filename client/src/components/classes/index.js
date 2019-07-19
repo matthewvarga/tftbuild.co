@@ -74,7 +74,7 @@ class Classes extends Component {
 
     render() {
         return (
-            <div className={"classes"}>
+            <div id={this.props.id} className={"classes"}>
                 <h1 className={"classes-title"}>CLASSES</h1>
                 <div className={"classes-content"}>
                     {this._getClassCards()}

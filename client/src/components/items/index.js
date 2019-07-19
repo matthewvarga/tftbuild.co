@@ -26,7 +26,7 @@ class Items extends Component {
 
     render() {
         return (
-            <div className={"items"}>
+            <div id={this.props.id} className={"items"}>
                 <h1 className={"items-title"}>ITEMS</h1>
                 <Toggle ref={"items-toggle"} labelOne={"Interactive Chart"} labelTwo={"Simple Grid"} onToggle={() => (this.toggleItemView())}/>
                 <div className={"items-content"}>

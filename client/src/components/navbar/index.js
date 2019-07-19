@@ -11,7 +11,22 @@ class NavBar extends Component {
         super(props);
 
         this.state = {
-            open: false
+            open: false,
+            activeTab: props.activeTab
+        }
+    }
+
+    componentDidMount() {
+        document.addEventListener("scroll", () => {
+            this.props.onScroll();
+        })
+    }
+
+    componentWillReceiveProps(nextProps) {
+        if (this.props.activeTab !== nextProps.activeTab) {
+            this.setState({
+                activeTab: nextProps.activeTab
+            });
         }
     }
 
@@ -21,7 +36,16 @@ class NavBar extends Component {
         }));
     }
 
+    selectTab(tabIndex) {
+        this.props.onSelectTab(tabIndex);
+        this.setState({
+            activeTab: tabIndex
+        });
+    }
+
     render() {
+        console.log("navabar activeTab");
+        console.log(this.state.activeTab);
         return (
             <div className={"navbar " + (this.state.open ? "open": "")}>
                 <div className={"navbar-content"}>
@@ -30,15 +54,15 @@ class NavBar extends Component {
                         <Hamburger onToggle={() => this.toggle()}/>
                     </div>
                     <div className={"navbar-items"}>
-                        <div className={"navbar-item-row"}>
+                        <div className={"navbar-item-row " + (this.state.activeTab === 0 ? "navbar-active-item-row":"")} onClick={() => this.selectTab(0)}>
                             <h2 className={"navbar-item-row-title"}>ITEMS</h2>
                             <IconItems className={"navbar-item-row-icon"}/>
                         </div>
-                        <div className={"navbar-item-row"}>
+                        <div className={"navbar-item-row " + (this.state.activeTab === 1 ? "navbar-active-item-row":"")} onClick={() => this.selectTab(1)}>
                             <h2 className={"navbar-item-row-title"}>CLASSES</h2>
                             <IconClass className={"navbar-item-row-icon"}/>
                         </div>
-                        <div className={"navbar-item-row"}>
+                        <div className={"navbar-item-row " + (this.state.activeTab === 2 ? "navbar-active-item-row":"")} onClick={() => this.selectTab(2)}>
                             <h2 className={"navbar-item-row-title"}>CHAMPIONS</h2>
                             <IconPercentage className={"navbar-item-row-icon"}/>
                         </div>

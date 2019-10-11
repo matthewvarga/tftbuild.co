@@ -79,20 +79,18 @@ class ItemsChart extends Component {
     }
 
     render() {
-        console.log("descriptions");
-        console.log(this.props.descriptionVisibility);
         return (
             <div className={"items-chart " + (this.props.className ? this.props.className: "") + (this.props.theme === "DARK" ? " dark-theme":" light-theme") + (this.props.descriptionVisibility === false ? "" :" hide-descriptions")}>
                 <span className={"items-chart-title"}>Select items below to see what they build into!</span>
                 <div className={"items-chart-base-items"}>
-                        <img className={"items-chart-card-base-img " + (this.state.selectedItems.includes("bf") ? "items-chart-card-img-highlight":"")} src={"/resources/icons/items/B._F._Sword_item.png"} onClick={() => this.selectItem("bf")}/>
-                        <img className={"items-chart-card-base-img " + (this.state.selectedItems.includes("nlr") ? "items-chart-card-img-highlight":"")} src={"/resources/icons/items/Needlessly_Large_Rod_item.png"} onClick={() => this.selectItem("nlr")}/>
-                        <img className={"items-chart-card-base-img " + (this.state.selectedItems.includes("rb") ? "items-chart-card-img-highlight":"")} src={"/resources/icons/items/Recurve_Bow_item.png"} onClick={() => this.selectItem("rb")}/>
-                        <img className={"items-chart-card-base-img " + (this.state.selectedItems.includes("tog") ? "items-chart-card-img-highlight":"")} src={"/resources/icons/items/Tear_of_the_Goddess_item.png"} onClick={() => this.selectItem("tog")}/>
-                        <img className={"items-chart-card-base-img " + (this.state.selectedItems.includes("cv") ? "items-chart-card-img-highlight":"")} src={"/resources/icons/items/Chain_Vest_item.png"} onClick={() => this.selectItem("cv")}/>
-                        <img className={"items-chart-card-base-img " + (this.state.selectedItems.includes("nc") ? "items-chart-card-img-highlight":"")} src={"/resources/icons/items/Negatron_Cloak_item.png"} onClick={() => this.selectItem("nc")}/>
-                        <img className={"items-chart-card-base-img " + (this.state.selectedItems.includes("gb") ? "items-chart-card-img-highlight":"")} src={"/resources/icons/items/Giant's_Belt_item.png"} onClick={() => this.selectItem("gb")}/>
-                        <img className={"items-chart-card-base-img " + (this.state.selectedItems.includes("gs") ? "items-chart-card-img-highlight":"")} src={"/resources/icons/items/GoldenSpatula.png"} onClick={() => this.selectItem("gs")}/>
+                        <img alt={""} className={"items-chart-card-base-img " + (this.state.selectedItems.includes("bf") ? "items-chart-card-img-highlight":"")} src={"/resources/icons/items/B._F._Sword_item.png"} onClick={() => this.selectItem("bf")}/>
+                        <img alt={""} className={"items-chart-card-base-img " + (this.state.selectedItems.includes("nlr") ? "items-chart-card-img-highlight":"")} src={"/resources/icons/items/Needlessly_Large_Rod_item.png"} onClick={() => this.selectItem("nlr")}/>
+                        <img alt={""} className={"items-chart-card-base-img " + (this.state.selectedItems.includes("rb") ? "items-chart-card-img-highlight":"")} src={"/resources/icons/items/Recurve_Bow_item.png"} onClick={() => this.selectItem("rb")}/>
+                        <img alt={""} className={"items-chart-card-base-img " + (this.state.selectedItems.includes("tog") ? "items-chart-card-img-highlight":"")} src={"/resources/icons/items/Tear_of_the_Goddess_item.png"} onClick={() => this.selectItem("tog")}/>
+                        <img alt={""} className={"items-chart-card-base-img " + (this.state.selectedItems.includes("cv") ? "items-chart-card-img-highlight":"")} src={"/resources/icons/items/Chain_Vest_item.png"} onClick={() => this.selectItem("cv")}/>
+                        <img alt={""} className={"items-chart-card-base-img " + (this.state.selectedItems.includes("nc") ? "items-chart-card-img-highlight":"")} src={"/resources/icons/items/Negatron_Cloak_item.png"} onClick={() => this.selectItem("nc")}/>
+                        <img alt={""} className={"items-chart-card-base-img " + (this.state.selectedItems.includes("gb") ? "items-chart-card-img-highlight":"")} src={"/resources/icons/items/Giant's_Belt_item.png"} onClick={() => this.selectItem("gb")}/>
+                        <img alt={""} className={"items-chart-card-base-img " + (this.state.selectedItems.includes("gs") ? "items-chart-card-img-highlight":"")} src={"/resources/icons/items/GoldenSpatula.png"} onClick={() => this.selectItem("gs")}/>
                     </div>
                 <div className={"items-chart-content"}>
 

@@ -4,10 +4,6 @@ import './index.css'
 
 class Champions extends Component {
 
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <div id={this.props.id} className={"champions " + (this.props.theme === "DARK" ? "dark-theme":"light-theme")}>

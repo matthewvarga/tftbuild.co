@@ -6,10 +6,6 @@ import './index.css'
 
 class Classes extends Component {
 
-    constructor(props) {
-        super(props);
-    }
-
     /**
      * getChampionRowIcons builds the individual champion icons within the card
      * @param {*} championRow 

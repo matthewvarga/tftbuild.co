@@ -3,10 +3,6 @@ import './index.css'
 
 class ChampionIcon extends Component {
 
-    constructor(props) {
-        super(props);
-    }
-
     handleClick() {
         // list of all the img tags for the selected champion
         let allSelectedChampions = document.querySelectorAll("[data-champion='"+this.props.champion+"']");
@@ -23,15 +19,16 @@ class ChampionIcon extends Component {
         // either highlight or remove highlight from all of the selected champions
         for(let i = 0, len = allSelectedChampions.length; i < len; i++) {
             let championElement = allSelectedChampions[i];
-            championElement.style.opacity = isHighlighted ? "1" : "0.4";
+            championElement.style.opacity = (isHighlighted ? "1" : "0.4");
         }
     }
 
     render() {
+        let tier = "tier-"+this.props.tier;
         return (
             <div className={"champion-icon"} onClick={() => this.handleClick()}>
-                <div className={"champion-icon-tier " + "tier-"+this.props.tier}>{this.props.tier}</div>
-                <img src={this.props.img} className={"champion-icon-img"} data-champion={this.props.champion}/>
+                <div className={"champion-icon-tier " + tier}>{this.props.tier}</div>
+                <img alt={""} src={this.props.img} className={"champion-icon-img"} data-champion={this.props.champion}/>
             </div>
         );
     }

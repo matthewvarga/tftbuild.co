@@ -7,7 +7,7 @@ class Toggle extends Component {
         super(props);
 
         this.state = {
-            active: props.active != undefined ? props.active : true
+            active: props.active !== undefined ? props.active : true
         };
     }
 

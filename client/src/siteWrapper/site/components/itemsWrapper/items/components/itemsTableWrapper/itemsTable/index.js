@@ -64,7 +64,7 @@ class Items extends Component {
                         data-item-tile-col={col} 
                         onClick={() => this.handleTileClick(row, col)}>
                         
-                        <img className={"item-img"} src={imgPath}/>
+                        <img className={"item-img"} alt={""} src={imgPath}/>
                         <p className={"item-desc"}> {item.desc} </p>
                     </div>
                     

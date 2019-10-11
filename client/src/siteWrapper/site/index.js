@@ -13,8 +13,6 @@ class Site extends Component {
 		this.state = {
 			activeTab: 0
 		};
-
-		console.log(this.props.theme);
 	}
 
 	// scroll the page to the selected tabs content
@@ -93,7 +91,7 @@ class Site extends Component {
 			}
 		}
 
-		if(maxVisiblePercentageTabIndex != this.state.activeTab) {
+		if(maxVisiblePercentageTabIndex !== this.state.activeTab) {
 			this.setState({
 				activeTab: maxVisiblePercentageTabIndex
 			});

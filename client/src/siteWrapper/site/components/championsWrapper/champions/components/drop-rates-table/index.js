@@ -3,10 +3,6 @@ import './index.css'
 
 class DropRates extends Component {
 
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <div className={"drop-rates-table " + (this.props.theme === "DARK" ? "dark-theme":"light-theme")}>

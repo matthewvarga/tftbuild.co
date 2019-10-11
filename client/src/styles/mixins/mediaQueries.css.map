@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA;;;;sDAIsD;AAatD;;;;sDAIsD;AAqBtD;;;;sDAIsD",
     "sources": [
-        "mediaQueries.scss"
+        "mediaQueries.scss",
+        "../variables.scss"
     ],
     "names": [],
     "file": "mediaQueries.css"

@@ -1,25 +1,50 @@
-// text colours
-$primary-font-colour: #eedab5;
+/****************************************************
+*                                                   *
+*                     TEXT                          *
+*                                                   *
+*****************************************************/
+//dark mode
+$font-primary-dark: #eedab5;
 $secondary-font-colour: #fffacd;
-
-$primary-font-colour-negative: #262626;
-
+$font-primary-dark-negative: #262626;
 $primary-text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
 
-// light greys
-$primary-light-grey: #828282;
-$secondary-light-grey: #555555;
-$tertiary-light-grey: #2a2f31;
+// light mode
+$font-primary-light: #373737;
+
+
+
+
+/****************************************************
+*                                                   *
+*                  BACKGROUND                       *
+*                                                   *
+*****************************************************/
+// dark mode
+$background-primary-dark: #828282;
+$background-secondary-dark: #555555;
+$background-tertiary-dark: #2a2f31;
+
+// light mode
+$background-primary-light: #ffffff;
+$background-secondary-light: #cacaca;
+$background-tertiary-light: #b7b1b1;
+
+
 
 // the colour secondary grey fades to (in simple item grid)
-$secondary-light-grey-fade: #666565;
-$tertiary-light-grey-fade: #535252;
+$background-secondary-dark-fade: #666565;
+$background-tertiary-dark-fade: #535252;
 
 // dark greys
-//$primary-dark-grey: #12171a;
-$primary-dark-grey: #212527;
+//$background-primary-dark-grey: #12171a;
+$background-primary-dark-grey: #212527;
 
-// colours based on tiers
+/****************************************************
+*                                                   *
+*                     TIERS                         *
+*                                                   *
+*****************************************************/
 $tier-one-colour: #eedab5;
 $tier-two-colour: #e99747;
 $tier-three-colour: #a0f393;

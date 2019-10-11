@@ -1,0 +1,56 @@
+@import "../../../../../styles/variables";
+@import "../../../../../styles/mixins/mediaQueries";
+
+.champions {
+    .champions-title {
+        margin: 0;
+        text-align: center;
+        text-shadow: $primary-text-shadow;
+        padding: 32px;
+        font-size: 40px;
+        font-weight: 500;
+        font-family: sans-serif;
+
+        @include breakpoint(md) { 
+            font-size: 72px;
+        }
+    }
+
+    .champion-drop-rate-table {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .champion-drop-rate-table-title {
+        color: $secondary-font-colour;
+        font-size: 20px;
+        font-weight: 300;
+        padding: 0;
+        margin: 8px;
+        text-align: center;
+    }
+}
+
+.dark-theme {
+    // title
+    .champions-title {
+        color: $font-primary-dark;
+    }
+    // table title
+    .champion-drop-rate-table-title {
+        color: $font-primary-dark;
+    }
+}
+
+.light-theme {
+    // title 
+    .champions-title {
+        color: $font-primary-light;
+    }
+    // table title
+    .champion-drop-rate-table-title {
+        color: $font-primary-light;
+    }
+}

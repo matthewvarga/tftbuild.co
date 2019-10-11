@@ -1,0 +1,60 @@
+@import "../../../../../styles/variables";
+@import "../../../../../styles/mixins/mediaQueries";
+
+.items {
+    .items-title {
+        margin: 0;
+        text-align: center;
+        text-shadow: $primary-text-shadow;
+        padding: 32px 32px 0 32px;
+        font-size: 48px;
+        font-weight: 500;
+        font-family: sans-serif;
+
+        @include breakpoint(md) { 
+            font-size: 72px;
+        }
+    }
+
+    .toggle {
+        margin-bottom: 32px;
+        display: none;
+
+        // show toggle for md + (since table only visible for md+)
+        @include breakpoint(md) {
+            display: flex;
+        }
+    }
+
+    // toggle items table and chart
+    .items-table, .items-chart {
+        display: none;
+        
+        &.items-content-visible {
+            display: flex;
+        }
+    }
+    // when on smaller than md screen, force item chart
+    @media (max-width: 768px) {
+        .items-table {
+            display: none !important; // TODO clean up so doesn't need important
+        }
+        .items-chart {
+            display: flex;
+        }
+    }
+}
+
+.dark-theme {
+    // main title
+    .items-title {
+        color: $secondary-font-colour;
+    }
+}
+
+.light-theme {
+    // main title
+    .items-title {
+        color: $font-primary-light;
+    }
+}

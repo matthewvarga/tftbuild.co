@@ -1,0 +1,173 @@
+/****************************************************
+*                                                   *
+*                     TEXT                          *
+*                                                   *
+*****************************************************/
+/****************************************************
+*                                                   *
+*                  BACKGROUND                       *
+*                                                   *
+*****************************************************/
+/****************************************************
+*                                                   *
+*                     TIERS                         *
+*                                                   *
+*****************************************************/
+/****************************************************
+*                                                   *
+*                     TEXT                          *
+*                                                   *
+*****************************************************/
+/****************************************************
+*                                                   *
+*                  BACKGROUND                       *
+*                                                   *
+*****************************************************/
+/****************************************************
+*                                                   *
+*                     TIERS                         *
+*                                                   *
+*****************************************************/
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 230px;
+  width: 230px;
+  margin-left: -176px;
+  -webkit-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  z-index: 2;
+}
+
+.navbar.open {
+  margin-left: 0;
+}
+
+.navbar .navbar-content {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  width: 230px;
+}
+
+.navbar .navbar-items {
+  margin-top: 30px;
+}
+
+.navbar .navbar-header-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 8px;
+}
+
+.navbar .navbar-header-title {
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.navbar .navbar-item-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 8px;
+  cursor: pointer;
+}
+
+.navbar .navbar-item-row-title {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+
+.navbar .navbar-item-row-icon {
+  width: 40px;
+}
+
+.dark-theme.navbar {
+  background: #2a2f31;
+}
+
+.dark-theme .navbar-active-item-row {
+  background: #555555;
+}
+
+.dark-theme .navbar-item-row:hover {
+  background: #828282;
+}
+
+.dark-theme .navbar-item-row-title, .dark-theme .navbar-header-title {
+  color: #eedab5;
+}
+
+.dark-theme .navbar-item-row-icon {
+  fill: #eedab5;
+}
+
+.light-theme.navbar {
+  background: #ffffff;
+}
+
+.light-theme .navbar-active-item-row {
+  background: #cacaca;
+}
+
+.light-theme .navbar-item-row:hover {
+  background: #b7b1b1;
+}
+
+.light-theme .navbar-item-row-title, .light-theme .navbar-header-title {
+  color: #373737;
+}
+
+.light-theme .navbar-item-row-icon {
+  fill: #373737;
+}
+/*# sourceMappingURL=index.css.map */

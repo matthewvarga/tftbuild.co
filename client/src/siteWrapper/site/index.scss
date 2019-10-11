@@ -1,0 +1,33 @@
+@import "../../../styles/mixins/mediaQueries";
+@import "../../../styles/variables";
+
+.site { 
+    min-height: 100vh;
+
+    &.dark-theme {
+        background: $background-primary-dark;
+    }
+    &.light-theme {
+        background: $background-primary-light;
+    }
+
+    @include breakpoint(md) {
+        //background: green;
+    }
+
+    @include breakpoint(lg) {
+        //background: red;
+    }
+
+    @include breakpoint(xl) {
+        //background: yellow;
+    }
+
+    display: flex;
+    flex-direction: row;
+
+    // 100% - visible collapsed navbar
+    .content {
+        width: calc(100% - 54px);
+    }
+}

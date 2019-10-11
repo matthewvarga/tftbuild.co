@@ -1,0 +1,205 @@
+/****************************************************
+*                                                   *
+*                     TEXT                          *
+*                                                   *
+*****************************************************/
+/****************************************************
+*                                                   *
+*                  BACKGROUND                       *
+*                                                   *
+*****************************************************/
+/****************************************************
+*                                                   *
+*                     TIERS                         *
+*                                                   *
+*****************************************************/
+/****************************************************
+*                                                   *
+*                     TEXT                          *
+*                                                   *
+*****************************************************/
+/****************************************************
+*                                                   *
+*                  BACKGROUND                       *
+*                                                   *
+*****************************************************/
+/****************************************************
+*                                                   *
+*                     TIERS                         *
+*                                                   *
+*****************************************************/
+.drop-rates-table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.drop-rates-table .drop-rate-table-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.drop-rates-table .drop-rate-table-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 5px;
+}
+
+.drop-rates-table .drop-rate-table-row:first-child {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 8px;
+}
+
+.drop-rates-table .drop-rate-table-row:not(:first-child) {
+  height: 40px;
+}
+
+.drop-rates-table .drop-rate-table-level-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.drop-rates-table .drop-rate-table-body-level-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  border-radius: 5px 0 0 5px;
+  color: black;
+  height: 30px;
+  width: 50px;
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  .drop-rates-table .drop-rate-table-body-level-text {
+    font-size: 20px;
+  }
+}
+
+.drop-rates-table .drop-rate-table-body-level-text .drop-rate-body-level {
+  font-size: 12px;
+}
+
+.drop-rates-table .drop-rate-table-body-level-text .drop-rate-body-level-num {
+  font-size: 25px;
+}
+
+.drop-rates-table .drop-rate-table-right-arrow {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}
+
+.drop-rates-table .drop-rate-table-header-tier {
+  font-size: 16px;
+}
+
+.drop-rates-table .drop-rate-table-header-num {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.drop-rates-table .drop-rate-table-header-desc {
+  font-size: 5px;
+  padding: 0 5px;
+}
+
+@media (min-width: 768px) {
+  .drop-rates-table .drop-rate-table-header-desc {
+    font-size: 12px;
+  }
+}
+
+.drop-rates-table #drop-rate-table-header-tier-2 {
+  color: #e99747;
+}
+
+.drop-rates-table #drop-rate-table-header-tier-3 {
+  color: #a0f393;
+}
+
+.drop-rates-table #drop-rate-table-header-tier-4 {
+  color: #63c5f3;
+}
+
+.drop-rates-table #drop-rate-table-header-tier-5 {
+  color: #ff4949;
+}
+
+.dark-theme.drop-rates-table {
+  color: #fffacd;
+}
+
+.dark-theme .drop-rate-table-row {
+  background: #555555;
+}
+
+.dark-theme .drop-rate-table-row:nth-child(odd) {
+  background: #2a2f31;
+}
+
+.dark-theme .drop-rate-table-body-level-text {
+  background: linear-gradient(110deg, #383802 0%, #f9ba27 78%, #f9ba27 100%);
+}
+
+.dark-theme .drop-rate-table-right-arrow {
+  border-left: 10px solid #f9ba27;
+}
+
+.light-theme.drop-rates-table {
+  color: #fffacd;
+}
+
+.light-theme .drop-rate-table-row {
+  background: #cacaca;
+}
+
+.light-theme .drop-rate-table-row:nth-child(odd) {
+  background: #b7b1b1;
+}
+
+.light-theme .drop-rate-table-header-tier {
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+/*# sourceMappingURL=index.css.map */

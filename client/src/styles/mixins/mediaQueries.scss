@@ -1,3 +1,5 @@
+@import "../variables";
+
 @mixin breakpoint($size) {
     @if $size == sm {
         @media (min-width: 480px) {@content;}

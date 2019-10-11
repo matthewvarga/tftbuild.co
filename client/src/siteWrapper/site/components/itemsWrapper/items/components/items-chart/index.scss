@@ -1,0 +1,90 @@
+@import "../../../../../../../styles/variables";
+@import "../../../../../../../styles/mixins/mediaQueries";
+
+.items-chart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .items-chart-base-items {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        border: $main-border-style;
+        margin: 0 6px 9px 6px;
+
+        @include breakpoint(md) {
+            margin: 0 16px 16px 16px;
+        }
+    }
+
+    .items-chart-card-base-img {
+        width: 64px;
+        height: 64px;
+        margin: 10px 5px;
+        box-sizing: border-box;
+        border: 2px solid black;
+        cursor: pointer;
+
+        &:first-child {
+            margin-left: 10px;
+        }
+        &:last-child {
+            margin-right: 10px;
+        }
+    }
+
+    .items-chart-title {
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+
+        // one-off size
+        @include breakpoint(md) {
+            font-size: 16px;
+        }
+    }
+
+    .items-chart-content {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .items-chart-builds-from {
+        font-size: 10px; 
+    }    
+}
+
+.dark-theme {
+    // background of selectable items
+    .items-chart-base-items {
+        background: $background-secondary-dark;
+    }
+    // title
+    .items-chart-title {
+        color: $secondary-font-colour;
+    }
+    // selected item border
+    .items-chart-card-base-img.items-chart-card-img-highlight {
+        border: 3px solid white;
+    }
+}
+
+.light-theme {
+    // background of selectable items
+    .items-chart-base-items {
+        background: $background-secondary-light;
+    }
+    // title
+    .items-chart-title {
+        color: $font-primary-light;
+    }
+    // selected item border
+    .items-chart-card-base-img.items-chart-card-img-highlight {
+        border: 3px solid red;
+    }
+}

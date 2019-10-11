@@ -60,7 +60,7 @@ class Classes extends Component {
             let curClass = classes[i];
 
             result.push(
-                <ClassCard num={curClass.champions[0].length} title={curClass.name} description={curClass.desc}>
+                <ClassCard theme={this.props.theme} num={curClass.champions[0].length} title={curClass.name} description={curClass.desc}>
                     <div className={"class-card-champions"}>
                         {this._getChampionRows(curClass.champions)}
                     </div>
@@ -74,7 +74,7 @@ class Classes extends Component {
 
     render() {
         return (
-            <div id={this.props.id} className={"classes"}>
+            <div id={this.props.id} className={"classes " + (this.props.theme === "DARK" ? "dark-theme":"light-theme")}>
                 <h1 className={"classes-title"}>CLASSES</h1>
                 <div className={"classes-content"}>
                     {this._getClassCards()}

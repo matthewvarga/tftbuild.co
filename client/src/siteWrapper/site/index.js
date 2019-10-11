@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Classes from "./components/classes/index";
+import ClassesWrapper from "./components/classesWrapper/index";
 import ItemsWrapper from "./components/itemsWrapper/index";
 import ChampionsWrapper from "./components/championsWrapper/index";
 import NavBarWrapper from "./components/navbarWrapper/index";
@@ -107,7 +107,7 @@ class Site extends Component {
 				<NavBarWrapper activeTab={this.state.activeTab} onSelectTab={(tabIndex) => this.showTabContent(tabIndex)} onScroll={() => this.handleScroll()}/>
 				<div className={"content"}>
 					<ItemsWrapper id={"items"}/>
-					<Classes id={"classes"}/>
+					<ClassesWrapper id={"classes"}/>
 					<ChampionsWrapper id={"champions"}/>
 				</div>
 			</div>

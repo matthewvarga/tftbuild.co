@@ -1,11 +1,10 @@
-@import "../../styles/variables";
-@import "../../styles/mixins/mediaQueries";
+@import "../../../../../styles/variables";
+@import "../../../../../styles/mixins/mediaQueries";
 
 .classes {
     .classes-title {
         margin: 0;
         text-align: center;
-        color: $font-primary-dark;
         text-shadow: $primary-text-shadow;
         padding: 32px;
         font-size: 48px;
@@ -65,5 +64,16 @@
             flex-direction: row;
             justify-content: center;
         }
+    }
+}
+
+.dark-theme {
+    .classes-title {
+        color: $font-primary-dark;
+    }
+}
+.light-theme {
+    .classes-title {
+        color: $font-primary-light;
     }
 }

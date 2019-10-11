@@ -31,7 +31,6 @@
 .classes .classes-title {
   margin: 0;
   text-align: center;
-  color: #eedab5;
   text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
   padding: 32px;
   font-size: 48px;
@@ -110,5 +109,13 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.dark-theme .classes-title {
+  color: #eedab5;
+}
+
+.light-theme .classes-title {
+  color: #373737;
 }
 /*# sourceMappingURL=index.css.map */

@@ -24,7 +24,7 @@ class Toggle extends Component {
 
     render() {
         return (
-            <div className={"toggle"}>
+            <div className={"toggle " + (this.props.theme === "DARK" ? " dark-theme":" light-theme")}>
                 <span className={"toggle-label " + (this.state.active ? "toggle-active-text":"")}>{this.props.labelOne}</span>
                 <label class="switch">
                     <input type="checkbox" onClick={() => this.toggleSwitch()}></input>

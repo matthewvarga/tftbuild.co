@@ -1,11 +1,11 @@
 {
     "version": 3,
-    "mappings": "AEAA;;;;sDAIsD;AAStD;;;;sDAIsD;AAqBtD;;;;sDAIsD;AA1CtD;;;;sDAIsD;AAStD;;;;sDAIsD;AAqBtD;;;;sDAIsD;AFvCtD,AAAA,KAAK,CAAC;EACF,UAAU,EAAE,KAAK;EAqBjB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;CAMtB;;AA7BD,AAGI,KAHC,AAGA,WAAW,CAAC;EACT,UAAU,EEYQ,OAAO;CFX5B;;AALL,AAMI,KANC,AAMA,YAAY,CAAC;EACV,UAAU,EEcS,OAAO;CFb7B;;AARL,AA0BI,KA1BC,CA0BD,QAAQ,CAAC;EACL,KAAK,EAAE,iBAAiB;CAC3B",
+    "mappings": "AEAA;;;;sDAIsD;AActD;;;;sDAIsD;AAgBtD;;;;sDAIsD;AA1CtD;;;;sDAIsD;AActD;;;;sDAIsD;AAgBtD;;;;sDAIsD;AFvCtD,AAAA,KAAK,CAAC;EACF,UAAU,EAAE,KAAK;EAqBjB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;CAOtB;;AA9BD,AAGI,KAHC,AAGA,WAAW,CAAC;EACT,UAAU,EEiBQ,OAAO;CFhB5B;;AALL,AAMI,KANC,AAMA,YAAY,CAAC;EACV,UAAU,EEmBS,OAAO;CFlB7B;;AARL,AA0BI,KA1BC,CA0BD,QAAQ,CAAC;EACL,KAAK,EAAE,iBAAiB;EACxB,cAAc,EAAE,IAAI;CACvB",
     "sources": [
         "index.scss",
-        "../../../styles/mixins/mediaQueries.scss",
-        "../../../styles/variables.scss",
-        "../../../styles/variables.scss"
+        "../../styles/mixins/mediaQueries.scss",
+        "../../styles/variables.scss",
+        "../../styles/variables.scss"
     ],
     "names": [],
     "file": "index.css"

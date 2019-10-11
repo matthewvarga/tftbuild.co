@@ -1,5 +1,5 @@
-@import "../../../../styles/variables";
-@import "../../../../styles/mixins/mediaQueries";
+@import "../../../../../../../styles/variables";
+@import "../../../../../../../styles/mixins/mediaQueries";
 
 .toggle {
     display: flex;
@@ -7,12 +7,7 @@
     align-items: center;
 
     .toggle-label {
-        color: $font-primary-dark-negative;
         margin: 0 10px;
-
-        &.toggle-active-text {
-            color: $secondary-font-colour;
-        }
     }
     
 
@@ -39,30 +34,29 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: $background-secondary-dark;
         -webkit-transition: .4s;
         transition: .4s;
+
+        &:before {
+                position: absolute;
+                content: "";
+                height: 22px;
+                width: 22px;
+                left: 3px;
+                bottom: 3px;
+                -webkit-transition: .4s;
+                transition: .4s;
+        }
     }
+
     
-    .slider:before {
-        position: absolute;
-        content: "";
-        height: 22px;
-        width: 22px;
-        left: 3px;
-        bottom: 3px;
-        background-color: $background-primary-dark;
-        -webkit-transition: .4s;
-        transition: .4s;
-    }
+    // input:checked + .slider {
+    //     //background-color: #2196F3;
+    // }
     
-    input:checked + .slider {
-        //background-color: #2196F3;
-    }
-    
-    input:focus + .slider {
-        //box-shadow: 0 0 1px #2196F3;
-    }
+    // input:focus + .slider {
+    //     //box-shadow: 0 0 1px #2196F3;
+    // }
     
     input:checked + .slider:before {
         -webkit-transform: translateX(26px);
@@ -78,4 +72,43 @@
     .slider.round:before {
         border-radius: 50%;
     } 
+}
+
+.dark-theme {
+    //inactive toggle text
+    .toggle-label {
+        color: $font-primary-dark-negative;
+        //active toggle text
+        &.toggle-active-text {
+            color: $secondary-font-colour;
+        }
+    }
+    // slider bar background
+    .slider {
+        background: $background-secondary-dark;
+
+        // slider ball
+        &:before {
+            background: $background-primary-dark;
+        }
+    }
+}
+.light-theme {
+    // inactive toggle text
+    .toggle-label {
+        color: $font-secondary-light;
+        // active toggle text
+        &.toggle-active-text {
+            color: $font-primary-light;
+        }
+    }
+    // slider bar background
+    .slider {
+        background: $background-secondary-light;
+
+        // slider ball
+        &:before {
+            background: $background-primary-light;
+        }
+    }
 }

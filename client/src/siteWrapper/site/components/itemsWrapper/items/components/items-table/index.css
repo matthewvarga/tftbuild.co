@@ -51,14 +51,6 @@
           flex-direction: row;
 }
 
-.items-table .item-row:first-child .item-tile {
-  background: #2a2f31;
-}
-
-.items-table .item-row:first-child .item-tile.item-tile-darken {
-  background: #535252;
-}
-
 .items-table .item-tile {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -74,29 +66,12 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   margin: 3px;
   padding: 3px;
-  background: #555555;
 }
 
 @media (min-width: 1200px) {
   .items-table .item-tile {
     width: 120px;
   }
-}
-
-.items-table .item-tile:first-child {
-  background: #2a2f31;
-}
-
-.items-table .item-tile.item-tile-highlight {
-  background: #2a2f31;
-}
-
-.items-table .item-tile.item-tile-darken {
-  background: #666565;
-}
-
-.items-table .item-tile.item-tile-darken:first-child {
-  background: #535252;
 }
 
 .items-table .item-tile.item-tile-darken .item-img {
@@ -115,7 +90,6 @@
 
 .items-table .item-desc {
   display: none;
-  color: #fffacd;
   padding: 0px 5px;
   margin: 0;
   font-size: 11px;
@@ -125,5 +99,69 @@
   .items-table .item-desc {
     display: block;
   }
+}
+
+.dark-theme .item-row:first-child .item-tile {
+  background: #2a2f31;
+}
+
+.dark-theme .item-row:first-child .item-tile.item-tile-darken {
+  background: #535252;
+}
+
+.dark-theme .item-tile {
+  background: #555555;
+}
+
+.dark-theme .item-tile:first-child {
+  background: #2a2f31;
+}
+
+.dark-theme .item-tile.item-tile-highlight {
+  background: #2a2f31;
+}
+
+.dark-theme .item-tile.item-tile-darken {
+  background: #666565;
+}
+
+.dark-theme .item-tile.item-tile-darken:first-child {
+  background: #535252;
+}
+
+.dark-theme .item-desc {
+  color: #fffacd;
+}
+
+.light-theme .item-row:first-child .item-tile {
+  background: #b7b1b1;
+}
+
+.light-theme .item-row:first-child .item-tile.item-tile-darken {
+  background: #535252;
+}
+
+.light-theme .item-tile {
+  background: #cacaca;
+}
+
+.light-theme .item-tile:first-child {
+  background: #b7b1b1;
+}
+
+.light-theme .item-tile.item-tile-highlight {
+  background: #b7b1b1;
+}
+
+.light-theme .item-tile.item-tile-darken {
+  background: #666565;
+}
+
+.light-theme .item-tile.item-tile-darken:first-child {
+  background: #535252;
+}
+
+.light-theme .item-desc {
+  color: #373737;
 }
 /*# sourceMappingURL=index.css.map */

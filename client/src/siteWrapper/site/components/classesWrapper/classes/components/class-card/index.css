@@ -27,10 +27,8 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  color: #eedab5;
   margin: 3px;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  background: #555555;
 }
 
 .class-card .class-card-title {
@@ -43,5 +41,15 @@
   margin: 0 10px 10px 10px;
   font-size: 13px;
   text-align: center;
+}
+
+.dark-theme.class-card {
+  color: #eedab5;
+  background: #555555;
+}
+
+.light-theme.class-card {
+  color: #373737;
+  background: #cacaca;
 }
 /*# sourceMappingURL=index.css.map */

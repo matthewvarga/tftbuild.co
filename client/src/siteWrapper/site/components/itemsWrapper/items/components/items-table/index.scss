@@ -1,5 +1,12 @@
-@import "../../../../styles/variables";
-@import "../../../../styles/mixins/mediaQueries";
+@import "../../../../../../../styles/variables";
+@import "../../../../../../../styles/mixins/mediaQueries";
+
+// the colour secondary grey fades to (in simple item grid)
+$background-secondary-dark-fade: #666565;
+$background-tertiary-dark-fade: #535252;
+
+$background-secondary-light-fade: #666565;
+$background-tertiary-light-fade: #535252;
 
 .items-table {
     display: flex;
@@ -10,17 +17,6 @@
             display: flex;
             flex-direction: row;
 
-            // header row 
-            &:first-child {
-                .item-tile {
-                    background: $background-tertiary-dark;
-
-                    &.item-tile-darken {
-                        background: $background-tertiary-dark-fade;
-                    }
-                }
-                
-            }
         }
 
         .item-tile {
@@ -31,29 +27,13 @@
             border: $main-border-style;
             margin: 3px;
             padding: 3px;
-            background: $background-secondary-dark;
 
             // change width for xl + since we show description on larger bps
             @include breakpoint(xl) {
                 width: 120px;
             }
 
-            // left most column
-            &:first-child {
-                background: $background-tertiary-dark;
-            }
-
-            &.item-tile-highlight {
-                background: $background-tertiary-dark;
-            }
-
             &.item-tile-darken {
-                background: $background-secondary-dark-fade;
-
-                &:first-child {
-                    background: $background-tertiary-dark-fade;
-                }
-
                 .item-img {
                     opacity: 0.5;
                 }
@@ -72,7 +52,6 @@
 
         .item-desc {
             display: none;
-            color: $secondary-font-colour;
             padding: 0px 5px;
             margin: 0;
             font-size: 11px;
@@ -82,4 +61,80 @@
                 display: block;
             }
         }
+}
+
+.dark-theme {
+    // header row
+    .item-row:first-child {
+        .item-tile {
+            background: $background-tertiary-dark;
+
+            &.item-tile-darken {
+                background: $background-tertiary-dark-fade;
+            }
+        }
+    }
+
+    // item colours
+    .item-tile {
+        background: $background-secondary-dark;
+
+        // left most column
+        &:first-child {
+            background: $background-tertiary-dark;
+        }
+
+        &.item-tile-highlight {
+            background: $background-tertiary-dark;
+        }
+
+        &.item-tile-darken {
+            background: $background-secondary-dark-fade;
+
+            &:first-child {
+                background: $background-tertiary-dark-fade;
+            }
+        }
+    }
+    // item description
+    .item-desc {
+        color: $secondary-font-colour;
+    }
+}
+.light-theme {
+    // header row
+    .item-row:first-child {
+        .item-tile {
+            background: $background-tertiary-light;
+
+            &.item-tile-darken {
+                background: $background-tertiary-light-fade;
+            }
+        }
+    }
+    // item colours
+    .item-tile {
+        background: $background-secondary-light;
+
+        // left most column
+        &:first-child {
+            background: $background-tertiary-light;
+        }
+        // selected highlight
+        &.item-tile-highlight {
+            background: $background-tertiary-light;
+        }
+
+        &.item-tile-darken {
+            background: $background-secondary-light-fade;
+
+            &:first-child {
+                background: $background-tertiary-light-fade;
+            }
+        }
+    }
+    // item description
+    .item-desc {
+        color: $font-primary-light;
+    }
 }

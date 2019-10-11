@@ -1,5 +1,5 @@
-@import "../../../styles/mixins/mediaQueries";
-@import "../../../styles/variables";
+@import "../../styles/mixins/mediaQueries";
+@import "../../styles/variables";
 
 .site { 
     min-height: 100vh;
@@ -29,5 +29,6 @@
     // 100% - visible collapsed navbar
     .content {
         width: calc(100% - 54px);
+        padding-bottom: 64px;
     }
 }

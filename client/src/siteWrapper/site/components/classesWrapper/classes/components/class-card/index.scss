@@ -1,14 +1,12 @@
-@import "../../../../styles/variables";
+@import "../../../../../../../styles/variables";
 
 .class-card {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    color: $font-primary-dark;
     margin: 3px;
     border: $main-border-style;
-    background: $background-secondary-dark;
 
     .class-card-title {
         font-size: 20px;
@@ -20,5 +18,17 @@
         margin: 0 10px 10px 10px;
         font-size: 13px;
         text-align: center;
+    }
+}
+.dark-theme {
+    &.class-card {
+        color: $font-primary-dark;
+        background: $background-secondary-dark;
+    }
+}
+.light-theme {
+    &.class-card {
+        color: $font-primary-light;
+        background: $background-secondary-light;
     }
 }

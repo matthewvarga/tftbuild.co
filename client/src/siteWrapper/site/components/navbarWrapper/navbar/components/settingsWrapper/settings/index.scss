@@ -1,0 +1,108 @@
+@import "../../../../../../../../styles/variables";
+
+$toggleWidth: 44px;
+$toggleHeight: 22px;
+$ballSize: 18px;
+$ballOffset: 2px;
+
+.settings {
+    display: flex;
+    flex-direction: column;
+
+    .settings-title-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 8px 5px 8px;
+    }
+
+    .settings-title-row-text {
+        font-size: 19px;
+        font-weight: 300;
+        margin: 0;
+    }
+
+    .settings-title-row-icon {
+        width: 32px;
+    }
+
+    .settings-option {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 3px 10px;
+    }
+
+    .settings-option-label {
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+
+    // toggle overrides
+    .toggle {
+        .switch {
+            width: $toggleWidth;
+            height: $toggleHeight;
+        }
+        .slider:before {
+            height: $ballSize;
+            width: $ballSize;
+            left: $ballOffset;
+            bottom: $ballOffset;
+        }
+    
+        input:checked + .slider:before {
+            -webkit-transform: translateX($toggleWidth / 2);
+            -ms-transform: translateX($toggleWidth / 2);
+            transform: translateX($toggleWidth / 2);
+        }
+    }
+}
+
+
+.dark-theme {
+    // settings title label
+    .settings-title-row-text {
+        color: $font-primary-dark;
+    }
+    // settings title icon
+    .settings-title-row-icon {
+        fill: $font-primary-dark;
+    }
+    // settings options labels
+    .settings-option-label {
+        color: $font-primary-dark;
+    }
+    // slider bar background
+    .toggle .slider {
+        background: $background-secondary-dark;
+        // slider ball
+        &:before {
+            background: $font-primary-dark;
+        }
+    }
+}
+.light-theme {
+    // settings title label
+    .settings-title-row-icon {
+        fill: $font-primary-light;
+    }
+    // settings title icon
+    .settings-title-row-text {
+        color: $font-primary-light;
+    }
+    // settings options labels
+    .settings-option-label {
+        color: $font-primary-light;
+    }
+    // slider bar background
+    .toggle .slider {
+        background: $background-secondary-light;
+        // slider ball
+        &:before {
+            background: $background-primary-light;
+        }
+    }
+}

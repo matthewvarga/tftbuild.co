@@ -7,7 +7,7 @@ class Hamburger extends Component {
         super(props);
 
         this.state = {
-            open: false
+            open: this.props.open !== undefined ? this.props.open : false
         };
     }
 

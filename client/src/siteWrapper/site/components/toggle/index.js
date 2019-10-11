@@ -7,7 +7,7 @@ class Toggle extends Component {
         super(props);
 
         this.state = {
-            active: true
+            active: props.active != undefined ? props.active : true
         };
     }
 
@@ -22,12 +22,18 @@ class Toggle extends Component {
         return this.state.active;
     }
 
+    // update toggle to proper position
+    componentDidMount() {
+        let checkbox = this.refs["toggle-checkbox"];
+        checkbox.checked = !this.state.active;
+    }
+
     render() {
         return (
             <div className={"toggle " + (this.props.theme === "DARK" ? " dark-theme":" light-theme")}>
                 <span className={"toggle-label " + (this.state.active ? "toggle-active-text":"")}>{this.props.labelOne}</span>
                 <label class="switch">
-                    <input type="checkbox" onClick={() => this.toggleSwitch()}></input>
+                    <input ref={"toggle-checkbox"} type="checkbox" onClick={() => this.toggleSwitch()}></input>
                     <span class="slider round"></span>
                 </label>
                 <span className={"toggle-label " + (!this.state.active ? "toggle-active-text":"")}>{this.props.labelTwo}</span>

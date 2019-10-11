@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import ItemsTable from "./components/items-table/index";
 import ItemsChart from "./components/items-chart/index";
-import Toggle from "./components/toggle/index";
+import Toggle from "../../toggle/index";
 import './index.css'
 
 class Items extends Component {

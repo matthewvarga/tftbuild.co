@@ -1,0 +1,128 @@
+/****************************************************
+*                                                   *
+*                     TEXT                          *
+*                                                   *
+*****************************************************/
+/****************************************************
+*                                                   *
+*                  BACKGROUND                       *
+*                                                   *
+*****************************************************/
+/****************************************************
+*                                                   *
+*                     TIERS                         *
+*                                                   *
+*****************************************************/
+.settings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.settings .settings-title-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 8px 5px 8px;
+}
+
+.settings .settings-title-row-text {
+  font-size: 19px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.settings .settings-title-row-icon {
+  width: 32px;
+}
+
+.settings .settings-option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3px 10px;
+}
+
+.settings .settings-option-label {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.settings .toggle .switch {
+  width: 44px;
+  height: 22px;
+}
+
+.settings .toggle .slider:before {
+  height: 18px;
+  width: 18px;
+  left: 2px;
+  bottom: 2px;
+}
+
+.settings .toggle input:checked + .slider:before {
+  -webkit-transform: translateX(22px);
+  transform: translateX(22px);
+}
+
+.dark-theme .settings-title-row-text {
+  color: #eedab5;
+}
+
+.dark-theme .settings-title-row-icon {
+  fill: #eedab5;
+}
+
+.dark-theme .settings-option-label {
+  color: #eedab5;
+}
+
+.dark-theme .toggle .slider {
+  background: #555555;
+}
+
+.dark-theme .toggle .slider:before {
+  background: #eedab5;
+}
+
+.light-theme .settings-title-row-icon {
+  fill: #373737;
+}
+
+.light-theme .settings-title-row-text {
+  color: #373737;
+}
+
+.light-theme .settings-option-label {
+  color: #373737;
+}
+
+.light-theme .toggle .slider {
+  background: #cacaca;
+}
+
+.light-theme .toggle .slider:before {
+  background: #ffffff;
+}
+/*# sourceMappingURL=index.css.map */

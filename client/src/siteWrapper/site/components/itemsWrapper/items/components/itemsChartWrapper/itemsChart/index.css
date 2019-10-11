@@ -115,6 +115,11 @@
   font-size: 10px;
 }
 
+/**********************************************************
+*                                                         *
+*                       THEMES                            *
+*                                                         *
+***********************************************************/
 .dark-theme .items-chart-base-items {
   background: #555555;
 }
@@ -137,5 +142,14 @@
 
 .light-theme .items-chart-card-base-img.items-chart-card-img-highlight {
   border: 3px solid red;
+}
+
+/**********************************************************
+*                                                         *
+*                    DESCRIPTIONS                         *
+*                                                         *
+***********************************************************/
+.hide-descriptions .items-chart-card-desc {
+  display: none;
 }
 /*# sourceMappingURL=index.css.map */

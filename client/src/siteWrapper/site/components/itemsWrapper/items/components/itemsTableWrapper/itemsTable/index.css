@@ -101,6 +101,11 @@
   }
 }
 
+/**********************************************************
+*                                                         *
+*                       THEMES                            *
+*                                                         *
+***********************************************************/
 .dark-theme .item-row:first-child .item-tile {
   background: #2a2f31;
 }
@@ -163,5 +168,20 @@
 
 .light-theme .item-desc {
   color: #373737;
+}
+
+/**********************************************************
+*                                                         *
+*                    DESCRIPTIONS                         *
+*                                                         *
+***********************************************************/
+@media (min-width: 1200px) {
+  .hide-descriptions .item-tile {
+    width: 53px;
+  }
+}
+
+.hide-descriptions .item-desc {
+  display: none;
 }
 /*# sourceMappingURL=index.css.map */

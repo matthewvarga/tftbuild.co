@@ -79,8 +79,10 @@ class ItemsChart extends Component {
     }
 
     render() {
+        console.log("descriptions");
+        console.log(this.props.descriptionVisibility);
         return (
-            <div className={"items-chart " + (this.props.className ? this.props.className: "") + (this.props.theme === "DARK" ? " dark-theme":" light-theme")}>
+            <div className={"items-chart " + (this.props.className ? this.props.className: "") + (this.props.theme === "DARK" ? " dark-theme":" light-theme") + (this.props.descriptionVisibility === false ? "" :" hide-descriptions")}>
                 <span className={"items-chart-title"}>Select items below to see what they build into!</span>
                 <div className={"items-chart-base-items"}>
                         <img className={"items-chart-card-base-img " + (this.state.selectedItems.includes("bf") ? "items-chart-card-img-highlight":"")} src={"/resources/icons/items/B._F._Sword_item.png"} onClick={() => this.selectItem("bf")}/>

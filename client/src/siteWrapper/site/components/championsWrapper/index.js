@@ -4,7 +4,7 @@ import Champions from './champions/index';
 
 
 const mapStateToProps = (state, ownProps) => ({
-	theme: state.theme
+    theme: state.theme
 });
 
 // dispach 

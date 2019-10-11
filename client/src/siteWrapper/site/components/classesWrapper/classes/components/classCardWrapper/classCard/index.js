@@ -9,7 +9,7 @@ class ClassCard extends Component {
 
     render() {
         return (
-            <div className={"class-card " + "num-" + this.props.num + (this.props.theme === "DARK" ? " dark-theme":" light-theme")}>
+            <div className={"class-card " + "num-" + this.props.num + (this.props.theme === "DARK" ? " dark-theme":" light-theme") + (this.props.descriptionVisibility === false ? "" :" hide-descriptions")}>
                 <h3 className={"class-card-title"}>{this.props.title}</h3>
                 
                 {this.props.children}

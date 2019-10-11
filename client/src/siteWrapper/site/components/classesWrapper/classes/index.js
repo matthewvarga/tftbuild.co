@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import classData from "./config.json";
-import ClassCard from "./components/class-card/index";
+import ClassCardWrapper from "./components/classCardWrapper/index";
 import ChampionIcon from "./components/champion-icon/index";
 import './index.css'
 
@@ -60,11 +60,11 @@ class Classes extends Component {
             let curClass = classes[i];
 
             result.push(
-                <ClassCard theme={this.props.theme} num={curClass.champions[0].length} title={curClass.name} description={curClass.desc}>
+                <ClassCardWrapper theme={this.props.theme} num={curClass.champions[0].length} title={curClass.name} description={curClass.desc}>
                     <div className={"class-card-champions"}>
                         {this._getChampionRows(curClass.champions)}
                     </div>
-                </ClassCard>
+                </ClassCardWrapper>
             )
         }
 

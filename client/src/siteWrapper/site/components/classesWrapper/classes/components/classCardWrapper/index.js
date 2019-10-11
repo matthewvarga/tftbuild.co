@@ -1,6 +1,6 @@
 import { setTheme, setDescriptionVisibility } from "../../../../../../../actions/index";
 import { connect } from 'react-redux';
-import Settings from './settings/index'; 
+import ClassCard from './classCard/index'; 
 
 
 const mapStateToProps = (state, ownProps) => ({
@@ -15,4 +15,4 @@ const mapDispatchToProps = dispatch => ({
 });
 
 
-export default connect(mapStateToProps, mapDispatchToProps)(Settings);
+export default connect(mapStateToProps, mapDispatchToProps)(ClassCard);

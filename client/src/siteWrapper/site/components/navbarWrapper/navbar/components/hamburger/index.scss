@@ -21,6 +21,7 @@
         left: 0;
         transform: rotate(0deg);
         transition: .25s linear;
+        transition-property: transform, top, width, left;
 
         &:nth-child(1) {
             top: 0px;

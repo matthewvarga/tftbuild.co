@@ -53,6 +53,10 @@
           transform: rotate(0deg);
   -webkit-transition: .25s linear;
   transition: .25s linear;
+  -webkit-transition-property: top, width, left, -webkit-transform;
+  transition-property: top, width, left, -webkit-transform;
+  transition-property: transform, top, width, left;
+  transition-property: transform, top, width, left, -webkit-transform;
 }
 
 .hamburger .hamburger-bar:nth-child(1) {

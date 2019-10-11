@@ -1,5 +1,5 @@
-@import "../../../../../../../../../styles/variables";
-@import "../../../../../../../../../styles/mixins/mediaQueries";
+@import "../../../../../../../../../../styles/variables";
+@import "../../../../../../../../../../styles/mixins/mediaQueries";
 
 .items-chart-card {
     display: flex;
@@ -22,6 +22,7 @@
 
     .items-chart-card-title {
         text-align: center;
+        font-size: 14px;
     }
 
     .items-chart-card-content {

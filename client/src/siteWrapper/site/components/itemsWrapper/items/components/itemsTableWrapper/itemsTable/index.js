@@ -103,7 +103,7 @@ class Items extends Component {
 
     render() {
         return (
-            <div className={"items-table " + (this.props.className ? this.props.className: "") + (this.props.theme === "DARK" ? " dark-theme":" light-theme")}>
+            <div className={"items-table " + (this.props.className ? this.props.className: "") + (this.props.theme === "DARK" ? " dark-theme":" light-theme") + (this.props.descriptionVisibility === false ? "" :" hide-descriptions")}>
                 {this.generateTable()}
             </div>
         );

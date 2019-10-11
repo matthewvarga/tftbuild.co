@@ -14,9 +14,20 @@ class Settings extends Component {
         }
     }
    
+    /**
+     * toggle between light and dark mode.
+     */
     toggleTheme() {
         let toggle = this.refs["settings-dark-mode-toggle"];
         toggle.getActiveVal() ? this.props.setTheme("LIGHT"): this.props.setTheme("DARK");
+    }
+
+    /**
+     * toggle between showing descriptions and hiding them.
+     */
+    toggleDescriptions() {
+        let toggle = this.refs["settings-descriptions-toggle"];
+        toggle.getActiveVal() ? this.props.setDescriptionVisibility(false): this.props.setDescriptionVisibility(true);
     }
 
     render() {
@@ -29,6 +40,10 @@ class Settings extends Component {
                 <div className={"settings-option"}>
                     <span className={"settings-option-label"}>Dark Mode</span>
                     <Toggle ref={"settings-dark-mode-toggle"} active={false} onToggle={() => (this.toggleTheme())}/>
+                </div>
+                <div className={"settings-option"}>
+                    <span className={"settings-option-label"}>Hide Descriptions</span>
+                    <Toggle ref={"settings-descriptions-toggle"} active={false} onToggle={() => (this.toggleDescriptions())}/>
                 </div>
             </div>
         );

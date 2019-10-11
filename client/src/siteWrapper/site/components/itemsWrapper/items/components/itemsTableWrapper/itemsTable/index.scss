@@ -1,5 +1,5 @@
-@import "../../../../../../../styles/variables";
-@import "../../../../../../../styles/mixins/mediaQueries";
+@import "../../../../../../../../styles/variables";
+@import "../../../../../../../../styles/mixins/mediaQueries";
 
 // the colour secondary grey fades to (in simple item grid)
 $background-secondary-dark-fade: #666565;
@@ -63,6 +63,11 @@ $background-tertiary-light-fade: #535252;
         }
 }
 
+/**********************************************************
+*                                                         *
+*                       THEMES                            *
+*                                                         *
+***********************************************************/
 .dark-theme {
     // header row
     .item-row:first-child {
@@ -136,5 +141,24 @@ $background-tertiary-light-fade: #535252;
     // item description
     .item-desc {
         color: $font-primary-light;
+    }
+}
+
+/**********************************************************
+*                                                         *
+*                    DESCRIPTIONS                         *
+*                                                         *
+***********************************************************/
+.hide-descriptions {
+
+    // reduce tile size when description is hidden
+    .item-tile { 
+        @include breakpoint(xl) {
+            width: 53px;
+        }
+    }
+    // hide description
+    .item-desc {
+        display: none;
     }
 }

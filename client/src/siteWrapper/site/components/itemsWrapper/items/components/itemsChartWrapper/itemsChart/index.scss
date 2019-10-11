@@ -1,5 +1,5 @@
-@import "../../../../../../../styles/variables";
-@import "../../../../../../../styles/mixins/mediaQueries";
+@import "../../../../../../../../styles/variables";
+@import "../../../../../../../../styles/mixins/mediaQueries";
 
 .items-chart {
     display: flex;
@@ -59,6 +59,12 @@
     }    
 }
 
+
+/**********************************************************
+*                                                         *
+*                       THEMES                            *
+*                                                         *
+***********************************************************/
 .dark-theme {
     // background of selectable items
     .items-chart-base-items {
@@ -86,5 +92,16 @@
     // selected item border
     .items-chart-card-base-img.items-chart-card-img-highlight {
         border: 3px solid red;
+    }
+}
+
+/**********************************************************
+*                                                         *
+*                    DESCRIPTIONS                         *
+*                                                         *
+***********************************************************/
+.hide-descriptions {
+    .items-chart-card-desc {
+        display: none;
     }
 }

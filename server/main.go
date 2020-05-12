@@ -13,7 +13,7 @@ func main() {
 
 	// Serve frontend static files
 	// for local development, set build files location to ../static/build
-	router.Use(static.Serve("/", static.LocalFile("/go/bin/dist", true)))
+	router.Use(static.Serve("/", static.LocalFile("/go/bin/build", true)))
 
 	// Start and run the server
 	router.Run(":8080")

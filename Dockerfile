@@ -41,7 +41,7 @@ WORKDIR /app
 COPY ./static .
 ENV PATH /app/node_modules/.bin:$PATH
 
-# install dependencies, and build static files to /app/dist
+# install dependencies, and build static files to /app/build
 RUN npm install
 RUN npm run build
 
@@ -63,10 +63,10 @@ RUN apk --no-cache add ca-certificates
 WORKDIR /usr/bin
 
 # copy the folder containing build file from server-build stage to /go/bin
-# copy the dist folder from client-build stage to /go/bin/static
+# copy the build folder from client-build stage to /go/bin/static
 # copy shared files to server
 COPY --from=server-build /go/src/app/bin /go/bin
-COPY --from=client-build /app/dist /go/bin/dist
+COPY --from=client-build /app/build /go/bin/build
 
 # expose port 8080 (the port the go server is running on)
 EXPOSE 8080

@@ -7,7 +7,7 @@
 ########################################################################
 
 # Start with minimalistic golang alpine image
-FROM golang:1.14.2-alpine3.11 AS server-build
+FROM golang:1.14.2-alpine3.11 AS serverBuild
 
 # set the working directory, and copy the server files over
 WORKDIR /go/src/app
@@ -34,7 +34,7 @@ RUN GOOS=linux go build -ldflags="-s -w" -o ./bin/server
 ########################################################################
 
 # Start with minimalistic node alpine image
-FROM node:14.0.0-alpine3.11 AS client-build
+FROM node:14.0.0-alpine3.11 AS clientBuild
 
 # set working directory, copy static files, and update path
 WORKDIR /app
@@ -65,8 +65,8 @@ WORKDIR /usr/bin
 # copy the folder containing build file from server-build stage to /go/bin
 # copy the build folder from client-build stage to /go/bin/static
 # copy shared files to server
-COPY --from=server-build /go/src/app/bin /go/bin
-COPY --from=client-build /app/build /go/bin/build
+COPY --from=serverBuild /go/src/app/bin /go/bin
+COPY --from=clientBuild /app/build /go/bin/build
 
 # expose port 8080 (the port the go server is running on)
 EXPOSE 8080
